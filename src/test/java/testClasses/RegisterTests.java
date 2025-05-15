@@ -5,73 +5,79 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 import org.openqa.selenium.WebDriver;
 
-import pages.RegisterPageObj;
 import driverManager.DriverFactory;
+import dsAlgoPageObjects.RegisterPageObj;
 import utils.ConfigReader;
 
 public class RegisterTests {
 		WebDriver driver;
-	    RegisterPageObj registerPage;
+	    RegisterPageObj registerpage;
 
 	
+	 
 	    @BeforeClass
 	    public void setUp() {
-	        // Step 1: Initialize WebDriver
-	        driver = DriverFactory.initializeDriver("chrome");
+	        // Step 1: Read browser name from config
+	        String browser = ConfigReader.getBrowserType();  // Make sure this returns "chrome", "firefox", or "edge"
 
-	        // Step 2: Initialize Page Object with the driver
-	        registerPage = new RegisterPageObj(driver);
+	        // Step 2: Initialize driver
+	        driver = DriverFactory.initializeDriver(browser);
 
-	        // Step 3: Navigate to the base URL
+	        // Step 3: Initialize page object
+	        registerpage = new RegisterPageObj(driver);
+
+	        // Step 4: Navigate to URL
 	        driver.get(ConfigReader.getUrl());
 	    }
 
 
-	    @Test(priority = 1)
+
+
+	    @Test
 	    public void testValidRegistration() throws Exception {
-	        registerPage.clickGetStartedButton();
-	        registerPage.clickRegisterLink();
+	        registerpage.clickGetStartedButton();
+	        registerpage.clickRegisterLink();
 	        
-			registerPage.fillRegistrationForm("Register",3);  
-	        registerPage.clickRegisterButton();
+			registerpage.fillRegistrationForm("Register",3);  
+	        registerpage.clickRegisterButton();
 
-	        Assert.assertTrue(registerPage.checkIfRegisterSuccessMsgIsDisplayed(), "Success message not displayed");
-	        System.out.println("Success message: " + registerPage.successMsg());
+	        Assert.assertTrue(registerpage.checkIfRegisterSuccessMsgIsDisplayed(), "Success message not displayed");
+	        System.out.println("Success message: " + registerpage.successMsg());
 	    }
 
-	    @Test(priority = 2)
+	    @Test
 	    public void testPasswordMismatchRegistration() throws Exception {
-	        registerPage.clickGetStartedButton();
-	        registerPage.clickRegisterLink();
-	        registerPage.fillRegistrationForm("Register", 1); // 
-	        registerPage.clickRegisterButton();
+	        registerpage.clickGetStartedButton();
+	        registerpage.clickRegisterLink();
+	        registerpage.fillRegistrationForm("Register", 1); // 
+	        registerpage.clickRegisterButton();
 
-	        Assert.assertTrue(registerPage.isPasswordMismatchVisible(), "Mismatch error not displayed");
-	        System.out.println("Password mismatch message: " + registerPage.getPasswordMismatchText());
+	        Assert.assertTrue(registerpage.isPasswordMismatchVisible(), "Mismatch error not displayed");
+	        System.out.println("Password mismatch message: " + registerpage.getPasswordMismatchText());
 	    }
 
-	    @Test(priority = 3)
+	    @Test
 	    public void testEmptyUsernameValidation() throws Exception {
-	        registerPage.clickGetStartedButton();
-	        registerPage.clickRegisterLink();
-	        registerPage.fillRegistrationForm("Register",0 ); 
-	        registerPage.clickRegisterButton();
+	        registerpage.clickGetStartedButton();
+	        registerpage.clickRegisterLink();
+	        registerpage.fillRegistrationForm("Register",0 ); 
+	        registerpage.clickRegisterButton();
 
-	        String msg = registerPage.switchToElementAndGetValidationMessage();
+	        String msg = registerpage.switchToElementAndGetValidationMessage();
 	        System.out.println("Browser validation message: " + msg);
 	        Assert.assertTrue(msg.contains("fill out this field"), "Expected browser validation not displayed");
 	    }
 	    
 	    
-	    @Test(priority = 3)
+	    @Test
 	    public void testNumericPasswordValidation() throws Exception {
-	        registerPage.clickGetStartedButton();
-	        registerPage.clickRegisterLink();
-	        registerPage.fillRegistrationForm("Register", 3); 
-	        registerPage.clickRegisterButton();
+	        registerpage.clickGetStartedButton();
+	        registerpage.clickRegisterLink();
+	        registerpage.fillRegistrationForm("Register", 3); 
+	        registerpage.clickRegisterButton();
 
-	        Assert.assertTrue(registerPage.isPasswordMismatchVisible(), "Mismatch error not displayed");
-	        System.out.println("Password mismatch message: " + registerPage.getPasswordMismatchText());
+	        Assert.assertTrue(registerpage.isPasswordMismatchVisible(), "Mismatch error not displayed");
+	        System.out.println("Password mismatch message: " + registerpage.getPasswordMismatchText());
 	    }
 	    
 	      @AfterClass

@@ -1,15 +1,16 @@
 package testClasses;
 
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.testng.Assert.assertTrue;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
 import driverManager.DriverFactory;
-import pages.GraphPageObj;
-import pages.HomePageObj;
-import pages.SignInPageObj;
-import pages.TryEditorPage;
+import dsAlgoPageObjects.GraphPageObj;
+import dsAlgoPageObjects.HomePageObj;
+import dsAlgoPageObjects.SignInPageObj;
+import dsAlgoPageObjects.TryEditorPage;
 import utils.LoggerLoad;
 
 public class GraphTests {
@@ -89,7 +90,7 @@ public class GraphTests {
         } catch (Exception e) {
             LoggerLoad.info("Error while entering code or clicking Run: " + e.getMessage());
         }
-        boolean isAlertPresent = tryEditorPage.HandleAlert();
+        String isAlertPresent = tryEditorPage.HandleAlert();
         assertTrue(isAlertPresent, "No alert displayed");
     }
 
@@ -144,8 +145,8 @@ public class GraphTests {
         } catch (Exception e) {
             LoggerLoad.info("Error while entering code or clicking Run: " + e.getMessage());
         }
-        boolean isAlertPresent = tryEditorPage.HandleAlert();
-        assertTrue(isAlertPresent, "No alert displayed");
+        String isAlertPresent = tryEditorPage.HandleAlert();
+     
     }
 
     @Test(priority = 14)

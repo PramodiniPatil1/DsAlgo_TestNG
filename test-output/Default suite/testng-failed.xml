@@ -3,12 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testClasses.DataStructureTests">
+      <class name="testClasses.RegisterTests">
         <methods>
-          <include name="testValidOutputforTimeComplexity"/>
           <include name="setUp"/>
+          <include name="testPasswordMismatchRegistration"/>
+          <include name="testNumericPasswordValidation"/>
+          <include name="tearDown"/>
+          <include name="testValidRegistration"/>
+          <include name="setUpRegister"/>
         </methods>
-      </class> <!-- testClasses.DataStructureTests -->
+      </class> <!-- testClasses.RegisterTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

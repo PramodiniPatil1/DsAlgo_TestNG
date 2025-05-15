@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.text.SimpleDateFormat;
+import java.time.Duration;
 
 import org.apache.poi.openxml4j.exceptions.OpenXML4JException;
 import org.openqa.selenium.OutputType;
@@ -13,6 +14,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import utils.ConfigReader;
 import utils.ExcelRead;
 import utils.LoggerLoad;
@@ -112,9 +116,10 @@ public class RegisterPageObj {
 		LoggerLoad.info("RegisterTests Link clicked");
 	}
 	public void clickGetStartedButton() {
-		GetStartedButton.click();
-		
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	    wait.until(ExpectedConditions.elementToBeClickable(GetStartedButton)).click();
 	}
+
 	public String switchToElementAndGetValidationMessage() {
 	    WebElement activeElement = null;
 	    String actualAlertMsg = null;

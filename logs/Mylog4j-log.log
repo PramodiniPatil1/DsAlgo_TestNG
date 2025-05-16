@@ -139,3 +139,47 @@
 [INFO ] 2025-05-15 04:22:58.371 [main] LoggerLoad - Editor Code is -->This is a test message !
 [INFO ] 2025-05-15 04:22:58.514 [main] LoggerLoad - Clicked the Run button.
 [INFO ] 2025-05-15 04:22:58.528 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-15 17:09:33.838 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-15 17:09:35.026 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-15 17:09:36.113 [main] LoggerLoad - DS-Introduction Get Started Button 
+[INFO ] 2025-05-15 17:09:36.450 [main] LoggerLoad - Time Complexity Link Clicked
+[INFO ] 2025-05-15 17:09:37.150 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-15 17:09:37.248 [main] LoggerLoad - Editor Code is -->This is a test message !
+[INFO ] 2025-05-15 17:09:37.461 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-15 17:09:37.476 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-15 17:11:32.910 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-15 17:11:34.170 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-15 17:11:35.232 [main] LoggerLoad - DS-Introduction Get Started Button 
+[INFO ] 2025-05-15 17:11:35.589 [main] LoggerLoad - Time Complexity Link Clicked
+[INFO ] 2025-05-15 17:11:36.281 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-15 17:11:36.378 [main] LoggerLoad - Editor Code is -->This is a test message !
+[INFO ] 2025-05-15 17:11:36.556 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-15 17:11:36.575 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-15 17:14:29.413 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-15 17:14:30.743 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-15 17:14:31.890 [main] LoggerLoad - DS-Introduction Get Started Button 
+[INFO ] 2025-05-15 17:14:32.288 [main] LoggerLoad - Time Complexity Link Clicked
+[INFO ] 2025-05-15 17:14:32.975 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-15 17:14:33.066 [main] LoggerLoad - Editor Code is -->This is a test message !
+[INFO ] 2025-05-15 17:14:33.285 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-15 17:14:33.297 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-15 17:14:33.658 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-15 17:17:39.970 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-15 17:17:41.191 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-15 17:17:42.217 [main] LoggerLoad - DS-Introduction Get Started Button 
+[INFO ] 2025-05-15 17:17:42.557 [main] LoggerLoad - Time Complexity Link Clicked
+[INFO ] 2025-05-15 17:17:43.276 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-15 17:17:43.362 [main] LoggerLoad - Editor Code is -->This is a test message !
+[INFO ] 2025-05-15 17:17:43.574 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-15 17:17:43.590 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-15 17:17:43.976 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-15 21:44:07.866 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-15 21:44:08.740 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-15 21:44:09.725 [main] LoggerLoad - DS-Introduction Get Started Button 
+[INFO ] 2025-05-15 21:44:10.065 [main] LoggerLoad - Time Complexity Link Clicked
+[INFO ] 2025-05-15 21:44:10.644 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-15 21:44:10.713 [main] LoggerLoad - Editor Code is -->This is a test message !
+[INFO ] 2025-05-15 21:44:10.870 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-15 21:44:10.882 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-15 21:44:11.184 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-15 21:44:11.404 [main] LoggerLoad - Driver is already null, nothing to close.

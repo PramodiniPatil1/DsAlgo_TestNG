@@ -27,8 +27,8 @@ public class DataStructureTests {
 
     @BeforeClass
     public void setUp() throws InvalidFormatException, IOException, OpenXML4JException {
-        String browser = ConfigReader.getBrowserType();
-        driver = DriverFactory.initializeDriver(browser);
+      String browser = ConfigReader.getBrowserType();
+       driver = DriverFactory.initializeDriver(browser);
 
         // Initialize page objects
         dataStructurerpage = new DataStructurePageObj(driver);
@@ -47,7 +47,7 @@ public class DataStructureTests {
         Assert.assertEquals(registerpage.successMsg(), "You are logged in");
     }
 
-    @Test
+    @Test 
     public void testValidOutputforTimeComplexity() throws Exception {
     	 homepage.clickDsGetStartedButton();
         dataStructurerpage.ClickTimeComplexityLink();
@@ -57,7 +57,7 @@ public class DataStructureTests {
         Assert.assertEquals(tryEditorPage.getOutputText(), "Python is fun!");
     }
 
-    @Test
+    @Test 
     public void testInValidOutputforTimeComplexity() throws Exception {
     	 homepage.clickDsGetStartedButton();
         dataStructurerpage.ClickTimeComplexityLink();
@@ -71,7 +71,8 @@ public class DataStructureTests {
         String expectedAlertText = "SyntaxError: bad input on line 1";
         Assert.assertTrue(actualAlertText.contains(expectedAlertText),
             "Expected alert to contain: " + expectedAlertText  + actualAlertText);
-        
+        DriverFactory.closeDriver();
+		driver.quit(); 
     }
 
   

@@ -30,7 +30,7 @@ public class GraphTests {
     }
 
 
-    @Test(priority = 1)
+    @Test(priority=1)
     public void testUserSignIn() throws Exception {
         homepage.openHomeUrl();
         homepage.clickgetStartedButton(driver);
@@ -40,19 +40,19 @@ public class GraphTests {
         signin.clickloginButton();
     }
 
-    @Test(priority = 2)
+    @Test(priority=2)
     public void testNavigateToGraphPage() {
         homepage.clickGraphGetStartedButton();
         Assert.assertEquals(homepage.getHomePageTitle(), "Graph");
     }
 
-    @Test(priority = 3)
+    @Test(priority=3)
     public void testInsideGraphPageNavigation() {
         graphpage.ClickInsideGraphkLink();
         Assert.assertTrue(graphpage.getcurrentpageUrl().endsWith("graph/"));
     }
 
-    @Test(priority = 4)
+    @Test(priority=4)
     public void testTryHereButtonInsideGraph() {
         graphpage.ClickInsideGraphkLink();
         tryEditorPage.clickTryHereButton();
@@ -67,7 +67,7 @@ public class GraphTests {
         Assert.assertTrue(graphpage.getcurrentpageUrl().endsWith("tryEditor"));
     }
 
-    @Test(priority = 6)
+    @Test(priority= 6)
     public void testValidCodeRunInsideGraph() {
         graphpage.ClickInsideGraphkLink();
         tryEditorPage.clickTryHereButton();
@@ -80,7 +80,7 @@ public class GraphTests {
         graphpage.codeEditorOutput();
     }
 
-    @Test(priority = 7)
+    @Test(priority= 7)
     public void testInvalidCodeRunInsideGraph() {
         graphpage.ClickInsideGraphkLink();
         tryEditorPage.clickTryHereButton();

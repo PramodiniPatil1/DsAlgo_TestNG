@@ -7,13 +7,14 @@ import java.nio.file.Path;
 import java.text.SimpleDateFormat;
 
 import java.util.Date;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterSuite;
-
 import org.testng.annotations.BeforeSuite;
+
 import driverManager.DriverFactory;
 import dsAlgoPageObjects.HomePageObj;
 import utils.ConfigReader;
@@ -43,10 +44,8 @@ public class BaseClass {
 		    String url = ConfigReader.getProperty("Url");
 		    driver.get(url);
 		}
-
-	
-
 	public void screenShot(ITestResult result) throws Exception {
+	
 	    if (driver != null && result.getStatus() == ITestResult.FAILURE) {
 	        String scrShot = "screenshot_" + new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
 	        File screenshots = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
@@ -58,7 +57,7 @@ public class BaseClass {
 
 	        Files.copy(screenshots.toPath(), screenshotDir.resolve(scrShot + ".png"));
 	        LoggerLoad.info("Screenshot saved: " + scrShot + ".png");
-	    }
+	    } 
 	}
 	
 	  

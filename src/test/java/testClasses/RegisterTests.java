@@ -3,35 +3,18 @@ package testClasses;
 
 import org.testng.Assert;
 import org.testng.annotations.*;
-import org.openqa.selenium.WebDriver;
-
-import driverManager.DriverFactory;
+import baseClass.BaseClass;
 import dsAlgoPageObjects.RegisterPageObj;
-import utils.ConfigReader;
+;
 
-public class RegisterTests {
-		WebDriver driver;
+public class RegisterTests extends BaseClass{
 	    RegisterPageObj registerpage;
 
-	
-	 
 	    @BeforeClass
-	    public void setUp() {
-	        // Step 1: Read browser name from config
-	        String browser = ConfigReader.getBrowserType();  // Make sure this returns "chrome", "firefox", or "edge"
-
-	        // Step 2: Initialize driver
-	        driver = DriverFactory.initializeDriver(browser);
-
-	        // Step 3: Initialize page object
-	        registerpage = new RegisterPageObj(driver);
-
-	        // Step 4: Navigate to URL
-	        driver.get(ConfigReader.getUrl());
+	    public void setUpRegister() {
+	        registerpage = new RegisterPageObj(driver); // Just this is enough
+	       
 	    }
-
-
-
 
 	    @Test
 	    public void testValidRegistration() throws Exception {

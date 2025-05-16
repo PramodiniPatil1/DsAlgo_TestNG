@@ -8,10 +8,12 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import baseClass.BaseClass;
 import utils.ConfigReader;
 import utils.LoggerLoad;
 
-public class DataStructurePageObj {
+public class DataStructurePageObj  {
 	  WebDriver driver;
 	   String URL = ConfigReader.getUrl();
 		String homeURL = ConfigReader.getUrlHome();

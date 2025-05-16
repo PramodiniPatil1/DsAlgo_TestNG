@@ -85,16 +85,16 @@ public class HomePageObj {
 	public String getHomePageTitle() {
 		return driver.getTitle();
 	}
-	public void getUserName() {
-		
-		ConfigReader.getUserName();
-		LoggerLoad.info("Username Selected from Property file");
-	}
-	public void getPassword() {
-		
-		ConfigReader.getPassword();
-		LoggerLoad.info("Password Selected from Property file");
-	}
+//	public void getUserName() {
+//		
+//		ConfigReader.getUserName();
+//		LoggerLoad.info("Username Selected from Property file");
+//	}
+//	public void getPassword() {
+//		
+//		ConfigReader.getPassword();
+//		LoggerLoad.info("Password Selected from Property file");
+//	}
 	public void clickDropdownArrow(WebDriver driver) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 		try {
@@ -143,9 +143,14 @@ public class HomePageObj {
 	}  
 
 	public void clickDsGetStartedButton() {
+		
+	
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.elementToBeClickable(dsIntroductionGetStartedBtn));
 		dsIntroductionGetStartedBtn.click();
 		LoggerLoad.info("DS-Introduction Get Started Button ");
 	}
+
 
 	public void clickArrayGetStartedButton() {
 		arrayGetStartedBtn.click();

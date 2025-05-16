@@ -1,93 +1,97 @@
 package testClasses;
 
-
 import java.io.IOException;
 
 import org.apache.poi.openxml4j.exceptions.OpenXML4JException;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import baseClass.BaseClass;
 import driverManager.DriverFactory;
-import dsAlgoPageObjects.DataStructurePageObj;
-import dsAlgoPageObjects.HomePageObj;
-import dsAlgoPageObjects.RegisterPageObj;
-import dsAlgoPageObjects.SignInPageObj;
-import dsAlgoPageObjects.TryEditorPage;
-import io.cucumber.core.internal.com.fasterxml.jackson.databind.exc.InvalidFormatException;
+import dsAlgoPageObjects.*;
 import utils.ConfigReader;
+
 
 public class DataStructureTests extends BaseClass {
 
-    
-    static DataStructurePageObj dataStructurerpage;
-    static TryEditorPage tryEditorPage;
-    static HomePageObj homepage;
-    static RegisterPageObj registerpage;
-    static SignInPageObj signinpage;
+    WebDriver driver;
+    DataStructurePageObj dataStructurerpage;
+    TryEditorPage tryEditorPage;
+    HomePageObj homepage;
+    RegisterPageObj registerpage;
+    SignInPageObj signinpage;
 
     @BeforeClass
-    public void setUp() throws IOException {
-        try {
-			String browser = ConfigReader.getBrowserType();
-			driver = DriverFactory.initializeDriver(browser);
+    public void setUpOnce() throws IOException {
+        driver = DriverFactory.initializeDriver(ConfigReader.getBrowserType());
 
-			// Initialize page objects
-			dataStructurerpage = new DataStructurePageObj(driver);
-			tryEditorPage = new TryEditorPage(driver);
-			homepage = new HomePageObj(driver);
-			registerpage = new RegisterPageObj(driver);
-			signinpage =new SignInPageObj(driver);
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+        dataStructurerpage = new DataStructurePageObj(driver);
+        tryEditorPage = new TryEditorPage(driver);
+        homepage = new HomePageObj(driver);
+        registerpage = new RegisterPageObj(driver);
+        signinpage = new SignInPageObj(driver);
 
-        // Navigate and login
         driver.get(ConfigReader.getUrl());
         homepage.clickGetStartedHomePageButton();
-       
         homepage.clickSignInLink();
         signinpage.EnterFromExcel("login", 0);
         signinpage.clickloginButton();
-        Assert.assertEquals(registerpage.successMsg(), "You are logged in");
+
+        Assert.assertEquals(registerpage.successMsg(), "You are logged in", "Login failed or success message mismatch.");
     }
 
-    @Test(priority=1)
-    public void testValidOutputforTimeComplexity() throws Exception {
-    	 homepage.clickDsGetStartedButton();
+    @BeforeMethod
+    public void resetToHomeBeforeTest() {
+        driver.get(ConfigReader.getUrl());
+        homepage.clickGetStartedHomePageButton();
+    }
+
+    @DataProvider(name = "validCodeProvider")
+    public Object[][] validCodeData() throws IOException, OpenXML4JException {
+        return new Object[][] {
+            {"tryEditorCode", 0, "Python is fun!"}
+        };
+    }
+
+    @DataProvider(name = "invalidCodeProvider")
+    public Object[][] invalidCodeData() throws IOException, OpenXML4JException {
+        return new Object[][] {
+            {"tryEditorCode", 1, "SyntaxError"},
+            // You can add more rows from Excel as needed
+        };
+    }
+
+    @Test(priority = 1, dataProvider = "validCodeProvider")
+    public void testValidOutputforTimeComplexity1(String sheetName, int rowNum, String expectedOutput) throws Exception {
+        homepage.clickDsGetStartedButton();
         dataStructurerpage.ClickTimeComplexityLink();
         tryEditorPage.clickTryHereButton();
-        tryEditorPage.enterCodeFromExcel("tryEditorCode", 0);
+        tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
         tryEditorPage.clickRunButton();
-        Assert.assertEquals(tryEditorPage.getOutputText(), "Python is fun!");
+
+        Assert.assertEquals(tryEditorPage.getOutputText(), expectedOutput, "Valid output did not match expected result.");
     }
 
-    @Test(priority=2)
-    public void testInValidOutputforTimeComplexity() throws Exception {
-    	 homepage.clickDsGetStartedButton();
+    @Test(priority = 2, dataProvider = "invalidCodeProvider")
+    public void testInValidOutputforTimeComplexity(String sheetName, int rowNum, String expectedAlertPart) throws Exception {
+        homepage.clickDsGetStartedButton();
         dataStructurerpage.ClickTimeComplexityLink();
         tryEditorPage.clickTryHereButton();
-        tryEditorPage.enterCodeFromExcel("tryEditorCode", 1);
+        tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
         tryEditorPage.clickRunButton();
 
         String actualAlertText = tryEditorPage.HandleAlert();
         System.out.println("Actual Alert Text: " + actualAlertText);
 
-//        String expectedAlertText = "SyntaxError: bad input on line 1";
-//        Assert.assertTrue(actualAlertText.contains(expectedAlertText),
-//            "Expected alert to contain: " + expectedAlertText  + actualAlertText);
-//        System.out.println("Actual Alert Text: " + actualAlertText);
-
+        Assert.assertTrue(actualAlertText.contains(expectedAlertPart),
+            "Expected alert to contain '" + expectedAlertPart + "', but got: " + actualAlertText);
     }
 
     @AfterClass
     public void tearDown() {
-      if (driver != null) {
-          driver.quit();
-      }
-}
+        if (driver != null) {
+            driver.quit();
+        }
+    }
 }

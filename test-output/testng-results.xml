@@ -1,155 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="4" failed="4" skipped="0">
+<testng-results ignored="0" total="36" passed="10" failed="26" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-16T11:47:27 EDT" name="Default suite" finished-at="2025-05-16T11:47:46 EDT" duration-ms="19394">
+  <suite started-at="2025-05-16T15:47:40 EDT" name="Default suite" finished-at="2025-05-16T15:51:02 EDT" duration-ms="202497">
     <groups>
     </groups>
-    <test started-at="2025-05-16T11:47:27 EDT" name="Default test" finished-at="2025-05-16T11:47:46 EDT" duration-ms="19394">
+    <test started-at="2025-05-16T15:47:40 EDT" name="Default test" finished-at="2025-05-16T15:51:02 EDT" duration-ms="202497">
       <class name="testClasses.ArrayTests">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:testClasses.ArrayTests@4c2bb6e0]" started-at="2025-05-16T11:47:24 EDT" name="SetUp" finished-at="2025-05-16T11:47:27 EDT" duration-ms="3167" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:47:36 EDT" name="SetUp" finished-at="2025-05-16T15:47:40 EDT" duration-ms="3514" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method is-config="true" signature="setUpOnce()[pri:0, instance:testClasses.ArrayTests@4c2bb6e0]" started-at="2025-05-16T11:47:27 EDT" name="setUpOnce" finished-at="2025-05-16T11:47:34 EDT" duration-ms="7459" status="PASS">
+        <test-method is-config="true" signature="setUpOnce()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:47:40 EDT" name="setUpOnce" finished-at="2025-05-16T15:47:47 EDT" duration-ms="7514" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpOnce -->
-        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@4c2bb6e0]" started-at="2025-05-16T11:47:34 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T11:47:35 EDT" duration-ms="335" status="PASS">
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:47:47 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:47:48 EDT" duration-ms="335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetToHomeBeforeTest -->
-        <test-method signature="ApplicationsofArray(java.lang.String,int,java.lang.String)[pri:1, instance:testClasses.ArrayTests@4c2bb6e0]" started-at="2025-05-16T11:47:35 EDT" name="ApplicationsofArray" data-provider="validCodeProvider" finished-at="2025-05-16T11:47:37 EDT" duration-ms="2048" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[tryEditorCode]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Python is fun!]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ApplicationsofArray -->
-        <test-method signature="ApplicationsofArray1(java.lang.String,int,java.lang.String)[pri:1, instance:testClasses.ArrayTests@4c2bb6e0]" started-at="2025-05-16T11:47:37 EDT" name="ApplicationsofArray1" finished-at="2025-05-16T11:47:37 EDT" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Method public void testClasses.ArrayTests.ApplicationsofArray1(java.lang.String,int,java.lang.String) throws java.lang.Exception requires a @DataProvider named : InvalidCodeProvider]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Method public void testClasses.ArrayTests.ApplicationsofArray1(java.lang.String,int,java.lang.String) throws java.lang.Exception requires a @DataProvider named : InvalidCodeProvider
-at org.testng.internal.Parameters.findDataProvider(Parameters.java:532)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ApplicationsofArray1 -->
-        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@4c2bb6e0]" started-at="2025-05-16T11:47:37 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T11:47:37 EDT" duration-ms="340" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetToHomeBeforeTest -->
-        <test-method signature="ArraysUsingList(java.lang.String,int,java.lang.String)[pri:1, instance:testClasses.ArrayTests@4c2bb6e0]" started-at="2025-05-16T11:47:37 EDT" name="ArraysUsingList" data-provider="validCodeProvider" finished-at="2025-05-16T11:47:38 EDT" duration-ms="960" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[tryEditorCode]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Python is fun!]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ArraysUsingList -->
-        <test-method signature="ArraysUsingList1(java.lang.String,int,java.lang.String)[pri:1, instance:testClasses.ArrayTests@4c2bb6e0]" started-at="2025-05-16T11:47:38 EDT" name="ArraysUsingList1" finished-at="2025-05-16T11:47:38 EDT" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Method public void testClasses.ArrayTests.ArraysUsingList1(java.lang.String,int,java.lang.String) throws java.lang.Exception requires a @DataProvider named : InvalidCodeProvider]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Method public void testClasses.ArrayTests.ArraysUsingList1(java.lang.String,int,java.lang.String) throws java.lang.Exception requires a @DataProvider named : InvalidCodeProvider
-at org.testng.internal.Parameters.findDataProvider(Parameters.java:532)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ArraysUsingList1 -->
-        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@4c2bb6e0]" started-at="2025-05-16T11:47:43 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T11:47:43 EDT" duration-ms="313" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetToHomeBeforeTest -->
-        <test-method signature="ArraysinPython(java.lang.String,int,java.lang.String)[pri:1, instance:testClasses.ArrayTests@4c2bb6e0]" started-at="2025-05-16T11:47:43 EDT" name="ArraysinPython" data-provider="validCodeProvider" finished-at="2025-05-16T11:47:45 EDT" duration-ms="1187" status="PASS">
+        <test-method signature="ArraysinPython(java.lang.String,int,java.lang.String)[pri:1, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:47:48 EDT" name="ArraysinPython" data-provider="Pythoncode" finished-at="2025-05-16T15:47:50 EDT" duration-ms="2458" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -170,21 +40,48 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ArraysinPython -->
-        <test-method signature="ArraysinPython1(java.lang.String,int,java.lang.String)[pri:1, instance:testClasses.ArrayTests@4c2bb6e0]" started-at="2025-05-16T11:47:45 EDT" name="ArraysinPython1" finished-at="2025-05-16T11:47:45 EDT" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:47:50 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:47:50 EDT" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="ArraysinPython(java.lang.String,int,java.lang.String)[pri:1, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:47:50 EDT" name="ArraysinPython" data-provider="Pythoncode" finished-at="2025-05-16T15:47:51 EDT" duration-ms="1020" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tryEditorCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SyntaxError]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[
-Method public void testClasses.ArrayTests.ArraysinPython1(java.lang.String,int,java.lang.String) throws java.lang.Exception requires a @DataProvider named : InvalidCodeProvider]]>
+              <![CDATA[expected [SyntaxError] but found []]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Method public void testClasses.ArrayTests.ArraysinPython1(java.lang.String,int,java.lang.String) throws java.lang.Exception requires a @DataProvider named : InvalidCodeProvider
-at org.testng.internal.Parameters.findDataProvider(Parameters.java:532)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+              <![CDATA[java.lang.AssertionError: expected [SyntaxError] but found []
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testClasses.ArrayTests.ArraysinPython(ArrayTests.java:90)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -206,15 +103,287 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ArraysinPython1 -->
-        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@4c2bb6e0]" started-at="2025-05-16T11:47:45 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T11:47:45 EDT" duration-ms="308" status="PASS">
+        </test-method> <!-- ArraysinPython -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:47:51 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:47:52 EDT" duration-ms="392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetToHomeBeforeTest -->
-        <test-method signature="BasicOperationsinLists(java.lang.String,int,java.lang.String)[pri:1, instance:testClasses.ArrayTests@4c2bb6e0]" started-at="2025-05-16T11:47:45 EDT" name="BasicOperationsinLists" data-provider="validCodeProvider" finished-at="2025-05-16T11:47:46 EDT" duration-ms="1224" status="PASS">
+        <test-method signature="ArraysinPython1(java.lang.String,int,java.lang.String)[pri:2, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:47:52 EDT" name="ArraysinPython1" data-provider="Pythoncode" finished-at="2025-05-16T15:48:08 EDT" duration-ms="16548" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tryEditorCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Python is fun!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testClasses.ArrayTests.ArraysinPython1(ArrayTests.java:101)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArraysinPython1 -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:48:08 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:48:09 EDT" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="ArraysinPython1(java.lang.String,int,java.lang.String)[pri:2, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:48:09 EDT" name="ArraysinPython1" data-provider="Pythoncode" finished-at="2025-05-16T15:48:15 EDT" duration-ms="5946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tryEditorCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SyntaxError]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArraysinPython1 -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:48:15 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:48:15 EDT" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="ArraysUsingList(java.lang.String,int,java.lang.String)[pri:3, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:48:15 EDT" name="ArraysUsingList" data-provider="Pythoncode" finished-at="2025-05-16T15:48:16 EDT" duration-ms="1032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tryEditorCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Python is fun!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArraysUsingList -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:48:16 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:48:17 EDT" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="ArraysUsingList(java.lang.String,int,java.lang.String)[pri:3, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:48:17 EDT" name="ArraysUsingList" data-provider="Pythoncode" finished-at="2025-05-16T15:48:17 EDT" duration-ms="906" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tryEditorCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SyntaxError]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [SyntaxError] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [SyntaxError] but found []
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testClasses.ArrayTests.ArraysUsingList(ArrayTests.java:111)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArraysUsingList -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:48:17 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:48:18 EDT" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="ArraysUsingList1(java.lang.String,int,java.lang.String)[pri:4, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:48:18 EDT" name="ArraysUsingList1" data-provider="Pythoncode" finished-at="2025-05-16T15:48:29 EDT" duration-ms="11133" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tryEditorCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Python is fun!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testClasses.ArrayTests.ArraysUsingList1(ArrayTests.java:122)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArraysUsingList1 -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:48:29 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:48:29 EDT" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="ArraysUsingList1(java.lang.String,int,java.lang.String)[pri:4, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:48:29 EDT" name="ArraysUsingList1" data-provider="Pythoncode" finished-at="2025-05-16T15:48:35 EDT" duration-ms="5957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tryEditorCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SyntaxError]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArraysUsingList1 -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:48:35 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:48:36 EDT" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="BasicOperationsinLists(java.lang.String,int,java.lang.String)[pri:5, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:48:36 EDT" name="BasicOperationsinLists" data-provider="Pythoncode" finished-at="2025-05-16T15:48:37 EDT" duration-ms="1025" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -235,21 +404,48 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BasicOperationsinLists -->
-        <test-method signature="BasicOperationsinLists1(java.lang.String,int,java.lang.String)[pri:1, instance:testClasses.ArrayTests@4c2bb6e0]" started-at="2025-05-16T11:47:46 EDT" name="BasicOperationsinLists1" finished-at="2025-05-16T11:47:46 EDT" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:48:37 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:48:37 EDT" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="BasicOperationsinLists(java.lang.String,int,java.lang.String)[pri:5, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:48:37 EDT" name="BasicOperationsinLists" data-provider="Pythoncode" finished-at="2025-05-16T15:48:38 EDT" duration-ms="933" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tryEditorCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SyntaxError]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[
-Method public void testClasses.ArrayTests.BasicOperationsinLists1(java.lang.String,int,java.lang.String) throws java.lang.Exception requires a @DataProvider named : InvalidCodeProvider]]>
+              <![CDATA[expected [SyntaxError] but found []]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Method public void testClasses.ArrayTests.BasicOperationsinLists1(java.lang.String,int,java.lang.String) throws java.lang.Exception requires a @DataProvider named : InvalidCodeProvider
-at org.testng.internal.Parameters.findDataProvider(Parameters.java:532)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+              <![CDATA[java.lang.AssertionError: expected [SyntaxError] but found []
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testClasses.ArrayTests.BasicOperationsinLists(ArrayTests.java:132)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -271,11 +467,1493 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicOperationsinLists -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:48:38 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:48:38 EDT" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="BasicOperationsinLists1(java.lang.String,int,java.lang.String)[pri:6, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:48:38 EDT" name="BasicOperationsinLists1" data-provider="Pythoncode" finished-at="2025-05-16T15:48:50 EDT" duration-ms="11485" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tryEditorCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Python is fun!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testClasses.ArrayTests.BasicOperationsinLists1(ArrayTests.java:143)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BasicOperationsinLists1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.ArrayTests@4c2bb6e0]" started-at="2025-05-16T11:47:46 EDT" name="tearDown" finished-at="2025-05-16T11:47:46 EDT" duration-ms="185" status="PASS">
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:48:50 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:48:50 EDT" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="BasicOperationsinLists1(java.lang.String,int,java.lang.String)[pri:6, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:48:50 EDT" name="BasicOperationsinLists1" data-provider="Pythoncode" finished-at="2025-05-16T15:48:56 EDT" duration-ms="6114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tryEditorCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SyntaxError]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicOperationsinLists1 -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:48:56 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:48:57 EDT" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="ApplicationsofArray(java.lang.String,int,java.lang.String)[pri:7, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:48:57 EDT" name="ApplicationsofArray" data-provider="Pythoncode" finished-at="2025-05-16T15:48:58 EDT" duration-ms="1046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tryEditorCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Python is fun!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplicationsofArray -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:48:58 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:48:58 EDT" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="ApplicationsofArray(java.lang.String,int,java.lang.String)[pri:7, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:48:58 EDT" name="ApplicationsofArray" data-provider="Pythoncode" finished-at="2025-05-16T15:48:59 EDT" duration-ms="1075" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tryEditorCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SyntaxError]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [SyntaxError] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [SyntaxError] but found []
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testClasses.ArrayTests.ApplicationsofArray(ArrayTests.java:153)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplicationsofArray -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:48:59 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:49:00 EDT" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="ApplicationsofArray1(java.lang.String,int,java.lang.String)[pri:8, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:49:00 EDT" name="ApplicationsofArray1" data-provider="Pythoncode" finished-at="2025-05-16T15:49:11 EDT" duration-ms="11064" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tryEditorCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Python is fun!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testClasses.ArrayTests.ApplicationsofArray1(ArrayTests.java:164)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplicationsofArray1 -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:49:11 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:49:11 EDT" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="ApplicationsofArray1(java.lang.String,int,java.lang.String)[pri:8, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:49:11 EDT" name="ApplicationsofArray1" data-provider="Pythoncode" finished-at="2025-05-16T15:49:17 EDT" duration-ms="5925" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tryEditorCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SyntaxError]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplicationsofArray1 -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:49:17 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:49:17 EDT" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="SearchTheArray(java.lang.String,int,java.lang.String)[pri:10, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:49:17 EDT" name="SearchTheArray" data-provider="Pythoncode1" finished-at="2025-05-16T15:49:19 EDT" duration-ms="1171" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ArrayPracticeQnsQ1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Element Found]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Element Found] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Element Found] but found []
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testClasses.ArrayTests.SearchTheArray(ArrayTests.java:194)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTheArray -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:49:19 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:49:19 EDT" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="SearchTheArray(java.lang.String,int,java.lang.String)[pri:10, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:49:19 EDT" name="SearchTheArray" data-provider="Pythoncode1" finished-at="2025-05-16T15:49:20 EDT" duration-ms="1189" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ArrayPracticeQnsQ1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Element not Found]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Element not Found] but found [Element Found]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Element not Found] but found [Element Found]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testClasses.ArrayTests.SearchTheArray(ArrayTests.java:194)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTheArray -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:49:20 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:49:21 EDT" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="SearchTheArray1(java.lang.String,int,java.lang.String)[pri:11, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:49:21 EDT" name="SearchTheArray1" data-provider="Pythoncode1" finished-at="2025-05-16T15:49:22 EDT" duration-ms="1163" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ArrayPracticeQnsQ1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Element Found]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testClasses.ArrayTests.SearchTheArray1(ArrayTests.java:203)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTheArray1 -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:49:22 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:49:22 EDT" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="SearchTheArray1(java.lang.String,int,java.lang.String)[pri:11, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:49:22 EDT" name="SearchTheArray1" data-provider="Pythoncode1" finished-at="2025-05-16T15:49:38 EDT" duration-ms="16244" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ArrayPracticeQnsQ1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Element not Found]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testClasses.ArrayTests.SearchTheArray1(ArrayTests.java:203)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTheArray1 -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:49:38 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:49:39 EDT" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="MaxConsecutiveOnes(java.lang.String,int,java.lang.String)[pri:13, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:49:39 EDT" name="MaxConsecutiveOnes" data-provider="Pythoncode3" finished-at="2025-05-16T15:49:45 EDT" duration-ms="6056" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pythonCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Even number]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[Sheet pythonCode not found in src/test/resources/TestData/TestingData.xlsx]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: Sheet pythonCode not found in src/test/resources/TestData/TestingData.xlsx
+at utils.ExcelRead.readExcelSheet(ExcelRead.java:23)
+at dsAlgoPageObjects.TryEditorPage.enterCodeFromExcel(TryEditorPage.java:78)
+at testClasses.ArrayTests.MaxConsecutiveOnes(ArrayTests.java:209)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MaxConsecutiveOnes -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:49:45 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:49:45 EDT" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="MaxConsecutiveOnes(java.lang.String,int,java.lang.String)[pri:13, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:49:45 EDT" name="MaxConsecutiveOnes" data-provider="Pythoncode3" finished-at="2025-05-16T15:49:46 EDT" duration-ms="958" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pythonCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SyntaxError]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[Sheet pythonCode not found in src/test/resources/TestData/TestingData.xlsx]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: Sheet pythonCode not found in src/test/resources/TestData/TestingData.xlsx
+at utils.ExcelRead.readExcelSheet(ExcelRead.java:23)
+at dsAlgoPageObjects.TryEditorPage.enterCodeFromExcel(TryEditorPage.java:78)
+at testClasses.ArrayTests.MaxConsecutiveOnes(ArrayTests.java:209)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MaxConsecutiveOnes -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:49:46 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:49:46 EDT" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="MaxConsecutiveOnes(java.lang.String,int,java.lang.String)[pri:13, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:49:46 EDT" name="MaxConsecutiveOnes" data-provider="Pythoncode3" finished-at="2025-05-16T15:49:48 EDT" duration-ms="1054" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pythonCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MaxConsecutive Ones]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[Sheet pythonCode not found in src/test/resources/TestData/TestingData.xlsx]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: Sheet pythonCode not found in src/test/resources/TestData/TestingData.xlsx
+at utils.ExcelRead.readExcelSheet(ExcelRead.java:23)
+at dsAlgoPageObjects.TryEditorPage.enterCodeFromExcel(TryEditorPage.java:78)
+at testClasses.ArrayTests.MaxConsecutiveOnes(ArrayTests.java:209)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MaxConsecutiveOnes -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:49:48 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:49:48 EDT" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="MaxConsecutiveOnes(java.lang.String,int,java.lang.String)[pri:13, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:49:48 EDT" name="MaxConsecutiveOnes" data-provider="Pythoncode3" finished-at="2025-05-16T15:49:49 EDT" duration-ms="945" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pythonCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SyntaxError]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[Sheet pythonCode not found in src/test/resources/TestData/TestingData.xlsx]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: Sheet pythonCode not found in src/test/resources/TestData/TestingData.xlsx
+at utils.ExcelRead.readExcelSheet(ExcelRead.java:23)
+at dsAlgoPageObjects.TryEditorPage.enterCodeFromExcel(TryEditorPage.java:78)
+at testClasses.ArrayTests.MaxConsecutiveOnes(ArrayTests.java:209)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MaxConsecutiveOnes -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:49:49 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:49:49 EDT" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="MaxConsecutiveOnes1(java.lang.String,int,java.lang.String)[pri:14, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:49:49 EDT" name="MaxConsecutiveOnes1" data-provider="Pythoncode1" finished-at="2025-05-16T15:49:55 EDT" duration-ms="6166" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ArrayPracticeQnsQ1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Element Found]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testClasses.ArrayTests.MaxConsecutiveOnes1(ArrayTests.java:220)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MaxConsecutiveOnes1 -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:49:55 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:49:56 EDT" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="MaxConsecutiveOnes1(java.lang.String,int,java.lang.String)[pri:14, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:49:56 EDT" name="MaxConsecutiveOnes1" data-provider="Pythoncode1" finished-at="2025-05-16T15:50:07 EDT" duration-ms="11232" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ArrayPracticeQnsQ1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Element not Found]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testClasses.ArrayTests.MaxConsecutiveOnes1(ArrayTests.java:220)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MaxConsecutiveOnes1 -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:50:07 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:50:07 EDT" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="EvenNumberOfDigits(java.lang.String,int,java.lang.String)[pri:15, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:50:07 EDT" name="EvenNumberOfDigits" data-provider="Pythoncode3" finished-at="2025-05-16T15:50:13 EDT" duration-ms="5991" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pythonCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Even number]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[Sheet pythonCode not found in src/test/resources/TestData/TestingData.xlsx]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: Sheet pythonCode not found in src/test/resources/TestData/TestingData.xlsx
+at utils.ExcelRead.readExcelSheet(ExcelRead.java:23)
+at dsAlgoPageObjects.TryEditorPage.enterCodeFromExcel(TryEditorPage.java:78)
+at testClasses.ArrayTests.EvenNumberOfDigits(ArrayTests.java:226)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EvenNumberOfDigits -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:50:13 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:50:14 EDT" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="EvenNumberOfDigits(java.lang.String,int,java.lang.String)[pri:15, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:50:14 EDT" name="EvenNumberOfDigits" data-provider="Pythoncode3" finished-at="2025-05-16T15:50:15 EDT" duration-ms="1005" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pythonCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SyntaxError]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[Sheet pythonCode not found in src/test/resources/TestData/TestingData.xlsx]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: Sheet pythonCode not found in src/test/resources/TestData/TestingData.xlsx
+at utils.ExcelRead.readExcelSheet(ExcelRead.java:23)
+at dsAlgoPageObjects.TryEditorPage.enterCodeFromExcel(TryEditorPage.java:78)
+at testClasses.ArrayTests.EvenNumberOfDigits(ArrayTests.java:226)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EvenNumberOfDigits -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:50:15 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:50:15 EDT" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="EvenNumberOfDigits(java.lang.String,int,java.lang.String)[pri:15, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:50:15 EDT" name="EvenNumberOfDigits" data-provider="Pythoncode3" finished-at="2025-05-16T15:50:16 EDT" duration-ms="994" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pythonCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MaxConsecutive Ones]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[Sheet pythonCode not found in src/test/resources/TestData/TestingData.xlsx]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: Sheet pythonCode not found in src/test/resources/TestData/TestingData.xlsx
+at utils.ExcelRead.readExcelSheet(ExcelRead.java:23)
+at dsAlgoPageObjects.TryEditorPage.enterCodeFromExcel(TryEditorPage.java:78)
+at testClasses.ArrayTests.EvenNumberOfDigits(ArrayTests.java:226)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EvenNumberOfDigits -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:50:16 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:50:16 EDT" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="EvenNumberOfDigits(java.lang.String,int,java.lang.String)[pri:15, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:50:16 EDT" name="EvenNumberOfDigits" data-provider="Pythoncode3" finished-at="2025-05-16T15:50:17 EDT" duration-ms="1003" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pythonCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SyntaxError]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[Sheet pythonCode not found in src/test/resources/TestData/TestingData.xlsx]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: Sheet pythonCode not found in src/test/resources/TestData/TestingData.xlsx
+at utils.ExcelRead.readExcelSheet(ExcelRead.java:23)
+at dsAlgoPageObjects.TryEditorPage.enterCodeFromExcel(TryEditorPage.java:78)
+at testClasses.ArrayTests.EvenNumberOfDigits(ArrayTests.java:226)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EvenNumberOfDigits -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:50:17 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:50:18 EDT" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="EvenNumberOfDigits1(java.lang.String,int,java.lang.String)[pri:16, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:50:18 EDT" name="EvenNumberOfDigits1" data-provider="Pythoncode1" finished-at="2025-05-16T15:50:24 EDT" duration-ms="6164" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ArrayPracticeQnsQ1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Element Found]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testClasses.ArrayTests.EvenNumberOfDigits1(ArrayTests.java:237)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EvenNumberOfDigits1 -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:50:24 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:50:24 EDT" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="EvenNumberOfDigits1(java.lang.String,int,java.lang.String)[pri:16, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:50:24 EDT" name="EvenNumberOfDigits1" data-provider="Pythoncode1" finished-at="2025-05-16T15:50:36 EDT" duration-ms="11276" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ArrayPracticeQnsQ1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Element not Found]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testClasses.ArrayTests.EvenNumberOfDigits1(ArrayTests.java:237)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EvenNumberOfDigits1 -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:50:36 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:50:36 EDT" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="SquaresofaSorted(java.lang.String,int,java.lang.String)[pri:17, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:50:36 EDT" name="SquaresofaSorted" data-provider="Pythoncode" finished-at="2025-05-16T15:50:42 EDT" duration-ms="6185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tryEditorCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Python is fun!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SquaresofaSorted -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:50:42 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:50:42 EDT" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="SquaresofaSorted(java.lang.String,int,java.lang.String)[pri:17, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:50:42 EDT" name="SquaresofaSorted" data-provider="Pythoncode" finished-at="2025-05-16T15:50:44 EDT" duration-ms="1132" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tryEditorCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SyntaxError]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [SyntaxError] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [SyntaxError] but found []
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testClasses.ArrayTests.SquaresofaSorted(ArrayTests.java:245)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SquaresofaSorted -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:50:44 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:50:44 EDT" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="SquaresofaSorted1(java.lang.String,int,java.lang.String)[pri:18, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:50:44 EDT" name="SquaresofaSorted1" data-provider="Pythoncode" finished-at="2025-05-16T15:50:55 EDT" duration-ms="11246" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tryEditorCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Python is fun!]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testClasses.ArrayTests.SquaresofaSorted1(ArrayTests.java:254)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SquaresofaSorted1 -->
+        <test-method is-config="true" signature="resetToHomeBeforeTest()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:50:55 EDT" name="resetToHomeBeforeTest" finished-at="2025-05-16T15:50:56 EDT" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetToHomeBeforeTest -->
+        <test-method signature="SquaresofaSorted1(java.lang.String,int,java.lang.String)[pri:18, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:50:56 EDT" name="SquaresofaSorted1" data-provider="Pythoncode" finished-at="2025-05-16T15:51:02 EDT" duration-ms="6232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tryEditorCode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SyntaxError]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SquaresofaSorted1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.ArrayTests@536dbea0]" started-at="2025-05-16T15:51:02 EDT" name="tearDown" finished-at="2025-05-16T15:51:02 EDT" duration-ms="311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

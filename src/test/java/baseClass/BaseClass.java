@@ -50,7 +50,7 @@ public class BaseClass {
 	        String scrShot = "screenshot_" + new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
 	        File screenshots = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
-	        Path screenshotDir = Path.of("C:\\Users\\onlin\\eclipse-workspace\\DsAlgo_TestNG\\src\\test\\resources\\Screenshots");
+	        Path screenshotDir = Path.of("src\\test\\resources\\Screenshots");
 	        if (!Files.exists(screenshotDir)) {
 	            Files.createDirectories(screenshotDir);
 	        }

@@ -5,26 +5,11 @@
     <classes>
       <class name="testClasses.ArrayTests">
         <methods>
-          <include name="MaxConsecutiveOnes" invocation-numbers="0 1 2 3"/>
-          <include name="BasicOperationsinLists" invocation-numbers="1"/>
-          <include name="tearDown"/>
-          <include name="SquaresofaSorted1" invocation-numbers="0"/>
-          <include name="SetUp"/>
-          <include name="ArraysUsingList" invocation-numbers="1"/>
-          <include name="ArraysUsingList1" invocation-numbers="0"/>
-          <include name="ApplicationsofArray1" invocation-numbers="0"/>
-          <include name="MaxConsecutiveOnes1" invocation-numbers="0 1"/>
-          <include name="BasicOperationsinLists1" invocation-numbers="0"/>
-          <include name="EvenNumberOfDigits1" invocation-numbers="0 1"/>
-          <include name="ApplicationsofArray" invocation-numbers="1"/>
-          <include name="EvenNumberOfDigits" invocation-numbers="0 1 2 3"/>
-          <include name="setUpOnce"/>
           <include name="resetToHomeBeforeTest"/>
-          <include name="ArraysinPython1" invocation-numbers="0"/>
+          <include name="setUpOnce"/>
+          <include name="tearDown"/>
           <include name="SquaresofaSorted" invocation-numbers="1"/>
-          <include name="SearchTheArray" invocation-numbers="0 1"/>
-          <include name="ArraysinPython" invocation-numbers="1"/>
-          <include name="SearchTheArray1" invocation-numbers="0 1"/>
+          <include name="SetUp"/>
         </methods>
       </class> <!-- testClasses.ArrayTests -->
     </classes>

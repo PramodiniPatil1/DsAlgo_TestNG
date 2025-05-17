@@ -1,91 +1,99 @@
 package testClasses;
 
-
 import org.testng.Assert;
 import org.testng.annotations.*;
+import baseClass.BaseClass;
 import org.openqa.selenium.WebDriver;
-
-import driverManager.DriverFactory;
 import dsAlgoPageObjects.RegisterPageObj;
 import utils.ConfigReader;
 
-public class RegisterTests {
-		WebDriver driver;
-	    RegisterPageObj registerpage;
+public class RegisterTests extends BaseClass {
+    WebDriver driver;
+    RegisterPageObj registerpage;
 
-	
-	 
-	    @BeforeClass
-	    public void setUp() {
-	        // Step 1: Read browser name from config
-	        String browser = ConfigReader.getBrowserType();  // Make sure this returns "chrome", "firefox", or "edge"
+    @BeforeClass
+    public void setUpRegister() {
+        driver = driverManager.DriverFactory.initializeDriver(ConfigReader.getBrowserType());
+        registerpage = new RegisterPageObj(driver);
+        driver.get(ConfigReader.getUrl());
+    }
 
-	        // Step 2: Initialize driver
-	        driver = DriverFactory.initializeDriver(browser);
+    @BeforeMethod
+    public void navigateToRegister() {
+    	driver.get(ConfigReader.getUrl());
+        registerpage.clickGetStartedButton();
+        registerpage.clickRegisterLink();
+    }
 
-	        // Step 3: Initialize page object
-	        registerpage = new RegisterPageObj(driver);
+    @DataProvider(name = "validRegisterData")
+    public Object[][] validData() {
+        return new Object[][] {
+            {"Register", 4}  // SheetName, RowNum
+        };
+    }
 
-	        // Step 4: Navigate to URL
-	        driver.get(ConfigReader.getUrl());
-	    }
+    @DataProvider(name = "passwordMismatchData")
+    public Object[][] mismatchData() {
+        return new Object[][] {
+            {"Register", 1}
+        };
+    }
 
+    @DataProvider(name = "emptyUsernameData")
+    public Object[][] emptyData() {
+        return new Object[][] {
+            {"Register", 0}
+        };
+    }
 
+    @DataProvider(name = "numericPasswordData")
+    public Object[][] numericPasswordData() {
+        return new Object[][] {
+            {"Register", 2}
+        };
+    }
 
+    @Test(dataProvider = "validRegisterData")
+    public void testValidRegistration(String sheetName, int row) throws Exception {
+        registerpage.fillRegistrationForm(sheetName, row);
+        registerpage.clickRegisterButton();
 
-	    @Test
-	    public void testValidRegistration() throws Exception {
-	        registerpage.clickGetStartedButton();
-	        registerpage.clickRegisterLink();
-	        
-			registerpage.fillRegistrationForm("Register",3);  
-	        registerpage.clickRegisterButton();
+        Assert.assertTrue(registerpage.checkIfRegisterSuccessMsgIsDisplayed(), "Success message not displayed");
+        System.out.println("Success message: " + registerpage.successMsg());
+    }
 
-	        Assert.assertTrue(registerpage.checkIfRegisterSuccessMsgIsDisplayed(), "Success message not displayed");
-	        System.out.println("Success message: " + registerpage.successMsg());
-	    }
+    @Test(dataProvider = "passwordMismatchData")
+    public void testPasswordMismatchRegistration(String sheetName, int row) throws Exception {
+        registerpage.fillRegistrationForm(sheetName, row);
+        registerpage.clickRegisterButton();
 
-	    @Test
-	    public void testPasswordMismatchRegistration() throws Exception {
-	        registerpage.clickGetStartedButton();
-	        registerpage.clickRegisterLink();
-	        registerpage.fillRegistrationForm("Register", 1); // 
-	        registerpage.clickRegisterButton();
+        Assert.assertTrue(registerpage.isPasswordMismatchVisible(), "Mismatch error not displayed");
+        System.out.println("Password mismatch message: " + registerpage.getPasswordMismatchText());
+    }
 
-	        Assert.assertTrue(registerpage.isPasswordMismatchVisible(), "Mismatch error not displayed");
-	        System.out.println("Password mismatch message: " + registerpage.getPasswordMismatchText());
-	    }
+    @Test(dataProvider = "emptyUsernameData")
+    public void testEmptyUsernameValidation(String sheetName, int row) throws Exception {
+        registerpage.fillRegistrationForm(sheetName, row);
+        registerpage.clickRegisterButton();
 
-	    @Test
-	    public void testEmptyUsernameValidation() throws Exception {
-	        registerpage.clickGetStartedButton();
-	        registerpage.clickRegisterLink();
-	        registerpage.fillRegistrationForm("Register",0 ); 
-	        registerpage.clickRegisterButton();
+        String msg = registerpage.switchToElementAndGetValidationMessage();
+        System.out.println("Browser validation message: " + msg);
+        Assert.assertTrue(msg.contains("fill out this field"), "Expected browser validation not displayed");
+    }
 
-	        String msg = registerpage.switchToElementAndGetValidationMessage();
-	        System.out.println("Browser validation message: " + msg);
-	        Assert.assertTrue(msg.contains("fill out this field"), "Expected browser validation not displayed");
-	    }
-	    
-	    
-	    @Test
-	    public void testNumericPasswordValidation() throws Exception {
-	        registerpage.clickGetStartedButton();
-	        registerpage.clickRegisterLink();
-	        registerpage.fillRegistrationForm("Register", 3); 
-	        registerpage.clickRegisterButton();
+    @Test(dataProvider = "numericPasswordData")
+    public void testNumericPasswordValidation(String sheetName, int row) throws Exception {
+        registerpage.fillRegistrationForm(sheetName, row);
+        registerpage.clickRegisterButton();
 
-	        Assert.assertTrue(registerpage.isPasswordMismatchVisible(), "Mismatch error not displayed");
-	        System.out.println("Password mismatch message: " + registerpage.getPasswordMismatchText());
-	    }
-	    
-	      @AfterClass
-	      public void tearDown() {
-	        if (driver != null) {
-	            driver.quit();
-	        }
-	    }
-	}
+        Assert.assertTrue(registerpage.isPasswordMismatchVisible(), "Mismatch error not displayed");
+        System.out.println("Password mismatch message: " + registerpage.getPasswordMismatchText());
+    }
 
-
+    @AfterClass
+    public void tearDown() {
+        if (driver != null) {
+            driver.quit();
+        }
+    }
+}

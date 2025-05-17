@@ -5,7 +5,10 @@
     <classes>
       <class name="testClasses.DataStructureTests">
         <methods>
-          <include name="testValidOutputforTimeComplexity"/>
+          <include name="testInValidOutputforTimeComplexity"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+          <include name="testValidOutputforTimeComplexity1"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- testClasses.DataStructureTests -->

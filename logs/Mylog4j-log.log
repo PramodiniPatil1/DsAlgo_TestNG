@@ -3346,3 +3346,2146 @@ Session ID: 7ea60dd79c9d21878ecaab74f05a7278
 [INFO ] 2025-05-16 15:51:02.166 [main] LoggerLoad - Editor Code is -->print('Hello
 [INFO ] 2025-05-16 15:51:02.335 [main] LoggerLoad - Clicked the Run button.
 [INFO ] 2025-05-16 15:51:02.341 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 22:19:06.484 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-16 22:19:07.226 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-16 22:19:08.830 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:19:09.456 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 22:19:10.303 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 22:19:10.369 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 22:19:10.546 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:19:10.591 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 22:19:11.140 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:19:11.404 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 22:19:11.686 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 22:19:11.731 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 22:19:11.905 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-05-16 22:19:11.930 [main] LoggerLoad - Error fetching console output: unexpected alert open: {Alert text : SyntaxError: bad input on line 1}
+  (Session info: chrome=136.0.7103.114): SyntaxError: bad input on line 1
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81b1481ca9e946a8edaa72f339228f82, findElement {using=xpath, value=//pre[@id='output']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57768}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57768/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 81b1481ca9e946a8edaa72f339228f82
+[INFO ] 2025-05-16 22:19:17.750 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:19:17.973 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 22:19:18.267 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 22:19:18.319 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 22:19:18.462 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:19:28.596 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 22:19:34.105 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:19:34.355 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 22:19:34.621 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 22:19:34.673 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 22:19:34.862 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:19:34.873 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 22:19:35.686 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:19:35.945 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-16 22:19:36.219 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 22:19:36.268 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 22:19:36.385 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:19:36.442 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 22:19:36.986 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:19:37.217 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-16 22:19:37.439 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 22:19:37.484 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 22:19:37.634 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-05-16 22:19:37.642 [main] LoggerLoad - Error fetching console output: unexpected alert open: {Alert text : SyntaxError: bad input on line 1}
+  (Session info: chrome=136.0.7103.114): SyntaxError: bad input on line 1
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81b1481ca9e946a8edaa72f339228f82, findElement {using=xpath, value=//pre[@id='output']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57768}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57768/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 81b1481ca9e946a8edaa72f339228f82
+[INFO ] 2025-05-16 22:19:38.256 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:19:38.494 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-16 22:19:38.754 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 22:19:38.803 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 22:19:38.969 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:19:49.088 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 22:19:54.736 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:19:55.027 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-16 22:19:55.267 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 22:19:55.307 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 22:19:55.488 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:19:55.495 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 22:19:56.194 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:19:56.453 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-16 22:19:56.729 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 22:19:56.766 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 22:19:56.904 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:19:56.957 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 22:19:57.563 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:19:57.782 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-16 22:19:58.037 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 22:19:58.080 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 22:19:58.230 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-05-16 22:19:58.247 [main] LoggerLoad - Error fetching console output: unexpected alert open: {Alert text : SyntaxError: bad input on line 1}
+  (Session info: chrome=136.0.7103.114): SyntaxError: bad input on line 1
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81b1481ca9e946a8edaa72f339228f82, findElement {using=xpath, value=//pre[@id='output']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57768}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57768/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 81b1481ca9e946a8edaa72f339228f82
+[INFO ] 2025-05-16 22:19:58.948 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:19:59.165 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-16 22:19:59.667 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 22:19:59.713 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 22:19:59.867 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:20:09.981 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 22:20:15.682 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:20:15.978 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-16 22:20:16.425 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 22:20:16.464 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 22:20:16.612 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:20:16.618 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 22:20:17.248 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:20:17.543 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:20:17.817 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 22:20:17.852 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 22:20:17.969 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:20:18.023 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 22:20:18.644 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:20:18.911 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:20:19.178 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 22:20:19.214 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 22:20:19.373 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-05-16 22:20:19.384 [main] LoggerLoad - Error fetching console output: unexpected alert open: {Alert text : SyntaxError: bad input on line 1}
+  (Session info: chrome=136.0.7103.114): SyntaxError: bad input on line 1
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81b1481ca9e946a8edaa72f339228f82, findElement {using=xpath, value=//pre[@id='output']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57768}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57768/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 81b1481ca9e946a8edaa72f339228f82
+[INFO ] 2025-05-16 22:20:20.047 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:20:20.338 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:20:20.603 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 22:20:20.633 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 22:20:20.778 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:20:30.904 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 22:20:36.558 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:20:36.819 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:20:37.043 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 22:20:37.074 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 22:20:37.234 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:20:37.241 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 22:20:37.931 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:20:38.155 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:20:38.501 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:20:38.759 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-16 22:20:38.759 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 0
+[INFO ] 2025-05-16 22:20:38.796 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+    if num in input_list:
+        print("Element Found")
+    else:
+        print("Not Found")
+
+search([12, 23, 45, 67, 6, 90], 12)
+[INFO ] 2025-05-16 22:20:38.962 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:20:39.010 [main] LoggerLoad - Console output: Element Found
+[INFO ] 2025-05-16 22:20:39.609 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:20:39.938 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:20:40.154 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:20:40.374 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-16 22:20:40.375 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 0
+[INFO ] 2025-05-16 22:20:40.411 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+    if num in input_list:
+        print("Element Found")
+    else:
+        print("Not Found")
+
+search([12, 23, 45, 67, 6, 90], 12)
+[INFO ] 2025-05-16 22:20:40.560 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:20:40.597 [main] LoggerLoad - Console output: Element Found
+[INFO ] 2025-05-16 22:20:41.145 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:20:41.432 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:20:41.647 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:20:41.861 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-16 22:20:41.862 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 1
+[INFO ] 2025-05-16 22:20:41.900 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+if(num in input_list):
+print("Element Found")
+\xc
+\xc
+else:
+print("Not Found")
+\xc
+\xc
+\xc
+\xc
+search([12, 23, 45, 67, 6, 90] , 12)
+[INFO ] 2025-05-16 22:20:42.064 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:20:42.071 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 2
+[INFO ] 2025-05-16 22:20:47.710 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:20:47.974 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:20:48.187 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:20:48.405 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-16 22:20:48.405 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 1
+[INFO ] 2025-05-16 22:20:48.433 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+if(num in input_list):
+print("Element Found")
+\xc
+\xc
+else:
+print("Not Found")
+\xc
+\xc
+\xc
+\xc
+search([12, 23, 45, 67, 6, 90] , 12)
+[INFO ] 2025-05-16 22:20:48.599 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:20:48.607 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 2
+[INFO ] 2025-05-16 22:20:49.262 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:20:49.548 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:20:49.769 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:20:49.981 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-16 22:20:49.982 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 2
+[INFO ] 2025-05-16 22:20:50.009 [main] LoggerLoad - Editor Code is -->def findMaxConsecutiveOnes(nums):
+    count = 0
+    result = 0
+    for i in range(len(nums)):
+        if nums[i] == 0:
+            count = 0
+        else:
+            count += 1
+            result = max(result, count)
+    print(result)
+
+findMaxConsecutiveOnes([1, 0, 1, 1, 0, 1])
+[INFO ] 2025-05-16 22:20:50.186 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:20:50.237 [main] LoggerLoad - Console output: 2
+[INFO ] 2025-05-16 22:20:50.903 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:20:51.182 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:20:51.455 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:20:51.679 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-16 22:20:51.679 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 2
+[INFO ] 2025-05-16 22:20:51.711 [main] LoggerLoad - Editor Code is -->def findMaxConsecutiveOnes(nums):
+    count = 0
+    result = 0
+    for i in range(len(nums)):
+        if nums[i] == 0:
+            count = 0
+        else:
+            count += 1
+            result = max(result, count)
+    print(result)
+
+findMaxConsecutiveOnes([1, 0, 1, 1, 0, 1])
+[INFO ] 2025-05-16 22:20:51.874 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:20:51.912 [main] LoggerLoad - Console output: 2
+[INFO ] 2025-05-16 22:20:52.469 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:20:52.732 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:20:52.935 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:20:53.131 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-16 22:20:53.131 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 2
+[INFO ] 2025-05-16 22:20:53.155 [main] LoggerLoad - Editor Code is -->def findMaxConsecutiveOnes(nums):
+    count = 0
+    result = 0
+    for i in range(len(nums)):
+        if nums[i] == 0:
+            count = 0
+        else:
+            count += 1
+            result = max(result, count)
+    print(result)
+
+findMaxConsecutiveOnes([1, 0, 1, 1, 0, 1])
+[INFO ] 2025-05-16 22:20:53.328 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:20:53.371 [main] LoggerLoad - Console output: 2
+[INFO ] 2025-05-16 22:20:58.983 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:20:59.241 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:20:59.484 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:20:59.721 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-16 22:20:59.722 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 2
+[INFO ] 2025-05-16 22:20:59.757 [main] LoggerLoad - Editor Code is -->def findMaxConsecutiveOnes(nums):
+    count = 0
+    result = 0
+    for i in range(len(nums)):
+        if nums[i] == 0:
+            count = 0
+        else:
+            count += 1
+            result = max(result, count)
+    print(result)
+
+findMaxConsecutiveOnes([1, 0, 1, 1, 0, 1])
+[INFO ] 2025-05-16 22:20:59.928 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:20:59.971 [main] LoggerLoad - Console output: 2
+[INFO ] 2025-05-16 22:21:00.550 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:21:00.800 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:21:01.026 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:21:01.215 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-16 22:21:01.215 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 3
+[INFO ] 2025-05-16 22:21:01.246 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-16 22:21:01.414 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:21:01.424 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 22:21:02.112 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:21:02.385 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:21:02.600 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:21:02.802 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-16 22:21:02.802 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 3
+[INFO ] 2025-05-16 22:21:02.824 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-16 22:21:03.005 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:21:03.010 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 22:21:03.635 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:21:03.920 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:21:04.127 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:21:04.335 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-16 22:21:04.335 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 3
+[INFO ] 2025-05-16 22:21:04.361 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-16 22:21:04.514 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:21:04.520 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 22:21:10.216 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:21:10.466 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:21:10.682 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:21:10.869 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-16 22:21:10.869 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 3
+[INFO ] 2025-05-16 22:21:10.895 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-16 22:21:11.063 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:21:11.069 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 22:21:11.694 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:21:11.950 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:21:12.175 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:21:12.366 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-16 22:21:12.366 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 0
+[INFO ] 2025-05-16 22:21:12.390 [main] LoggerLoad - Editor Code is -->def count_even_digit_numbers(nums):
+    count = 0
+    for num in nums:
+        if len(str(abs(num))) % 2 == 0:
+            count += 1
+    return count
+
+# Example usage
+input_list = [12, 345, 2, 6, 7896]
+#result = count_even_digit_numbers(input_list)
+print("Count of numbers with even number of digits:", result)
+[INFO ] 2025-05-16 22:21:12.560 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-05-16 22:21:12.568 [main] LoggerLoad - Error fetching console output: unexpected alert open: {Alert text : NameError: name 'result' is not defined on line 11}
+  (Session info: chrome=136.0.7103.114): NameError: name 'result' is not defined on line 11
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81b1481ca9e946a8edaa72f339228f82, findElement {using=xpath, value=//pre[@id='output']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57768}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57768/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 81b1481ca9e946a8edaa72f339228f82
+[INFO ] 2025-05-16 22:21:13.282 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:21:13.541 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:21:13.917 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:21:14.209 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-16 22:21:14.209 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 0
+[INFO ] 2025-05-16 22:21:14.233 [main] LoggerLoad - Editor Code is -->def count_even_digit_numbers(nums):
+    count = 0
+    for num in nums:
+        if len(str(abs(num))) % 2 == 0:
+            count += 1
+    return count
+
+# Example usage
+input_list = [12, 345, 2, 6, 7896]
+#result = count_even_digit_numbers(input_list)
+print("Count of numbers with even number of digits:", result)
+[INFO ] 2025-05-16 22:21:14.412 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-05-16 22:21:14.421 [main] LoggerLoad - Error fetching console output: unexpected alert open: {Alert text : NameError: name 'result' is not defined on line 11}
+  (Session info: chrome=136.0.7103.114): NameError: name 'result' is not defined on line 11
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81b1481ca9e946a8edaa72f339228f82, findElement {using=xpath, value=//pre[@id='output']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57768}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57768/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 81b1481ca9e946a8edaa72f339228f82
+[INFO ] 2025-05-16 22:21:15.147 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:21:15.431 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:21:15.641 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:21:15.834 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-16 22:21:15.834 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 0
+[INFO ] 2025-05-16 22:21:15.858 [main] LoggerLoad - Editor Code is -->def count_even_digit_numbers(nums):
+    count = 0
+    for num in nums:
+        if len(str(abs(num))) % 2 == 0:
+            count += 1
+    return count
+
+# Example usage
+input_list = [12, 345, 2, 6, 7896]
+#result = count_even_digit_numbers(input_list)
+print("Count of numbers with even number of digits:", result)
+[INFO ] 2025-05-16 22:21:16.021 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-05-16 22:21:16.029 [main] LoggerLoad - Error fetching console output: unexpected alert open: {Alert text : NameError: name 'result' is not defined on line 11}
+  (Session info: chrome=136.0.7103.114): NameError: name 'result' is not defined on line 11
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81b1481ca9e946a8edaa72f339228f82, findElement {using=xpath, value=//pre[@id='output']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57768}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57768/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 81b1481ca9e946a8edaa72f339228f82
+[INFO ] 2025-05-16 22:21:22.314 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:21:22.549 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:21:22.757 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:21:23.028 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-16 22:21:23.028 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 0
+[INFO ] 2025-05-16 22:21:23.067 [main] LoggerLoad - Editor Code is -->def count_even_digit_numbers(nums):
+    count = 0
+    for num in nums:
+        if len(str(abs(num))) % 2 == 0:
+            count += 1
+    return count
+
+# Example usage
+input_list = [12, 345, 2, 6, 7896]
+#result = count_even_digit_numbers(input_list)
+print("Count of numbers with even number of digits:", result)
+[INFO ] 2025-05-16 22:21:23.260 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-05-16 22:21:23.270 [main] LoggerLoad - Error fetching console output: unexpected alert open: {Alert text : NameError: name 'result' is not defined on line 11}
+  (Session info: chrome=136.0.7103.114): NameError: name 'result' is not defined on line 11
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [81b1481ca9e946a8edaa72f339228f82, findElement {using=xpath, value=//pre[@id='output']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57768}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57768/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 81b1481ca9e946a8edaa72f339228f82
+[INFO ] 2025-05-16 22:21:24.334 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:21:24.604 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:21:24.800 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:21:24.997 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-16 22:21:24.997 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 1
+[INFO ] 2025-05-16 22:21:25.024 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-16 22:21:25.179 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:21:25.184 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 22:21:26.243 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:21:26.508 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:21:26.706 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:21:26.915 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-16 22:21:26.915 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 1
+[INFO ] 2025-05-16 22:21:26.936 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-16 22:21:27.084 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:21:27.089 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 22:21:33.050 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:21:33.369 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:21:33.582 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:21:33.812 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-16 22:21:33.813 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 22:21:33.831 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 22:21:33.988 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:21:34.022 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 22:21:34.640 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:21:34.958 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:21:35.168 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:21:35.398 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-16 22:21:35.398 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 22:21:35.422 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 22:21:35.671 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:21:35.706 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 22:21:36.334 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:21:36.605 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:21:36.822 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:21:37.015 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-16 22:21:37.016 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 22:21:37.035 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 22:21:37.193 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:21:37.199 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 22:21:37.862 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:21:38.125 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:21:38.374 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:21:38.591 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-16 22:21:38.591 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 22:21:38.614 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 22:21:38.759 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:21:38.766 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 22:32:25.693 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-16 22:32:26.419 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-16 22:32:27.786 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:32:28.650 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 22:32:29.507 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 22:32:29.569 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 22:32:29.746 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:32:29.788 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 22:32:30.343 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:32:30.615 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 22:32:30.914 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 22:32:30.971 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 22:32:31.133 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-05-16 22:32:31.150 [main] LoggerLoad - Error fetching console output: unexpected alert open: {Alert text : SyntaxError: bad input on line 1}
+  (Session info: chrome=136.0.7103.114): SyntaxError: bad input on line 1
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [934ebcd7ec290c1ddb27cf035a725c2c, findElement {value=//pre[@id='output'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57984/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 934ebcd7ec290c1ddb27cf035a725c2c
+[INFO ] 2025-05-16 22:32:36.799 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:32:37.030 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 22:32:37.302 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 22:32:37.356 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 22:32:37.508 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:32:47.640 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 22:32:53.203 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:32:53.473 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 22:32:53.700 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 22:32:53.744 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 22:32:53.900 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:32:53.913 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 22:32:54.587 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:32:54.879 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-16 22:32:55.133 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 22:32:55.185 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 22:32:55.319 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:32:55.373 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 22:32:55.928 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:32:56.147 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-16 22:32:56.394 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 22:32:56.447 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 22:32:56.621 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-05-16 22:32:56.631 [main] LoggerLoad - Error fetching console output: unexpected alert open: {Alert text : SyntaxError: bad input on line 1}
+  (Session info: chrome=136.0.7103.114): SyntaxError: bad input on line 1
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [934ebcd7ec290c1ddb27cf035a725c2c, findElement {value=//pre[@id='output'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57984/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 934ebcd7ec290c1ddb27cf035a725c2c
+[INFO ] 2025-05-16 22:32:57.282 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:32:57.495 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-16 22:32:57.733 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 22:32:57.771 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 22:32:57.928 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:33:08.042 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 22:33:13.637 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:33:13.875 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-16 22:33:14.107 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 22:33:14.163 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 22:33:14.346 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:33:14.352 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 22:33:15.001 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:33:15.253 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-16 22:33:15.535 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 22:33:15.579 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 22:33:15.725 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:33:15.760 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 22:33:16.296 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:33:16.520 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-16 22:33:16.769 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 22:33:16.807 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 22:33:16.944 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-05-16 22:33:16.970 [main] LoggerLoad - Error fetching console output: unexpected alert open: {Alert text : SyntaxError: bad input on line 1}
+  (Session info: chrome=136.0.7103.114): SyntaxError: bad input on line 1
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [934ebcd7ec290c1ddb27cf035a725c2c, findElement {value=//pre[@id='output'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57984/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 934ebcd7ec290c1ddb27cf035a725c2c
+[INFO ] 2025-05-16 22:33:17.728 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:33:17.954 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-16 22:33:18.222 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 22:33:18.261 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 22:33:18.420 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:33:28.531 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 22:33:34.296 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:33:34.560 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-16 22:33:34.935 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 22:33:34.966 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 22:33:35.130 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:33:35.140 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 22:33:35.851 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:33:36.116 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:33:36.363 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 22:33:36.397 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 22:33:36.536 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:33:36.594 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 22:33:37.163 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:33:37.417 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:33:37.664 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 22:33:37.699 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 22:33:37.838 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-05-16 22:33:37.860 [main] LoggerLoad - Error fetching console output: unexpected alert open: {Alert text : SyntaxError: bad input on line 1}
+  (Session info: chrome=136.0.7103.114): SyntaxError: bad input on line 1
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [934ebcd7ec290c1ddb27cf035a725c2c, findElement {value=//pre[@id='output'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57984/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 934ebcd7ec290c1ddb27cf035a725c2c
+[INFO ] 2025-05-16 22:33:38.485 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:33:38.782 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:33:39.044 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 22:33:39.081 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 22:33:39.222 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:33:49.327 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 22:33:54.900 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:33:55.143 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:33:55.410 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 22:33:55.443 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 22:33:55.584 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:33:55.591 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 22:33:56.264 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:33:56.490 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:33:56.718 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:33:56.962 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-16 22:33:56.962 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 0
+[INFO ] 2025-05-16 22:33:57.000 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+    if num in input_list:
+        print("Element Found")
+    else:
+        print("Not Found")
+
+search([12, 23, 45, 67, 6, 90], 12)
+[INFO ] 2025-05-16 22:33:57.161 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:33:57.205 [main] LoggerLoad - Console output: Element Found
+[INFO ] 2025-05-16 22:33:57.768 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:33:58.019 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:33:58.245 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:33:58.424 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-16 22:33:58.424 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 0
+[INFO ] 2025-05-16 22:33:58.458 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+    if num in input_list:
+        print("Element Found")
+    else:
+        print("Not Found")
+
+search([12, 23, 45, 67, 6, 90], 12)
+[INFO ] 2025-05-16 22:33:58.627 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:33:58.661 [main] LoggerLoad - Console output: Element Found
+[INFO ] 2025-05-16 22:33:59.259 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:33:59.515 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:33:59.741 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:33:59.933 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-16 22:33:59.934 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 1
+[INFO ] 2025-05-16 22:33:59.968 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+if(num in input_list):
+print("Element Found")
+\xc
+\xc
+else:
+print("Not Found")
+\xc
+\xc
+\xc
+\xc
+search([12, 23, 45, 67, 6, 90] , 12)
+[INFO ] 2025-05-16 22:34:00.133 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:34:00.140 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 2
+[INFO ] 2025-05-16 22:34:05.765 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:34:06.031 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:34:06.231 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:34:06.429 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-16 22:34:06.429 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 1
+[INFO ] 2025-05-16 22:34:06.463 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+if(num in input_list):
+print("Element Found")
+\xc
+\xc
+else:
+print("Not Found")
+\xc
+\xc
+\xc
+\xc
+search([12, 23, 45, 67, 6, 90] , 12)
+[INFO ] 2025-05-16 22:34:06.650 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:34:06.655 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 2
+[INFO ] 2025-05-16 22:34:07.314 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:34:07.549 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:34:07.759 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:34:07.950 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-16 22:34:07.950 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 2
+[INFO ] 2025-05-16 22:34:07.976 [main] LoggerLoad - Editor Code is -->def findMaxConsecutiveOnes(nums):
+    count = 0
+    result = 0
+    for i in range(len(nums)):
+        if nums[i] == 0:
+            count = 0
+        else:
+            count += 1
+            result = max(result, count)
+    print(result)
+
+findMaxConsecutiveOnes([1, 0, 1, 1, 0, 1])
+[INFO ] 2025-05-16 22:34:08.146 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:34:08.194 [main] LoggerLoad - Console output: 2
+[INFO ] 2025-05-16 22:34:08.781 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:34:09.048 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:34:09.250 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:34:09.462 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-16 22:34:09.463 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 2
+[INFO ] 2025-05-16 22:34:09.502 [main] LoggerLoad - Editor Code is -->def findMaxConsecutiveOnes(nums):
+    count = 0
+    result = 0
+    for i in range(len(nums)):
+        if nums[i] == 0:
+            count = 0
+        else:
+            count += 1
+            result = max(result, count)
+    print(result)
+
+findMaxConsecutiveOnes([1, 0, 1, 1, 0, 1])
+[INFO ] 2025-05-16 22:34:09.658 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:34:09.707 [main] LoggerLoad - Console output: 2
+[INFO ] 2025-05-16 22:34:10.330 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:34:10.590 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:34:10.801 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:34:10.984 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-16 22:34:10.984 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 2
+[INFO ] 2025-05-16 22:34:11.011 [main] LoggerLoad - Editor Code is -->def findMaxConsecutiveOnes(nums):
+    count = 0
+    result = 0
+    for i in range(len(nums)):
+        if nums[i] == 0:
+            count = 0
+        else:
+            count += 1
+            result = max(result, count)
+    print(result)
+
+findMaxConsecutiveOnes([1, 0, 1, 1, 0, 1])
+[INFO ] 2025-05-16 22:34:11.172 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:34:11.204 [main] LoggerLoad - Console output: 2
+[INFO ] 2025-05-16 22:34:16.752 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:34:17.008 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:34:17.197 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:34:17.391 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-16 22:34:17.391 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 2
+[INFO ] 2025-05-16 22:34:17.417 [main] LoggerLoad - Editor Code is -->def findMaxConsecutiveOnes(nums):
+    count = 0
+    result = 0
+    for i in range(len(nums)):
+        if nums[i] == 0:
+            count = 0
+        else:
+            count += 1
+            result = max(result, count)
+    print(result)
+
+findMaxConsecutiveOnes([1, 0, 1, 1, 0, 1])
+[INFO ] 2025-05-16 22:34:17.604 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:34:17.643 [main] LoggerLoad - Console output: 2
+[INFO ] 2025-05-16 22:34:18.183 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:34:18.457 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:34:18.707 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:34:18.923 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-16 22:34:18.923 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 3
+[INFO ] 2025-05-16 22:34:18.962 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-16 22:34:19.113 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:34:19.119 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 22:34:19.784 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:34:20.000 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:34:20.207 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:34:20.401 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-16 22:34:20.401 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 3
+[INFO ] 2025-05-16 22:34:20.422 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-16 22:34:20.579 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:34:20.586 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 22:34:21.259 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:34:21.508 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:34:21.699 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:34:21.925 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-16 22:34:21.925 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 3
+[INFO ] 2025-05-16 22:34:21.956 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-16 22:34:22.109 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:34:22.115 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 22:34:27.825 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:34:28.096 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:34:28.299 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:34:28.519 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-16 22:34:28.519 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 3
+[INFO ] 2025-05-16 22:34:28.541 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-16 22:34:28.693 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:34:28.699 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 22:34:29.367 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:34:29.650 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:34:29.872 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:34:30.102 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-16 22:34:30.102 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 0
+[INFO ] 2025-05-16 22:34:30.128 [main] LoggerLoad - Editor Code is -->def count_even_digit_numbers(nums):
+    count = 0
+    for num in nums:
+        if len(str(abs(num))) % 2 == 0:
+            count += 1
+    return count
+
+# Example usage
+input_list = [12, 345, 2, 6, 7896]
+result = count_even_digit_numbers(input_list)
+print("Count of numbers with even number of digits:", result)
+[INFO ] 2025-05-16 22:34:30.305 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:34:30.344 [main] LoggerLoad - Console output: ('Count of numbers with even number of digits:', 2)
+[INFO ] 2025-05-16 22:34:30.880 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:34:31.136 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:34:31.358 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:34:31.536 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-16 22:34:31.536 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 0
+[INFO ] 2025-05-16 22:34:31.558 [main] LoggerLoad - Editor Code is -->def count_even_digit_numbers(nums):
+    count = 0
+    for num in nums:
+        if len(str(abs(num))) % 2 == 0:
+            count += 1
+    return count
+
+# Example usage
+input_list = [12, 345, 2, 6, 7896]
+result = count_even_digit_numbers(input_list)
+print("Count of numbers with even number of digits:", result)
+[INFO ] 2025-05-16 22:34:31.735 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:34:31.771 [main] LoggerLoad - Console output: ('Count of numbers with even number of digits:', 2)
+[INFO ] 2025-05-16 22:34:32.356 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:34:32.607 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:34:32.799 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:34:32.998 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-16 22:34:32.999 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 0
+[INFO ] 2025-05-16 22:34:33.019 [main] LoggerLoad - Editor Code is -->def count_even_digit_numbers(nums):
+    count = 0
+    for num in nums:
+        if len(str(abs(num))) % 2 == 0:
+            count += 1
+    return count
+
+# Example usage
+input_list = [12, 345, 2, 6, 7896]
+result = count_even_digit_numbers(input_list)
+print("Count of numbers with even number of digits:", result)
+[INFO ] 2025-05-16 22:34:33.197 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:34:33.237 [main] LoggerLoad - Console output: ('Count of numbers with even number of digits:', 2)
+[INFO ] 2025-05-16 22:34:38.842 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:34:39.077 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:34:39.292 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:34:39.473 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-16 22:34:39.473 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 0
+[INFO ] 2025-05-16 22:34:39.492 [main] LoggerLoad - Editor Code is -->def count_even_digit_numbers(nums):
+    count = 0
+    for num in nums:
+        if len(str(abs(num))) % 2 == 0:
+            count += 1
+    return count
+
+# Example usage
+input_list = [12, 345, 2, 6, 7896]
+result = count_even_digit_numbers(input_list)
+print("Count of numbers with even number of digits:", result)
+[INFO ] 2025-05-16 22:34:39.661 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:34:39.703 [main] LoggerLoad - Console output: ('Count of numbers with even number of digits:', 2)
+[INFO ] 2025-05-16 22:34:40.322 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:34:40.597 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:34:40.806 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:34:41.014 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-16 22:34:41.014 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 1
+[INFO ] 2025-05-16 22:34:41.033 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-16 22:34:41.194 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:34:41.202 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 22:34:41.961 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:34:42.207 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:34:42.398 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:34:42.607 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-16 22:34:42.607 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 1
+[INFO ] 2025-05-16 22:34:42.627 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-16 22:34:42.792 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:34:42.798 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 22:34:43.530 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:34:43.857 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:34:44.072 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:34:44.265 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-16 22:34:44.265 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 22:34:44.290 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 22:34:44.445 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:34:44.477 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 22:34:50.063 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:34:50.331 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:34:50.555 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:34:50.787 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-16 22:34:50.787 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 22:34:50.818 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 22:34:50.955 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:34:50.992 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 22:34:51.622 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:34:51.871 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:34:52.065 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:34:52.294 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-16 22:34:52.294 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 22:34:52.325 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 22:34:52.468 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:34:52.472 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 22:34:53.189 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 22:34:53.433 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 22:34:53.738 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 22:34:53.960 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-16 22:34:53.961 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 22:34:53.984 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 22:34:54.125 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 22:34:54.130 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:05:28.407 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-16 23:05:29.087 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-16 23:05:30.696 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:05:31.495 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:05:32.293 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:05:32.360 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:05:32.530 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:05:32.575 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 23:05:33.144 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:05:33.351 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:05:33.591 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:05:33.650 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:05:33.814 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-05-16 23:05:33.834 [main] LoggerLoad - Error fetching console output: unexpected alert open: {Alert text : SyntaxError: bad input on line 1}
+  (Session info: chrome=136.0.7103.114): SyntaxError: bad input on line 1
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b1189ae9f35184998419f7c7c42aeac9, findElement {using=xpath, value=//pre[@id='output']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58480}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58480/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b1189ae9f35184998419f7c7c42aeac9
+[INFO ] 2025-05-16 23:05:39.439 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:05:39.674 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:05:39.964 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:05:40.024 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:05:40.148 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:05:50.303 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 23:05:55.861 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:05:56.084 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:05:56.377 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:05:56.436 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:05:56.600 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:05:56.612 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:05:57.266 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:05:57.516 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-16 23:05:57.747 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:05:57.787 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:05:57.917 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:05:57.973 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 23:05:58.501 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:05:58.722 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-16 23:05:58.949 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:05:58.997 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:05:59.156 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-05-16 23:05:59.166 [main] LoggerLoad - Error fetching console output: unexpected alert open: {Alert text : SyntaxError: bad input on line 1}
+  (Session info: chrome=136.0.7103.114): SyntaxError: bad input on line 1
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b1189ae9f35184998419f7c7c42aeac9, findElement {using=xpath, value=//pre[@id='output']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58480}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58480/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b1189ae9f35184998419f7c7c42aeac9
+[INFO ] 2025-05-16 23:05:59.884 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:06:00.111 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-16 23:06:00.380 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:06:00.421 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:06:00.578 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:06:10.708 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 23:06:16.251 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:06:16.473 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-16 23:06:16.741 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:06:16.781 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:06:16.948 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:06:16.955 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:06:17.729 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:06:17.994 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-16 23:06:18.237 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:06:18.282 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:06:18.416 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:06:18.470 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 23:06:19.028 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:06:19.261 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-16 23:06:19.480 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:06:19.520 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:06:19.693 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-05-16 23:06:19.709 [main] LoggerLoad - Error fetching console output: unexpected alert open: {Alert text : SyntaxError: bad input on line 1}
+  (Session info: chrome=136.0.7103.114): SyntaxError: bad input on line 1
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b1189ae9f35184998419f7c7c42aeac9, findElement {using=xpath, value=//pre[@id='output']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58480}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58480/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b1189ae9f35184998419f7c7c42aeac9
+[INFO ] 2025-05-16 23:06:20.482 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:06:20.729 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-16 23:06:20.981 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:06:21.010 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:06:21.185 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:06:31.299 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 23:06:36.933 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:06:37.154 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-16 23:06:37.480 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:06:37.517 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:06:37.665 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:06:37.673 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:06:38.397 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:06:38.761 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:06:39.006 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:06:39.047 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:06:39.188 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:06:39.223 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 23:06:39.842 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:06:40.182 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:06:40.422 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:06:40.455 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:06:40.612 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-05-16 23:06:40.619 [main] LoggerLoad - Error fetching console output: unexpected alert open: {Alert text : SyntaxError: bad input on line 1}
+  (Session info: chrome=136.0.7103.114): SyntaxError: bad input on line 1
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b1189ae9f35184998419f7c7c42aeac9, findElement {using=xpath, value=//pre[@id='output']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58480}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58480/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b1189ae9f35184998419f7c7c42aeac9
+[INFO ] 2025-05-16 23:06:41.262 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:06:41.492 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:06:41.730 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:06:41.758 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:06:41.909 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:06:52.051 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 23:06:57.723 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:06:58.004 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:06:58.237 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:06:58.270 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:06:58.426 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:06:58.432 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:06:59.105 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:06:59.352 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:06:59.584 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:06:59.838 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-16 23:06:59.838 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 0
+[INFO ] 2025-05-16 23:06:59.872 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+    if num in input_list:
+        print("Element Found")
+    else:
+        print("Not Found")
+
+search([12, 23, 45, 67, 6, 90], 12)
+[INFO ] 2025-05-16 23:07:00.030 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:07:00.066 [main] LoggerLoad - Console output: Element Found
+[INFO ] 2025-05-16 23:07:00.667 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:07:00.917 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:07:01.118 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:07:01.317 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-16 23:07:01.317 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 0
+[INFO ] 2025-05-16 23:07:01.346 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+    if num in input_list:
+        print("Element Found")
+    else:
+        print("Not Found")
+
+search([12, 23, 45, 67, 6, 90], 12)
+[INFO ] 2025-05-16 23:07:01.522 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:07:01.557 [main] LoggerLoad - Console output: Element Found
+[INFO ] 2025-05-16 23:07:02.131 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:07:02.377 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:07:02.594 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:07:02.782 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-16 23:07:02.782 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 1
+[INFO ] 2025-05-16 23:07:02.813 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+if(num in input_list):
+print("Element Found")
+\xc
+\xc
+else:
+print("Not Found")
+\xc
+\xc
+\xc
+\xc
+search([12, 23, 45, 67, 6, 90] , 12)
+[INFO ] 2025-05-16 23:07:02.981 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:07:02.988 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 2
+[INFO ] 2025-05-16 23:07:08.649 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:07:08.933 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:07:09.160 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:07:09.369 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-16 23:07:09.370 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 1
+[INFO ] 2025-05-16 23:07:09.409 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+if(num in input_list):
+print("Element Found")
+\xc
+\xc
+else:
+print("Not Found")
+\xc
+\xc
+\xc
+\xc
+search([12, 23, 45, 67, 6, 90] , 12)
+[INFO ] 2025-05-16 23:07:09.594 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:07:09.600 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 2
+[INFO ] 2025-05-16 23:07:10.312 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:07:10.631 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:07:10.842 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:07:11.076 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-16 23:07:11.076 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 0
+[INFO ] 2025-05-16 23:07:11.111 [main] LoggerLoad - Editor Code is -->def count_even_digit_numbers(nums):
+    count = 0
+    for num in nums:
+        if len(str(abs(num))) % 2 == 0:
+            count += 1
+    return count
+
+# Example usage
+input_list = [12, 345, 2, 6, 7896]
+result = count_even_digit_numbers(input_list)
+print("Count of numbers with even number of digits:", result)
+[INFO ] 2025-05-16 23:07:11.274 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:07:11.317 [main] LoggerLoad - Console output: ('Count of numbers with even number of digits:', 2)
+[INFO ] 2025-05-16 23:07:11.937 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:07:12.209 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:07:12.427 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:07:12.618 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-16 23:07:12.618 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 0
+[INFO ] 2025-05-16 23:07:12.645 [main] LoggerLoad - Editor Code is -->def count_even_digit_numbers(nums):
+    count = 0
+    for num in nums:
+        if len(str(abs(num))) % 2 == 0:
+            count += 1
+    return count
+
+# Example usage
+input_list = [12, 345, 2, 6, 7896]
+result = count_even_digit_numbers(input_list)
+print("Count of numbers with even number of digits:", result)
+[INFO ] 2025-05-16 23:07:12.814 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:07:12.857 [main] LoggerLoad - Console output: ('Count of numbers with even number of digits:', 2)
+[INFO ] 2025-05-16 23:07:13.424 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:07:13.684 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:07:13.884 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:07:14.093 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-16 23:07:14.093 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 1
+[INFO ] 2025-05-16 23:07:14.130 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-16 23:07:14.278 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:07:14.287 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:07:19.979 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:07:20.242 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:07:20.451 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:07:20.643 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-16 23:07:20.643 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 1
+[INFO ] 2025-05-16 23:07:20.671 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-16 23:07:20.834 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:07:20.840 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:07:21.720 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:07:21.983 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:07:22.210 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:07:22.438 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-16 23:07:22.438 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:07:22.473 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:07:22.617 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:07:22.661 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 23:07:23.259 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:07:23.541 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:07:23.867 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:07:24.095 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-16 23:07:24.095 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:07:24.130 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:07:24.270 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:07:24.305 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 23:07:24.911 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:07:25.143 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:07:25.354 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:07:25.561 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-16 23:07:25.561 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:07:25.595 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:07:25.734 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:07:25.739 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:07:31.378 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:07:31.670 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:07:31.893 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:07:32.101 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-16 23:07:32.101 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:07:32.129 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:07:32.314 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:07:32.321 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:15:35.277 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-16 23:15:35.977 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-16 23:15:37.438 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:15:37.851 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:15:38.166 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:15:38.976 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-16 23:15:38.977 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:15:39.053 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:15:39.237 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:15:39.294 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 23:15:39.981 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:15:40.316 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:15:40.525 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:15:40.713 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-16 23:15:40.713 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:15:40.766 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:15:40.918 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:15:40.967 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 23:26:55.608 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-16 23:26:56.330 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-16 23:26:57.823 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:26:58.602 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:26:59.236 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:26:59.299 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:26:59.472 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:26:59.516 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 23:27:00.108 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:27:00.321 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:27:00.588 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:27:00.642 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:27:00.803 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-05-16 23:27:00.827 [main] LoggerLoad - Error fetching console output: unexpected alert open: {Alert text : SyntaxError: bad input on line 1}
+  (Session info: chrome=136.0.7103.114): SyntaxError: bad input on line 1
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a03c47c7570b409e0a3abe9b649313a6, findElement {using=xpath, value=//pre[@id='output']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58859}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58859/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a03c47c7570b409e0a3abe9b649313a6
+[INFO ] 2025-05-16 23:27:06.491 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:27:06.755 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:27:07.004 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:27:07.057 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:27:07.191 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:27:17.335 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 23:27:22.964 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:27:23.177 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:27:23.433 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:27:23.509 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:27:23.675 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:27:23.688 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:27:24.351 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:27:24.632 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-16 23:27:24.929 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:27:24.987 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:27:25.129 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:27:25.167 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 23:27:25.774 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:27:25.986 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-16 23:27:26.215 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:27:26.265 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:27:26.421 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-05-16 23:27:26.429 [main] LoggerLoad - Error fetching console output: unexpected alert open: {Alert text : SyntaxError: bad input on line 1}
+  (Session info: chrome=136.0.7103.114): SyntaxError: bad input on line 1
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a03c47c7570b409e0a3abe9b649313a6, findElement {using=xpath, value=//pre[@id='output']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58859}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58859/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a03c47c7570b409e0a3abe9b649313a6
+[INFO ] 2025-05-16 23:27:27.112 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:27:27.339 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-16 23:27:27.608 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:27:27.655 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:27:27.814 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:27:37.933 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 23:27:43.498 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:27:43.723 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-16 23:27:43.967 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:27:44.004 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:27:44.165 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:27:44.173 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:27:44.974 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:27:45.300 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-16 23:27:45.591 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:27:45.633 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:27:45.802 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:27:45.842 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 23:27:46.423 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:27:46.653 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-16 23:27:46.892 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:27:46.934 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:27:47.091 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-05-16 23:27:47.111 [main] LoggerLoad - Error fetching console output: unexpected alert open: {Alert text : SyntaxError: bad input on line 1}
+  (Session info: chrome=136.0.7103.114): SyntaxError: bad input on line 1
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a03c47c7570b409e0a3abe9b649313a6, findElement {using=xpath, value=//pre[@id='output']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58859}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58859/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a03c47c7570b409e0a3abe9b649313a6
+[INFO ] 2025-05-16 23:27:47.785 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:27:47.999 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-16 23:27:48.301 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:27:48.342 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:27:48.466 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:27:58.578 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 23:28:04.247 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:28:04.486 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-16 23:28:04.804 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:28:04.854 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:28:05.018 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:28:05.025 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:28:05.709 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:28:06.016 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:28:06.310 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:28:06.347 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:28:06.491 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:28:06.529 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 23:28:07.114 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:28:07.389 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:28:07.630 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:28:07.660 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:28:07.824 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-05-16 23:28:07.831 [main] LoggerLoad - Error fetching console output: unexpected alert open: {Alert text : SyntaxError: bad input on line 1}
+  (Session info: chrome=136.0.7103.114): SyntaxError: bad input on line 1
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a03c47c7570b409e0a3abe9b649313a6, findElement {using=xpath, value=//pre[@id='output']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58859}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58859/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a03c47c7570b409e0a3abe9b649313a6
+[INFO ] 2025-05-16 23:28:08.543 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:28:08.823 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:28:09.086 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:28:09.120 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:28:09.241 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:28:19.392 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 23:28:25.011 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:28:25.297 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:28:25.561 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:28:25.591 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:28:25.740 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:28:25.746 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:28:26.370 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:28:26.593 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:28:26.811 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:28:27.080 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-16 23:28:27.080 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 0
+[INFO ] 2025-05-16 23:28:27.116 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+    if num in input_list:
+        print("Element Found")
+    else:
+        print("Not Found")
+
+search([12, 23, 45, 67, 6, 90], 12)
+[INFO ] 2025-05-16 23:28:27.274 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:28:27.342 [main] LoggerLoad - Console output: Element Found
+[INFO ] 2025-05-16 23:28:28.023 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:28:28.229 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:28:28.484 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:28:28.687 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-16 23:28:28.688 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 1
+[INFO ] 2025-05-16 23:28:28.724 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+if(num in input_list):
+print("Element Found")
+\xc
+\xc
+else:
+print("Not Found")
+\xc
+\xc
+\xc
+\xc
+search([12, 23, 45, 67, 6, 90] , 12)
+[INFO ] 2025-05-16 23:28:28.907 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-05-16 23:28:28.915 [main] LoggerLoad - Error fetching console output: unexpected alert open: {Alert text : SyntaxError: bad input on line 2}
+  (Session info: chrome=136.0.7103.114): SyntaxError: bad input on line 2
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a03c47c7570b409e0a3abe9b649313a6, findElement {using=xpath, value=//pre[@id='output']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58859}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58859/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a03c47c7570b409e0a3abe9b649313a6
+[INFO ] 2025-05-16 23:28:29.540 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:28:29.749 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:28:29.972 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:28:30.203 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-16 23:28:30.203 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 0
+[INFO ] 2025-05-16 23:28:30.240 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+    if num in input_list:
+        print("Element Found")
+    else:
+        print("Not Found")
+
+search([12, 23, 45, 67, 6, 90], 12)
+[INFO ] 2025-05-16 23:28:30.412 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:28:40.539 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 23:28:46.125 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:28:46.362 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:28:46.576 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:28:46.812 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-16 23:28:46.813 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 1
+[INFO ] 2025-05-16 23:28:46.843 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+if(num in input_list):
+print("Element Found")
+\xc
+\xc
+else:
+print("Not Found")
+\xc
+\xc
+\xc
+\xc
+search([12, 23, 45, 67, 6, 90] , 12)
+[INFO ] 2025-05-16 23:28:47.034 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:28:47.040 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 2
+[INFO ] 2025-05-16 23:28:47.791 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:28:48.016 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:28:48.252 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:28:48.443 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-16 23:28:48.443 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 2
+[INFO ] 2025-05-16 23:28:48.472 [main] LoggerLoad - Editor Code is -->def findMaxConsecutiveOnes(nums):
+    count = 0
+    result = 0
+    for i in range(len(nums)):
+        if nums[i] == 0:
+            count = 0
+        else:
+            count += 1
+            result = max(result, count)
+    print(result)
+
+findMaxConsecutiveOnes([1, 0, 1, 1, 0, 1])
+[INFO ] 2025-05-16 23:28:48.661 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:28:48.703 [main] LoggerLoad - Console output: 2
+[INFO ] 2025-05-16 23:28:49.263 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:28:49.485 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:28:49.755 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:28:49.967 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-16 23:28:49.968 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 3
+[INFO ] 2025-05-16 23:28:50.001 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-16 23:28:50.153 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-05-16 23:28:50.161 [main] LoggerLoad - Error fetching console output: unexpected alert open: {Alert text : SyntaxError: bad input on line 1}
+  (Session info: chrome=136.0.7103.114): SyntaxError: bad input on line 1
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a03c47c7570b409e0a3abe9b649313a6, findElement {using=xpath, value=//pre[@id='output']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58859}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58859/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a03c47c7570b409e0a3abe9b649313a6
+[INFO ] 2025-05-16 23:28:50.913 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:28:51.134 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:28:51.352 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:28:51.543 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-16 23:28:51.543 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 2
+[INFO ] 2025-05-16 23:28:51.571 [main] LoggerLoad - Editor Code is -->def findMaxConsecutiveOnes(nums):
+    count = 0
+    result = 0
+    for i in range(len(nums)):
+        if nums[i] == 0:
+            count = 0
+        else:
+            count += 1
+            result = max(result, count)
+    print(result)
+
+findMaxConsecutiveOnes([1, 0, 1, 1, 0, 1])
+[INFO ] 2025-05-16 23:28:51.743 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:29:01.855 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 23:29:07.481 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:29:07.693 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:29:07.902 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:29:08.133 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-16 23:29:08.133 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 3
+[INFO ] 2025-05-16 23:29:08.166 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-16 23:29:08.316 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:29:08.321 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:29:09.012 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:29:09.238 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:29:09.461 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:29:09.726 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-16 23:29:09.727 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 0
+[INFO ] 2025-05-16 23:29:09.755 [main] LoggerLoad - Editor Code is -->def count_even_digit_numbers(nums):
+    count = 0
+    for num in nums:
+        if len(str(abs(num))) % 2 == 0:
+            count += 1
+    return count
+
+# Example usage
+input_list = [12, 345, 2, 6, 7896]
+result = count_even_digit_numbers(input_list)
+print("Count of numbers with even number of digits:", result)
+[INFO ] 2025-05-16 23:29:09.918 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:29:09.978 [main] LoggerLoad - Console output: ('Count of numbers with even number of digits:', 2)
+[INFO ] 2025-05-16 23:29:10.617 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:29:10.835 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:29:11.046 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:29:11.253 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-16 23:29:11.253 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 1
+[INFO ] 2025-05-16 23:29:11.278 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-16 23:29:11.438 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-05-16 23:29:11.446 [main] LoggerLoad - Error fetching console output: unexpected alert open: {Alert text : SyntaxError: bad input on line 1}
+  (Session info: chrome=136.0.7103.114): SyntaxError: bad input on line 1
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a03c47c7570b409e0a3abe9b649313a6, findElement {using=xpath, value=//pre[@id='output']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58859}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58859/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a03c47c7570b409e0a3abe9b649313a6
+[INFO ] 2025-05-16 23:29:12.148 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:29:12.351 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:29:12.562 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:29:12.789 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-16 23:29:12.789 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 0
+[INFO ] 2025-05-16 23:29:12.816 [main] LoggerLoad - Editor Code is -->def count_even_digit_numbers(nums):
+    count = 0
+    for num in nums:
+        if len(str(abs(num))) % 2 == 0:
+            count += 1
+    return count
+
+# Example usage
+input_list = [12, 345, 2, 6, 7896]
+result = count_even_digit_numbers(input_list)
+print("Count of numbers with even number of digits:", result)
+[INFO ] 2025-05-16 23:29:12.977 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:29:23.101 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 23:29:28.721 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:29:28.953 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:29:29.185 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:29:29.438 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-16 23:29:29.439 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 1
+[INFO ] 2025-05-16 23:29:29.462 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-16 23:29:29.608 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:29:29.614 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:29:30.305 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:29:30.535 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:29:30.736 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:29:30.972 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-16 23:29:30.973 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:29:30.999 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:29:31.176 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:29:31.224 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 23:29:31.824 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:29:32.020 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:29:32.254 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:29:32.444 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-16 23:29:32.445 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:29:32.467 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:29:32.623 [main] LoggerLoad - Clicked the Run button.
+[ERROR] 2025-05-16 23:29:32.630 [main] LoggerLoad - Error fetching console output: unexpected alert open: {Alert text : SyntaxError: bad input on line 1}
+  (Session info: chrome=136.0.7103.114): SyntaxError: bad input on line 1
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a03c47c7570b409e0a3abe9b649313a6, findElement {using=xpath, value=//pre[@id='output']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58859}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58859/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a03c47c7570b409e0a3abe9b649313a6
+[INFO ] 2025-05-16 23:29:33.273 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:29:33.504 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:29:33.739 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:29:33.930 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-16 23:29:33.930 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:29:33.953 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:29:34.100 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:29:44.211 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 23:29:49.812 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:29:50.017 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:29:50.238 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:29:50.429 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-16 23:29:50.429 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:29:50.450 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:29:50.609 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:29:50.616 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:29:50.948 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-16 23:35:38.090 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-16 23:35:38.784 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-16 23:35:40.153 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:35:40.983 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:35:41.881 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:35:41.953 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:35:42.128 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:35:45.184 [main] LoggerLoad - No alert present. Proceeding to fetch console output.
+[INFO ] 2025-05-16 23:35:45.219 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 23:35:50.805 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:35:51.005 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:35:51.279 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:35:51.347 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:35:51.514 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:35:51.524 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:35:52.213 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:35:52.434 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:35:52.727 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:35:52.783 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:35:52.921 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:36:03.101 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 23:36:08.699 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:36:08.923 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:36:09.204 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:36:09.255 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:36:09.416 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:36:09.429 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:36:10.125 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:36:10.394 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-16 23:36:10.639 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:36:10.688 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:36:10.842 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:36:13.881 [main] LoggerLoad - No alert present. Proceeding to fetch console output.
+[INFO ] 2025-05-16 23:36:13.910 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 23:36:19.432 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:36:19.695 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-16 23:36:19.960 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:36:20.006 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:36:20.175 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:36:20.184 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:36:20.858 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:36:21.070 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-16 23:36:21.350 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:36:21.395 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:36:21.532 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:36:31.728 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 23:36:37.403 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:36:37.659 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-16 23:36:37.942 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:36:37.989 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:36:38.166 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:36:38.174 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:36:38.930 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:36:39.206 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-16 23:36:39.500 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:36:39.551 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:36:39.684 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:36:42.741 [main] LoggerLoad - No alert present. Proceeding to fetch console output.
+[INFO ] 2025-05-16 23:36:42.771 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 23:36:48.393 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:36:48.665 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-16 23:36:49.042 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:36:49.084 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:36:49.259 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:36:49.269 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:36:49.983 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:36:50.231 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-16 23:36:50.497 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:36:50.531 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:36:50.702 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:37:00.827 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 23:37:06.460 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:37:06.731 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-16 23:37:06.992 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:37:07.022 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:37:07.193 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:37:07.199 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:37:07.964 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:37:08.236 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:37:08.499 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:37:08.531 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:37:08.677 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:37:11.716 [main] LoggerLoad - No alert present. Proceeding to fetch console output.
+[INFO ] 2025-05-16 23:37:11.746 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 23:37:17.338 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:37:17.598 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:37:17.842 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:37:17.876 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:37:18.044 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:37:18.052 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:37:18.717 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:37:18.975 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:37:19.243 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:37:19.285 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:37:19.415 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:37:29.553 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 23:37:35.169 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:37:35.448 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-16 23:37:35.709 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:37:35.743 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:37:35.881 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:37:35.887 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:37:36.577 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:37:36.787 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:37:37.019 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:37:37.267 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-16 23:37:37.267 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 0
+[INFO ] 2025-05-16 23:37:37.304 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+    if num in input_list:
+        print("Element Found")
+    else:
+        print("Not Found")
+
+search([12, 23, 45, 67, 6, 90], 12)
+[INFO ] 2025-05-16 23:37:37.472 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:37:40.503 [main] LoggerLoad - No alert present. Proceeding to fetch console output.
+[INFO ] 2025-05-16 23:37:40.531 [main] LoggerLoad - Console output: Element Found
+[INFO ] 2025-05-16 23:37:46.111 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:37:46.317 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:37:46.525 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:37:46.732 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-16 23:37:46.740 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 1
+[INFO ] 2025-05-16 23:37:46.771 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+if(num in input_list):
+print("Element Found")
+\xc
+\xc
+else:
+print("Not Found")
+\xc
+\xc
+\xc
+\xc
+search([12, 23, 45, 67, 6, 90] , 12)
+[INFO ] 2025-05-16 23:37:46.943 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:37:46.949 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 2
+[INFO ] 2025-05-16 23:37:47.593 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:37:47.844 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:37:48.092 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:37:48.286 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-16 23:37:48.286 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 0
+[INFO ] 2025-05-16 23:37:48.316 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+    if num in input_list:
+        print("Element Found")
+    else:
+        print("Not Found")
+
+search([12, 23, 45, 67, 6, 90], 12)
+[INFO ] 2025-05-16 23:37:48.482 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:37:58.608 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 23:38:04.242 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:38:04.458 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:38:04.654 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:38:04.883 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-16 23:38:04.883 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 1
+[INFO ] 2025-05-16 23:38:04.910 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+if(num in input_list):
+print("Element Found")
+\xc
+\xc
+else:
+print("Not Found")
+\xc
+\xc
+\xc
+\xc
+search([12, 23, 45, 67, 6, 90] , 12)
+[INFO ] 2025-05-16 23:38:05.078 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:38:05.086 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 2
+[INFO ] 2025-05-16 23:38:05.758 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:38:05.992 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:38:06.209 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:38:06.418 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-16 23:38:06.419 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 2
+[INFO ] 2025-05-16 23:38:06.449 [main] LoggerLoad - Editor Code is -->def findMaxConsecutiveOnes(nums):
+    count = 0
+    result = 0
+    for i in range(len(nums)):
+        if nums[i] == 0:
+            count = 0
+        else:
+            count += 1
+            result = max(result, count)
+    print(result)
+
+findMaxConsecutiveOnes([1, 0, 1, 1, 0, 1])
+[INFO ] 2025-05-16 23:38:06.609 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:38:09.642 [main] LoggerLoad - No alert present. Proceeding to fetch console output.
+[INFO ] 2025-05-16 23:38:09.670 [main] LoggerLoad - Console output: 2
+[INFO ] 2025-05-16 23:38:15.212 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:38:15.426 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:38:15.660 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:38:15.884 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-16 23:38:15.885 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 3
+[INFO ] 2025-05-16 23:38:15.911 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-16 23:38:16.062 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:38:16.068 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:38:16.690 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:38:16.900 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:38:17.104 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:38:17.320 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-16 23:38:17.321 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 2
+[INFO ] 2025-05-16 23:38:17.355 [main] LoggerLoad - Editor Code is -->def findMaxConsecutiveOnes(nums):
+    count = 0
+    result = 0
+    for i in range(len(nums)):
+        if nums[i] == 0:
+            count = 0
+        else:
+            count += 1
+            result = max(result, count)
+    print(result)
+
+findMaxConsecutiveOnes([1, 0, 1, 1, 0, 1])
+[INFO ] 2025-05-16 23:38:17.521 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:38:27.632 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 23:38:33.228 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:38:33.440 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:38:33.719 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:38:33.938 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-16 23:38:33.938 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 3
+[INFO ] 2025-05-16 23:38:33.968 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-16 23:38:34.117 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:38:34.123 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:38:34.796 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:38:35.025 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:38:35.245 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:38:35.480 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-16 23:38:35.481 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 0
+[INFO ] 2025-05-16 23:38:35.507 [main] LoggerLoad - Editor Code is -->def count_even_digit_numbers(nums):
+    count = 0
+    for num in nums:
+        if len(str(abs(num))) % 2 == 0:
+            count += 1
+    return count
+
+# Example usage
+input_list = [12, 345, 2, 6, 7896]
+result = count_even_digit_numbers(input_list)
+print("Count of numbers with even number of digits:", result)
+[INFO ] 2025-05-16 23:38:35.676 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:38:38.713 [main] LoggerLoad - No alert present. Proceeding to fetch console output.
+[INFO ] 2025-05-16 23:38:38.742 [main] LoggerLoad - Console output: ('Count of numbers with even number of digits:', 2)
+[INFO ] 2025-05-16 23:38:44.277 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:38:44.477 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:38:44.711 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:38:44.915 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-16 23:38:44.915 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 1
+[INFO ] 2025-05-16 23:38:44.943 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-16 23:38:45.085 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:38:45.091 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:38:45.800 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:38:46.010 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:38:46.219 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:38:46.437 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-16 23:38:46.437 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 0
+[INFO ] 2025-05-16 23:38:46.465 [main] LoggerLoad - Editor Code is -->def count_even_digit_numbers(nums):
+    count = 0
+    for num in nums:
+        if len(str(abs(num))) % 2 == 0:
+            count += 1
+    return count
+
+# Example usage
+input_list = [12, 345, 2, 6, 7896]
+result = count_even_digit_numbers(input_list)
+print("Count of numbers with even number of digits:", result)
+[INFO ] 2025-05-16 23:38:46.627 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:38:56.734 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 23:39:02.297 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:39:02.499 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:39:02.752 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:39:02.982 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-16 23:39:02.983 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 1
+[INFO ] 2025-05-16 23:39:03.007 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-16 23:39:03.150 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:39:03.156 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:39:03.871 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:39:04.102 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:39:04.329 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:39:04.524 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-16 23:39:04.524 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:39:04.546 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:39:04.701 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:39:07.735 [main] LoggerLoad - No alert present. Proceeding to fetch console output.
+[INFO ] 2025-05-16 23:39:07.761 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-16 23:39:13.378 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:39:13.600 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:39:13.803 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:39:14.032 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-16 23:39:14.032 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:39:14.058 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:39:14.251 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:39:14.256 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:39:14.855 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:39:15.072 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:39:15.295 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:39:15.484 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-16 23:39:15.484 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-16 23:39:15.507 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-16 23:39:15.664 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:39:25.780 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-16 23:39:31.398 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-16 23:39:31.619 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-16 23:39:31.830 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-16 23:39:32.028 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-16 23:39:32.029 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-16 23:39:32.055 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-16 23:39:32.202 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-16 23:39:32.208 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-16 23:39:32.575 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-17 00:10:06.092 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-17 00:10:06.831 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-17 00:10:08.308 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:10:09.128 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 00:10:10.054 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-17 00:10:10.127 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-17 00:10:10.302 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:10:13.358 [main] LoggerLoad - No alert present. Proceeding to fetch console output.
+[INFO ] 2025-05-17 00:10:13.393 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-17 00:10:18.994 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:10:19.206 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 00:10:19.456 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-17 00:10:19.512 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-17 00:10:19.685 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:10:19.696 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-17 00:10:20.416 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:10:20.677 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 00:10:20.961 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-17 00:10:21.015 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-17 00:10:21.156 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:10:31.290 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-17 00:10:36.924 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:10:37.166 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 00:10:37.422 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-17 00:10:37.473 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-17 00:10:37.624 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:10:37.632 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-17 00:10:38.260 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:10:38.552 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-17 00:10:38.803 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-17 00:10:38.855 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-17 00:10:38.986 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:10:42.018 [main] LoggerLoad - No alert present. Proceeding to fetch console output.
+[INFO ] 2025-05-17 00:10:42.055 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-17 00:10:47.691 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:10:47.919 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-17 00:10:48.197 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-17 00:10:48.245 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-17 00:10:48.406 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:10:48.412 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-17 00:10:49.093 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:10:49.311 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-17 00:10:49.555 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-17 00:10:49.596 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-17 00:10:49.725 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:10:59.863 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-17 00:11:05.432 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:11:05.738 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-17 00:11:06.051 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-17 00:11:06.099 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-17 00:11:06.248 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:11:06.259 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-17 00:11:07.148 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:11:07.451 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-17 00:11:08.153 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-17 00:11:08.199 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-17 00:11:08.353 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:11:11.391 [main] LoggerLoad - No alert present. Proceeding to fetch console output.
+[INFO ] 2025-05-17 00:11:11.421 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-17 00:11:17.231 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:11:17.486 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-17 00:11:17.845 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-17 00:11:17.885 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-17 00:11:18.045 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:11:18.056 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-17 00:11:18.729 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:11:18.967 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-17 00:11:19.294 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-17 00:11:19.333 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-17 00:11:19.472 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:11:29.587 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-17 00:11:35.232 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:11:35.485 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-17 00:11:35.788 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-17 00:11:35.825 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-17 00:11:35.968 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:11:35.976 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-17 00:11:36.729 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:11:37.030 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-17 00:11:37.359 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-17 00:11:37.400 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-17 00:11:37.543 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:11:40.577 [main] LoggerLoad - No alert present. Proceeding to fetch console output.
+[INFO ] 2025-05-17 00:11:40.604 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-17 00:11:46.173 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:11:46.396 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-17 00:11:46.646 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-17 00:11:46.700 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-17 00:11:46.844 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:11:46.849 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-17 00:11:47.517 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:11:47.796 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-17 00:11:48.055 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-17 00:11:48.096 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-17 00:11:48.237 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:11:58.351 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-17 00:12:03.963 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:12:04.231 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-17 00:12:04.652 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-17 00:12:04.690 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-17 00:12:04.843 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:12:04.849 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-17 00:12:05.527 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:12:05.780 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 00:12:05.998 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-17 00:12:06.250 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-17 00:12:06.251 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 0
+[INFO ] 2025-05-17 00:12:06.293 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+    if num in input_list:
+        print("Element Found")
+    else:
+        print("Not Found")
+
+search([12, 23, 45, 67, 6, 90], 12)
+[INFO ] 2025-05-17 00:12:06.468 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:12:09.511 [main] LoggerLoad - No alert present. Proceeding to fetch console output.
+[INFO ] 2025-05-17 00:12:09.538 [main] LoggerLoad - Console output: Element Found
+[INFO ] 2025-05-17 00:12:15.269 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:12:15.501 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 00:12:15.717 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-17 00:12:15.941 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-17 00:12:15.941 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 1
+[INFO ] 2025-05-17 00:12:15.978 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+if(num in input_list):
+print("Element Found")
+\xc
+\xc
+else:
+print("Not Found")
+\xc
+\xc
+\xc
+\xc
+search([12, 23, 45, 67, 6, 90] , 12)
+[INFO ] 2025-05-17 00:12:16.144 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:12:16.150 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 2
+[INFO ] 2025-05-17 00:12:16.768 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:12:16.981 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 00:12:17.180 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-17 00:12:17.360 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-17 00:12:17.360 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 0
+[INFO ] 2025-05-17 00:12:17.392 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+    if num in input_list:
+        print("Element Found")
+    else:
+        print("Not Found")
+
+search([12, 23, 45, 67, 6, 90], 12)
+[INFO ] 2025-05-17 00:12:17.555 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:12:27.669 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-17 00:12:33.261 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:12:33.488 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 00:12:33.749 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-17 00:12:33.960 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-17 00:12:33.960 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 1
+[INFO ] 2025-05-17 00:12:33.995 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+if(num in input_list):
+print("Element Found")
+\xc
+\xc
+else:
+print("Not Found")
+\xc
+\xc
+\xc
+\xc
+search([12, 23, 45, 67, 6, 90] , 12)
+[INFO ] 2025-05-17 00:12:34.173 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:12:34.178 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 2
+[INFO ] 2025-05-17 00:12:34.820 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:12:35.049 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 00:12:35.264 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-17 00:12:35.505 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-17 00:12:35.506 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 2
+[INFO ] 2025-05-17 00:12:35.542 [main] LoggerLoad - Editor Code is -->def findMaxConsecutiveOnes(nums):
+    count = 0
+    result = 0
+    for i in range(len(nums)):
+        if nums[i] == 0:
+            count = 0
+        else:
+            count += 1
+            result = max(result, count)
+    print(result)
+
+findMaxConsecutiveOnes([1, 0, 1, 1, 0, 1])
+[INFO ] 2025-05-17 00:12:35.706 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:12:38.742 [main] LoggerLoad - No alert present. Proceeding to fetch console output.
+[INFO ] 2025-05-17 00:12:38.770 [main] LoggerLoad - Console output: 2
+[INFO ] 2025-05-17 00:12:44.315 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:12:44.568 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 00:12:44.805 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-17 00:12:45.001 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-17 00:12:45.002 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 3
+[INFO ] 2025-05-17 00:12:45.039 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-17 00:12:45.192 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:12:45.201 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-17 00:12:45.898 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:12:46.131 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 00:12:46.363 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-17 00:12:46.590 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-17 00:12:46.590 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 2
+[INFO ] 2025-05-17 00:12:46.627 [main] LoggerLoad - Editor Code is -->def findMaxConsecutiveOnes(nums):
+    count = 0
+    result = 0
+    for i in range(len(nums)):
+        if nums[i] == 0:
+            count = 0
+        else:
+            count += 1
+            result = max(result, count)
+    print(result)
+
+findMaxConsecutiveOnes([1, 0, 1, 1, 0, 1])
+[INFO ] 2025-05-17 00:12:46.859 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:12:57.004 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-17 00:13:02.583 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:13:02.830 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 00:13:03.034 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-17 00:13:03.259 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-17 00:13:03.259 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 3
+[INFO ] 2025-05-17 00:13:03.296 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-17 00:13:03.437 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:13:03.445 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-17 00:13:04.100 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:13:04.318 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 00:13:04.564 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-17 00:13:04.795 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-17 00:13:04.795 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 0
+[INFO ] 2025-05-17 00:13:04.829 [main] LoggerLoad - Editor Code is -->def count_even_digit_numbers(nums):
+    count = 0
+    for num in nums:
+        if len(str(abs(num))) % 2 == 0:
+            count += 1
+    return count
+
+# Example usage
+input_list = [12, 345, 2, 6, 7896]
+result = count_even_digit_numbers(input_list)
+print("Count of numbers with even number of digits:", result)
+[INFO ] 2025-05-17 00:13:04.997 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:13:08.031 [main] LoggerLoad - No alert present. Proceeding to fetch console output.
+[INFO ] 2025-05-17 00:13:08.058 [main] LoggerLoad - Console output: ('Count of numbers with even number of digits:', 2)
+[INFO ] 2025-05-17 00:13:13.599 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:13:13.845 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 00:13:14.047 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-17 00:13:14.286 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-17 00:13:14.286 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 1
+[INFO ] 2025-05-17 00:13:14.317 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-17 00:13:14.462 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:13:14.467 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-17 00:13:15.186 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:13:15.423 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 00:13:15.706 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-17 00:13:15.942 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-17 00:13:15.942 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 0
+[INFO ] 2025-05-17 00:13:15.972 [main] LoggerLoad - Editor Code is -->def count_even_digit_numbers(nums):
+    count = 0
+    for num in nums:
+        if len(str(abs(num))) % 2 == 0:
+            count += 1
+    return count
+
+# Example usage
+input_list = [12, 345, 2, 6, 7896]
+result = count_even_digit_numbers(input_list)
+print("Count of numbers with even number of digits:", result)
+[INFO ] 2025-05-17 00:13:16.143 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:13:26.259 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-17 00:13:32.201 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:13:32.463 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 00:13:32.679 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-17 00:13:32.890 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-17 00:13:32.890 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 1
+[INFO ] 2025-05-17 00:13:32.921 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-17 00:13:33.069 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:13:33.074 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-17 00:13:33.779 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:13:34.018 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 00:13:34.217 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-17 00:13:34.458 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-17 00:13:34.459 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-17 00:13:34.493 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-17 00:13:34.629 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:13:37.665 [main] LoggerLoad - No alert present. Proceeding to fetch console output.
+[INFO ] 2025-05-17 00:13:37.692 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-17 00:13:43.236 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:13:43.459 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 00:13:43.737 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-17 00:13:43.966 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-17 00:13:43.966 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-17 00:13:43.992 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-17 00:13:44.143 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:13:44.149 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-17 00:13:44.823 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:13:45.120 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 00:13:45.368 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-17 00:13:45.557 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-17 00:13:45.558 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-17 00:13:45.586 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-17 00:13:45.732 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:13:55.850 [main] LoggerLoad - No alert present after waiting.
+[INFO ] 2025-05-17 00:14:01.469 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 00:14:01.733 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 00:14:01.949 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-17 00:14:02.182 [main] LoggerLoad - Clicking Squares of a Sorted ArrayTests link
+[INFO ] 2025-05-17 00:14:02.183 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-17 00:14:02.221 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-17 00:14:02.360 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 00:14:02.366 [main] LoggerLoad - Alert present: SyntaxError: bad input on line 1
+[INFO ] 2025-05-17 00:14:02.766 [main] LoggerLoad - Browser closed successfully.

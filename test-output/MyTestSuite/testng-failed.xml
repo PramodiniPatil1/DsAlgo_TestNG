@@ -1,17 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [MyTestSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="DataStructureTest(failed)">
+  <test thread-count="5" name="ArrayTests(failed)">
     <classes>
-      <class name="testClasses.DataStructureTests">
+      <class name="testClasses.ArrayTests">
         <methods>
-          <include name="testInValidOutputforTimeComplexity"/>
-          <include name="SetUp"/>
+          <include name="MaxConsecutiveOnes" invocation-numbers="1"/>
+          <include name="BasicOperationsinLists" invocation-numbers="1"/>
           <include name="tearDown"/>
-          <include name="testValidOutputforTimeComplexity1"/>
-          <include name="setUp"/>
+          <include name="SetUp"/>
+          <include name="SquaresofaSorted1" invocation-numbers="0"/>
+          <include name="ArraysUsingList" invocation-numbers="1"/>
+          <include name="ArraysUsingList1" invocation-numbers="0"/>
+          <include name="ApplicationsofArray1" invocation-numbers="0"/>
+          <include name="BasicOperationsinLists1" invocation-numbers="0"/>
+          <include name="MaxConsecutiveOnes1" invocation-numbers="0"/>
+          <include name="EvenNumberOfDigits1" invocation-numbers="0"/>
+          <include name="ApplicationsofArray" invocation-numbers="1"/>
+          <include name="EvenNumberOfDigits" invocation-numbers="1"/>
+          <include name="setUpOnce"/>
+          <include name="resetToHomeBeforeTest"/>
+          <include name="ArraysinPython1" invocation-numbers="0"/>
+          <include name="SquaresofaSorted" invocation-numbers="1"/>
+          <include name="SearchTheArray" invocation-numbers="1"/>
+          <include name="SearchTheArray1" invocation-numbers="0 1"/>
+          <include name="ArraysinPython" invocation-numbers="1"/>
         </methods>
-      </class> <!-- testClasses.DataStructureTests -->
+      </class> <!-- testClasses.ArrayTests -->
     </classes>
-  </test> <!-- DataStructureTest(failed) -->
+  </test> <!-- ArrayTests(failed) -->
 </suite> <!-- Failed suite [MyTestSuite] -->

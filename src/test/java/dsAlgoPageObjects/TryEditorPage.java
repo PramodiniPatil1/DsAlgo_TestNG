@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.TimeoutException;
+import org.openqa.selenium.UnhandledAlertException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -116,18 +117,35 @@ public class TryEditorPage {
    }
    
    public String getOutputText() {
-       try {
-           WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-           WebElement output = wait.until(ExpectedConditions.visibilityOf(consoleOutputMsg));
-           String consoleOutput = output.getText();
-           LoggerLoad.info("Console output: " + consoleOutput);
-           return consoleOutput;
-       } catch (Exception e) {
-           LoggerLoad.error("Error fetching console output: " + e.getMessage());
-           return "";
-       }
-   }
-   
+	    try {
+	        // First, check if an alert is present
+	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
+	        Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+	        String alertText = alert.getText();
+	        LoggerLoad.info("Alert present: " + alertText);
+	        alert.accept(); // Accept the alert to dismiss it
+	        return "Alert: " + alertText; // Optional: return alert text if needed
+	    } catch (TimeoutException e) {
+	        LoggerLoad.info("No alert present. Proceeding to fetch console output.");
+	    }
+
+	    try {
+	        // Now check if the output message is visible
+	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+	        WebElement output = wait.until(ExpectedConditions.visibilityOf(consoleOutputMsg));
+	        String consoleOutput = output.getText();
+	        LoggerLoad.info("Console output: " + consoleOutput);
+	        return consoleOutput;
+	    } catch (UnhandledAlertException e) {
+	        LoggerLoad.error("Unhandled alert found while fetching output: " + e.getAlertText());
+	        driver.switchTo().alert().accept(); // Accept the alert to prevent test interruption
+	        return "Unhandled Alert: " + e.getAlertText();
+	    } catch (Exception e) {
+	        LoggerLoad.error("Error fetching console output: " + e.getMessage());
+	        return "";
+	    }
+	}
+
    public void PageScrolldown() {
 		PageFactory.initElements(driver, this);
 	JavascriptExecutor js = (JavascriptExecutor) driver;

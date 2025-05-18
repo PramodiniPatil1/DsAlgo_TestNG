@@ -24,12 +24,9 @@ public class BaseClass {
 
 	WebDriver driver = DriverFactory.getDriver();
 	
-	//Added constructor 
-	  public BaseClass() {
+		  public BaseClass() {
 	        System.out.println("BaseClass Constructor Called");
 	    }
-
-
 
 	@BeforeSuite
 	public void SetUp() throws IOException {
@@ -50,7 +47,7 @@ public class BaseClass {
 	        String scrShot = "screenshot_" + new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
 	        File screenshots = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
-	        Path screenshotDir = Path.of("C:\\Users\\onlin\\eclipse-workspace\\DsAlgo_TestNG\\src\\test\\resources\\Screenshots");
+	        Path screenshotDir = Path.of("user.dir") + "/Screenshots");
 	        if (!Files.exists(screenshotDir)) {
 	            Files.createDirectories(screenshotDir);
 	        }

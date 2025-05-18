@@ -52,7 +52,7 @@ public class ArrayTests extends BaseClass {
 
 	@DataProvider(name = "Pythoncode1")
 	public Object[][] validCodePracticeQns() throws IOException, OpenXML4JException {
-		return new Object[][] { { "ArrayPracticeQnsQ1", 0, "Element Found" }, };// valid
+		return new Object[][] { { "ArrayPracticeQnsQ1", 0, "Element Found" }, };// valid for array
 
 	}
 

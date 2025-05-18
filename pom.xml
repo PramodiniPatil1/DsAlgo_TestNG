@@ -1,4 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>TestNG</groupId>
   <artifactId>TestNG</artifactId>
@@ -19,6 +19,12 @@
             <version>7.9.0</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-picocontainer</artifactId>
+    <version>7.15.0</version>
+</dependency>
 
         <!-- Selenium -->
         <dependency>
@@ -53,6 +59,13 @@
         	<artifactId>DsAlgo_Galaxy</artifactId>
         	<version>0.0.1-SNAPSHOT</version>
         </dependency>
+        
+        	<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.15.0</version> <!-- Update to a stable version -->
+		</dependency>
+
     
     </dependencies>
 
@@ -75,7 +88,6 @@
             </plugin>
         </plugins>
     </build>
-
 
 
 </project>

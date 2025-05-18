@@ -425,3 +425,173 @@
 [INFO ] 2025-05-15 18:51:17.670 [main] LoggerLoad - Clicked on RegisterTests button
 [INFO ] 2025-05-15 18:51:17.702 [main] LoggerLoad - ValidationMessage: Please fill out this field.
 >>>>>>> 9bf215d64a7f8ff003420b728c9e4a5e5bc1c531
+[INFO ] 2025-05-17 21:01:57.187 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-17 21:01:57.998 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-17 21:01:59.325 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 21:02:00.055 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 21:02:00.699 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-17 21:02:00.767 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-17 21:02:00.918 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 21:02:00.958 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-17 21:02:01.241 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-17 21:02:03.403 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-17 21:02:03.663 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-17 21:02:04.960 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 21:02:05.539 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 21:02:06.173 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-17 21:02:06.221 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-17 21:02:06.365 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 21:02:06.613 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-17 21:02:08.847 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-17 21:02:09.058 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-17 21:02:10.328 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 21:02:10.622 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-17 21:02:11.225 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-17 21:02:11.270 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-17 21:02:11.426 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 21:02:11.469 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-17 21:02:11.756 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-17 21:02:13.868 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-17 21:02:14.092 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-17 21:02:15.341 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 21:02:15.624 [main] LoggerLoad - Clicking Arrays Using List link
+[INFO ] 2025-05-17 21:02:16.442 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-17 21:02:16.486 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-17 21:02:16.655 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 21:02:16.919 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-17 21:02:19.085 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-17 21:02:19.324 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-17 21:02:20.590 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 21:02:20.901 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-17 21:02:21.546 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-17 21:02:21.591 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-17 21:02:21.743 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 21:02:21.777 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-17 21:02:22.051 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-17 21:02:24.091 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-17 21:02:24.375 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-17 21:02:25.617 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 21:02:25.941 [main] LoggerLoad - Clicking Basic Operations In Lists link
+[INFO ] 2025-05-17 21:02:26.525 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-17 21:02:26.567 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-17 21:02:26.738 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 21:02:27.022 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-17 21:02:29.109 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-17 21:02:29.328 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-17 21:02:30.711 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 21:02:31.024 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-17 21:02:31.637 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-17 21:02:31.680 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-17 21:02:31.832 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 21:02:31.867 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-17 21:02:32.097 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-17 21:02:34.225 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-17 21:02:34.440 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-17 21:02:35.686 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 21:02:36.020 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-17 21:02:36.659 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-17 21:02:36.696 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-17 21:02:36.832 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 21:02:37.100 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-17 21:02:39.214 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-17 21:02:39.452 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-17 21:02:40.787 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 21:02:41.148 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 21:02:41.409 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-17 21:02:41.985 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-17 21:02:41.985 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 0
+[INFO ] 2025-05-17 21:02:42.022 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+    if num in input_list:
+        print("Element Found")
+    else:
+        print("Not Found")
+
+search([12, 23, 45, 67, 6, 90], 12)
+[INFO ] 2025-05-17 21:02:42.168 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 21:02:42.203 [main] LoggerLoad - Console output: Element Found
+[INFO ] 2025-05-17 21:02:42.443 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-17 21:02:44.601 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-17 21:02:44.794 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-17 21:02:46.309 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 21:02:46.679 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 21:02:46.914 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-17 21:02:47.472 [main] LoggerLoad - Clicking Search the ArrayTests link
+[INFO ] 2025-05-17 21:02:47.472 [main] LoggerLoad - Reading code from Excel sheet: ArrayPracticeQnsQ1, Row: 1
+[INFO ] 2025-05-17 21:02:47.511 [main] LoggerLoad - Editor Code is -->def search(input_list, num):
+if(num in input_list):
+print("Element Found")
+\xc
+\xc
+else:
+print("Not Found")
+\xc
+\xc
+\xc
+\xc
+search([12, 23, 45, 67, 6, 90] , 12)
+[INFO ] 2025-05-17 21:02:47.661 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 21:02:47.902 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-17 21:02:50.024 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-17 21:02:50.228 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-17 21:02:51.467 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 21:02:51.993 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 21:02:52.215 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-17 21:02:52.803 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-17 21:02:52.803 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 2
+[INFO ] 2025-05-17 21:02:53.099 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-17 21:02:55.394 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-17 21:02:55.603 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-17 21:02:56.894 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 21:02:57.273 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 21:02:57.510 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-17 21:02:58.131 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-17 21:02:58.131 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 3
+[INFO ] 2025-05-17 21:02:58.452 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-17 21:03:00.858 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-17 21:03:01.064 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-17 21:03:02.319 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 21:03:02.677 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 21:03:02.923 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-17 21:03:03.523 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-17 21:03:03.523 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 0
+[INFO ] 2025-05-17 21:03:03.790 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-17 21:03:05.948 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-17 21:03:06.166 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-17 21:03:07.338 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-17 21:03:07.702 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-17 21:03:07.945 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-17 21:03:08.562 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-17 21:03:08.562 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 1
+[INFO ] 2025-05-17 21:03:08.867 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-17 21:03:08.937 [main] LoggerLoad - Driver is already null, nothing to close.
+[INFO ] 2025-05-17 21:08:27.175 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-17 21:11:11.650 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-17 21:12:58.171 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-17 21:18:04.168 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-17 21:18:48.994 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-17 21:18:49.800 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-17 21:18:51.211 [main] LoggerLoad - DS-Introduction Get Started Button 
+[INFO ] 2025-05-17 21:18:51.508 [main] LoggerLoad - Time Complexity Link Clicked
+[INFO ] 2025-05-17 21:18:52.127 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-17 21:18:52.192 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-17 21:18:52.341 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 21:18:52.651 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-17 21:19:04.221 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-17 21:19:44.436 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-17 21:19:45.185 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-17 21:19:46.539 [main] LoggerLoad - DS-Introduction Get Started Button 
+[INFO ] 2025-05-17 21:19:46.821 [main] LoggerLoad - Time Complexity Link Clicked
+[INFO ] 2025-05-17 21:19:47.496 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-17 21:19:47.555 [main] LoggerLoad - Editor Code is -->print('Hello
+[INFO ] 2025-05-17 21:19:47.708 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 21:19:48.003 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-17 21:19:50.138 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-17 21:19:50.424 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-17 21:19:51.636 [main] LoggerLoad - DS-Introduction Get Started Button 
+[INFO ] 2025-05-17 21:19:52.053 [main] LoggerLoad - Time Complexity Link Clicked
+[INFO ] 2025-05-17 21:19:52.702 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-17 21:19:52.753 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-17 21:19:52.892 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-17 21:19:52.930 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-17 21:19:53.177 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-17 21:19:53.209 [main] LoggerLoad - Driver is already null, nothing to close.

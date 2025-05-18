@@ -1,3 +1,4 @@
+
 package baseClass;
 
 import java.io.File;
@@ -22,6 +23,7 @@ import utils.LoggerLoad;
 
 public class BaseClass {
 
+
 	WebDriver driver = DriverFactory.getDriver();
 	
 		  public BaseClass() {
@@ -34,10 +36,12 @@ public class BaseClass {
 		   	 ConfigReader.loadConfig();
 		    String browser = ConfigReader.getProperty("browser");
 		   
+
 		    DriverFactory.initializeDriver("chrome"); 
 		    driver = DriverFactory.getDriver(); 
 		    HomePageObj homepage = new HomePageObj(driver);
 		    System.out.println("BaseClass WebDriver: " + (driver != null)); 
+
 		    String url = ConfigReader.getProperty("Url");
 		    driver.get(url);
 		}
@@ -47,7 +51,9 @@ public class BaseClass {
 	        String scrShot = "screenshot_" + new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
 	        File screenshots = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
+
 	        Path screenshotDir = Path.of(("user.dir") + "/Screenshots");
+
 	        if (!Files.exists(screenshotDir)) {
 	            Files.createDirectories(screenshotDir);
 	        }

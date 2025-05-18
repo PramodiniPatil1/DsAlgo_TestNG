@@ -14,28 +14,33 @@ import utils.DataProviders;
 public class DataStructureTests extends BaseClass {
 
     WebDriver driver;
+
 	DataStructurePageObj dataStructurerpage;
+
     TryEditorPage tryEditorPage;
     HomePageObj homepage;
     RegisterPageObj registerpage;
     SignInPageObj signinpage;
+
     TestInstance testInstance;
     
     public DataStructureTests(TestInstance testInstance) {
     	this.testInstance = testInstance;
 		
 	}
+
+
     @BeforeMethod
     public void setUpDataStructure() throws IOException {
-    	driver = DriverFactory.initializeDriver(ConfigReader.getBrowserType());          
-    	
-    	
-   /* 	dataStructurerpage= new DataStructurePageObj(driver);
-    	tryEditorPage=new TryEditorPage(driver);
-    	homepage= new HomePageObj(driver);
-    	registerpage= new RegisterPageObj(driver);
-    	signinpage=new SignInPageObj(driver);   */
-    	       
+        driver = DriverFactory.initializeDriver(ConfigReader.getBrowserType());
+        registerpage = new RegisterPageObj(driver);
+        dataStructurerpage = new DataStructurePageObj(driver);
+        tryEditorPage = new TryEditorPage(driver);
+        homepage = new HomePageObj(driver);
+        registerpage = new RegisterPageObj(driver);
+        signinpage = new SignInPageObj(driver);
+
+
         driver.get(ConfigReader.getUrl());
         homepage.clickGetStartedHomePageButton();
         homepage.clickSignInLink();
@@ -71,7 +76,7 @@ public class DataStructureTests extends BaseClass {
         tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
         tryEditorPage.clickRunButton();
 
-        String alertMessage = tryEditorPage.getAlertText(); // Make sure this returns the actual alert text
+        String alertMessage = tryEditorPage.getAlertText(); 
         Assert.assertNotNull(alertMessage, "Expected alert was not present!");
         Assert.assertTrue(alertMessage.contains(expectedAlertPart),
             "Alert message did not contain expected text. Actual: " + alertMessage);
@@ -79,7 +84,9 @@ public class DataStructureTests extends BaseClass {
     }
     @AfterMethod
     public void tearDown() {
-        DriverFactory.closeDriver();  // This calls quit() and also removes the ThreadLocal
-    
-    }
+        DriverFactory.closeDriver();  
+        }
 }
+
+
+

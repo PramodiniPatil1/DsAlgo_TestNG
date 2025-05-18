@@ -10,8 +10,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.fasterxml.jackson.databind.exc.InvalidFormatException;
-
 import baseClass.BaseClass;
 import driverManager.DriverFactory;
 import dsAlgoPageObjects.ArrayPageObj;
@@ -55,7 +53,9 @@ public class ArrayTests extends BaseClass {
 
 	@DataProvider(name = "Pythoncode1")
 	public Object[][] validCodePracticeQns() throws IOException, OpenXML4JException {
+
 		return new Object[][] { { "ArrayPracticeQnsQ1", 0, "Element Found" }, };// valid
+
 
 	}
 
@@ -93,6 +93,7 @@ public class ArrayTests extends BaseClass {
 
 
 	@Test(priority = 1, dataProvider = "ValidPythonCode", dataProviderClass = DataProviders.class)	
+
 	public void ArraysinPython(String sheetName, int rowNum, String expectedOutput) throws Exception {
 		homepage.clickArrayGetStartedButton();
 		arraypage.clickarraysInPythonLink();
@@ -102,8 +103,11 @@ public class ArrayTests extends BaseClass {
 		Assert.assertEquals(tryEditorPage.getOutputText(), expectedOutput);
 	}
 
+
 	 @Test(priority = 2, dataProvider = "InvalidPythonCode", dataProviderClass = DataProviders.class)
-	public void ArraysinPython1(String sheetName, int rowNum, String expectedAlertPart) throws InvalidFormatException {
+	public void ArraysinPython1(String sheetName, int rowNum, String expectedAlertPart) throws io.cucumber.core.internal.com.fasterxml.jackson.databind.exc.InvalidFormatException, IOException, OpenXML4JException {
+
+
 		homepage.clickArrayGetStartedButton();
 		arraypage.clickarraysInPythonLink();
 		tryEditorPage.clickTryHereButton();
@@ -116,6 +120,7 @@ public class ArrayTests extends BaseClass {
 	}
 
 	 @Test(priority = 3, dataProvider = "ValidPythonCode", dataProviderClass = DataProviders.class)
+
 	public void ArraysUsingList(String sheetName, int rowNum, String expectedOutput) throws Exception {
 		homepage.clickArrayGetStartedButton();
 		arraypage.clickarraysUsingListLink();
@@ -125,7 +130,11 @@ public class ArrayTests extends BaseClass {
 		Assert.assertEquals(tryEditorPage.getOutputText(), expectedOutput);
 	}
 
+
 	 @Test(priority = 4, dataProvider = "InvalidPythonCode", dataProviderClass = DataProviders.class)
+
+
+
 	public void ArraysUsingList1(String sheetName, int rowNum, String expectedAlertPart) throws Exception {
 		homepage.clickArrayGetStartedButton();
 		arraypage.clickarraysUsingListLink();
@@ -138,7 +147,9 @@ public class ArrayTests extends BaseClass {
 				"Alert message did not contain expected text. Actual: " + alertMessage);
 	}
 
+
 	 @Test(priority = 5, dataProvider = "ValidPythonCode", dataProviderClass = DataProviders.class)
+
 	public void BasicOperationsinLists(String sheetName, int rowNum, String expectedOutput) throws Exception {
 		homepage.clickArrayGetStartedButton();
 		arraypage.clickbasicOperationsInListsLink();
@@ -149,6 +160,7 @@ public class ArrayTests extends BaseClass {
 	}
 
 	 @Test(priority = 6, dataProvider = "InvalidPythonCode", dataProviderClass = DataProviders.class)
+
 	public void BasicOperationsinLists1(String sheetName, int rowNum, String expectedAlertPart) throws Exception {
 		homepage.clickArrayGetStartedButton();
 		arraypage.clickbasicOperationsInListsLink();
@@ -162,6 +174,7 @@ public class ArrayTests extends BaseClass {
 	}
 
 	 @Test(priority = 7, dataProvider = "ValidPythonCode", dataProviderClass = DataProviders.class)
+
 	public void ApplicationsofArray(String sheetName, int rowNum, String expectedOutput) throws Exception {
 		homepage.clickArrayGetStartedButton();
 		arraypage.clickapplicationsOfArrayLink();
@@ -171,7 +184,9 @@ public class ArrayTests extends BaseClass {
 		Assert.assertEquals(tryEditorPage.getOutputText(), expectedOutput);
 	}
 
+
 	 @Test(priority = 8, dataProvider = "InvalidPythonCode", dataProviderClass = DataProviders.class)
+
 	public void ApplicationsofArray1(String sheetName, int rowNum, String expectedAlertPart) throws Exception {
 		homepage.clickArrayGetStartedButton();
 		arraypage.clickapplicationsOfArrayLink();
@@ -187,7 +202,6 @@ public class ArrayTests extends BaseClass {
 	public void navigateToPracticeQuestion(String questionLinkMethod) {
 		homepage.clickArrayGetStartedButton();
 		arraypage.clickarraysInPythonLink();
-		
 		arraypage.clickPracticeQuestionsLink();
 		switch (questionLinkMethod) {
 		case "SearchTheArray":
@@ -285,7 +299,12 @@ public class ArrayTests extends BaseClass {
 
 	@AfterMethod
 	public void tearDown() {
+
 		DriverFactory.closeDriver(); 
 
 	}
-}
+
+
+	}
+
+

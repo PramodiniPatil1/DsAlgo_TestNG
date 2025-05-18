@@ -2,14 +2,21 @@ package testClasses;
 
 import java.io.IOException;
 
+<<<<<<< HEAD
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+=======
+>>>>>>> 748eaf470a3d23fb1e513c3e998fb877b744e54c
 import org.apache.poi.openxml4j.exceptions.OpenXML4JException;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.annotations.*;
+
 import driverManager.DriverFactory;
+<<<<<<< HEAD
 import dsAlgoPageObjects.GraphPageObj;
 import dsAlgoPageObjects.HomePageObj;
 import dsAlgoPageObjects.RegisterPageObj;
@@ -183,48 +190,113 @@ public class GraphTests {
         String isAlertPresent = tryEditorPage.HandleAlert();
         assertTrue(isAlertPresent, "No alert displayed");
     }
+=======
+import dsAlgoPageObjects.*;
+import utils.ConfigReader;
+import utils.DataProviders;
 
-    @Test(priority = 8)
-    public void testPracticeQuestionsLinkInsideGraph() {
-        graphpage.ClickInsideGraphkLink();
-        graphpage.clickPracticeQuestionsLink();
-        Assert.assertTrue(graphpage.getcurrentpageUrl().endsWith("practice"));
-    }
+public class GraphTests {
 
-    @Test(priority = 9)
-    public void testGraphRepresentationNavigation() {
-        graphpage.ClickGraphRepresentationLink();
-        Assert.assertTrue(graphpage.getcurrentpageUrl().endsWith("graph-representations/"));
-    }
+	WebDriver driver;
+	SignInPageObj signinpage;
+	HomePageObj homepage;
+	TryEditorPage tryEditorPage;
+	GraphPageObj graphpage;
+	RegisterPageObj registerpage;
 
-    @Test(priority = 10)
-    public void testTryHereGraphRepresentation() {
-        graphpage.ClickGraphRepresentationLink();
-        tryEditorPage.clickTryHereButton();
-        Assert.assertTrue(graphpage.getcurrentpageUrl().contains("tryEditor"));
-    }
+	@BeforeMethod
+	public void setUp() throws IOException, OpenXML4JException {
+		driver = DriverFactory.initializeDriver(ConfigReader.getBrowserType());
+		signinpage = new SignInPageObj(driver);
+		homepage = new HomePageObj(driver);
+		tryEditorPage = new TryEditorPage(driver);
+		graphpage = new GraphPageObj(driver);
+		registerpage = new RegisterPageObj(driver);
 
-    @Test(priority = 11)
-    public void testEmptyCodeGraphRepresentation() {
-        graphpage.ClickGraphRepresentationLink();
-        tryEditorPage.clickTryHereButton();
-        tryEditorPage.clickRunButton();
-        Assert.assertTrue(graphpage.getcurrentpageUrl().contains("tryEditor"));
-    }
+		driver.get(ConfigReader.getUrl());
+		homepage.clickGetStartedHomePageButton();
+		homepage.clickSignInLink();
+		signinpage.EnterFromExcel("login", 0);
+		signinpage.clickloginButton();
 
-    @Test(priority = 12)
-    public void testValidCodeGraphRepresentation() {
-        graphpage.ClickGraphRepresentationLink();
-        tryEditorPage.clickTryHereButton();
-        try {
-            tryEditorPage.enterCodeFromExcel("tryEditorCode", 0);
-            tryEditorPage.clickRunButton();
-        } catch (Exception e) {
-            LoggerLoad.info("Error while entering code or clicking Run: " + e.getMessage());
-        }
-        graphpage.codeEditorOutput();
-    }
+		Assert.assertEquals(registerpage.successMsg(), "You are logged in", "Login failed!");
 
+		driver.get(ConfigReader.getUrl());
+		homepage.clickGetStartedHomePageButton();
+	}
+
+	private void openTryEditorInsideGraph() {
+		homepage.clickGraphGetStartedButton();
+		graphpage.ClickInsideGraphkLink();
+		tryEditorPage.clickTryHereButton();
+	}
+
+	private void openTryEditorGraphRepresentation() {
+		homepage.clickGraphGetStartedButton();
+		graphpage.ClickGraphRepresentationLink();
+		tryEditorPage.clickTryHereButton();
+	}
+
+	@Test(priority = 1, dataProvider = "ValidPythonCode", dataProviderClass = DataProviders.class)
+	public void testValidCodeRunInsideGraph(String sheetName, int rowNum, String expectedOutput) throws Exception {
+		openTryEditorInsideGraph();
+		tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
+		tryEditorPage.clickRunButton();
+		String actualOutput = tryEditorPage.getOutputText();
+		Assert.assertTrue(actualOutput.contains(expectedOutput), "Expected output not found!");
+	}
+
+	@Test(priority = 1, dataProvider = "InvalidPythonCode", dataProviderClass = DataProviders.class)
+	public void testInvalidCodeRunInsideGraph(String sheetName, int rowNum, String expectedAlertPart) throws Exception {
+		openTryEditorInsideGraph();
+>>>>>>> 748eaf470a3d23fb1e513c3e998fb877b744e54c
+
+		tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
+		tryEditorPage.clickRunButton();
+		String alertMessage = tryEditorPage.getAlertText();
+		Assert.assertNotNull(alertMessage, "Expected alert was not present!");
+		Assert.assertTrue(alertMessage.contains(expectedAlertPart),
+				"Alert message did not contain expected text. Actual: " + alertMessage);
+	}
+
+	@Test(priority = 3, groups = "smoke")
+	public void testPracticeQuestionsLinkInsideGraph() {
+		homepage.clickGraphGetStartedButton();
+		graphpage.ClickInsideGraphkLink();
+		graphpage.clickPracticeQuestionsLink();
+		Assert.assertTrue(graphpage.getcurrentpageUrl().endsWith("practice"), "Not on practice page!");
+	}
+
+	@Test(priority = 1, dataProvider = "ValidPythonCode", dataProviderClass = DataProviders.class)
+	public void testValidCodeGraphRepresentation(String sheetName, int rowNum, String expectedOutput) throws Exception {
+		openTryEditorGraphRepresentation();
+		tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
+		tryEditorPage.clickRunButton();
+		String actualOutput = tryEditorPage.getOutputText();
+		Assert.assertTrue(actualOutput.contains(expectedOutput), "Expected output mismatch in Graph Representation!");
+	}
+
+	@Test(priority = 1, dataProvider = "InvalidPythonCode", dataProviderClass = DataProviders.class)
+	public void testInvalidCodeGraphRepresentation(String sheetName, int rowNum, String expectedAlertPart)
+			throws Exception {
+		openTryEditorGraphRepresentation();
+		tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
+		tryEditorPage.clickRunButton();
+		String alertMessage = tryEditorPage.getAlertText();
+		Assert.assertNotNull(alertMessage, "Expected alert was not present!");
+		Assert.assertTrue(alertMessage.contains(expectedAlertPart),
+				"Alert message did not contain expected text. Actual: " + alertMessage);
+	}
+
+	@Test(priority = 6, groups = "smoke")
+	public void testPracticeQuestionsGraphRepresentation() {
+		homepage.clickGraphGetStartedButton();
+		graphpage.ClickGraphRepresentationLink();
+		graphpage.clickPracticeQuestionsLink();
+		Assert.assertTrue(graphpage.getcurrentpageUrl().endsWith("practice"), "Not on practice page!");
+	}
+
+<<<<<<< HEAD
     @Test(priority = 13)
     public void testInvalidCodeGraphRepresentation() {
         graphpage.ClickGraphRepresentationLink();
@@ -264,3 +336,10 @@ public class GraphTests {
 	}
 >>>>>>> 9bf215d64a7f8ff003420b728c9e4a5e5bc1c531
 }
+=======
+	@AfterMethod
+	public void tearDown() {
+		DriverFactory.closeDriver();
+	}
+}
+>>>>>>> 748eaf470a3d23fb1e513c3e998fb877b744e54c

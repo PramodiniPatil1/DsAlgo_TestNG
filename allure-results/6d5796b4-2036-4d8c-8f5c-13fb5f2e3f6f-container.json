@@ -1,0 +1,1 @@
+{"uuid":"6d5796b4-2036-4d8c-8f5c-13fb5f2e3f6f","name":"testClasses.QueueTests.setUp","children":["f261252f-bb54-4b3b-a070-5b8a1b6b9b54"],"description":"","befores":[{"name":"setUp","status":"broken","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1747662309567,"stop":1747662309567}],"afters":[],"start":1747662309567,"stop":1747662309567}

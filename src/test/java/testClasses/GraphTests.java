@@ -1,18 +1,22 @@
 package testClasses;
 
-import java.io.IOException;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
 
+import baseClass.BaseClass;
+
+import org.testng.annotations.BeforeMethod;
+import org.testng.Assert;
+import org.testng.AssertJUnit;
+import java.io.IOException;
 import org.apache.poi.openxml4j.exceptions.OpenXML4JException;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
-import org.testng.annotations.*;
-
 import driverManager.DriverFactory;
 import dsAlgoPageObjects.*;
 import utils.ConfigReader;
 import utils.DataProviders;
 
-public class GraphTests {
+public class GraphTests extends BaseClass {
 
 	WebDriver driver;
 	SignInPageObj signinpage;
@@ -20,6 +24,7 @@ public class GraphTests {
 	TryEditorPage tryEditorPage;
 	GraphPageObj graphpage;
 	RegisterPageObj registerpage;
+
 
 	@BeforeMethod
 	public void setUp() throws IOException, OpenXML4JException {
@@ -36,7 +41,7 @@ public class GraphTests {
 		signinpage.EnterFromExcel("login", 0);
 		signinpage.clickloginButton();
 
-		Assert.assertEquals(registerpage.successMsg(), "You are logged in", "Login failed!");
+		AssertJUnit.assertEquals(registerpage.successMsg(), "You are logged in");
 
 		driver.get(ConfigReader.getUrl());
 		homepage.clickGetStartedHomePageButton();
@@ -60,7 +65,7 @@ public class GraphTests {
 		tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
 		tryEditorPage.clickRunButton();
 		String actualOutput = tryEditorPage.getOutputText();
-		Assert.assertTrue(actualOutput.contains(expectedOutput), "Expected output not found!");
+		Assert.assertTrue(actualOutput.contains(expectedOutput));
 	}
 
 	@Test(priority = 1, dataProvider = "InvalidPythonCode", dataProviderClass = DataProviders.class)
@@ -71,8 +76,7 @@ public class GraphTests {
 		tryEditorPage.clickRunButton();
 		String alertMessage = tryEditorPage.getAlertText();
 		Assert.assertNotNull(alertMessage, "Expected alert was not present!");
-		Assert.assertTrue(alertMessage.contains(expectedAlertPart),
-				"Alert message did not contain expected text. Actual: " + alertMessage);
+		Assert.assertTrue(alertMessage.contains(expectedAlertPart));
 	}
 
 	@Test(priority = 3, groups = "smoke")
@@ -80,7 +84,7 @@ public class GraphTests {
 		homepage.clickGraphGetStartedButton();
 		graphpage.ClickInsideGraphkLink();
 		graphpage.clickPracticeQuestionsLink();
-		Assert.assertTrue(graphpage.getcurrentpageUrl().endsWith("practice"), "Not on practice page!");
+		Assert.assertTrue(graphpage.getcurrentpageUrl().endsWith("practice"));
 	}
 
 	@Test(priority = 1, dataProvider = "ValidPythonCode", dataProviderClass = DataProviders.class)
@@ -89,7 +93,7 @@ public class GraphTests {
 		tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
 		tryEditorPage.clickRunButton();
 		String actualOutput = tryEditorPage.getOutputText();
-		Assert.assertTrue(actualOutput.contains(expectedOutput), "Expected output mismatch in Graph Representation!");
+		Assert.assertTrue(actualOutput.contains(expectedOutput));
 	}
 
 	@Test(priority = 1, dataProvider = "InvalidPythonCode", dataProviderClass = DataProviders.class)
@@ -100,8 +104,7 @@ public class GraphTests {
 		tryEditorPage.clickRunButton();
 		String alertMessage = tryEditorPage.getAlertText();
 		Assert.assertNotNull(alertMessage, "Expected alert was not present!");
-		Assert.assertTrue(alertMessage.contains(expectedAlertPart),
-				"Alert message did not contain expected text. Actual: " + alertMessage);
+		Assert.assertTrue(alertMessage.contains(expectedAlertPart));
 	}
 
 	@Test(priority = 6, groups = "smoke")
@@ -109,8 +112,9 @@ public class GraphTests {
 		homepage.clickGraphGetStartedButton();
 		graphpage.ClickGraphRepresentationLink();
 		graphpage.clickPracticeQuestionsLink();
-		Assert.assertTrue(graphpage.getcurrentpageUrl().endsWith("practice"), "Not on practice page!");
+		Assert.assertTrue(graphpage.getcurrentpageUrl().endsWith("practice"));
 	}
+
 
 	@AfterMethod
 	public void tearDown() {

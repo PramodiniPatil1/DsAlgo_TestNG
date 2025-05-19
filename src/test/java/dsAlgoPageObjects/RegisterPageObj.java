@@ -2,25 +2,27 @@ package dsAlgoPageObjects;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
 import java.nio.file.Path;
 import java.text.SimpleDateFormat;
-
-import org.apache.poi.openxml4j.exceptions.OpenXML4JException;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.ITestResult;
+import baseClass.BaseClass;
+import org.openqa.selenium.WebDriver;
+import java.time.Duration;
+import org.apache.poi.openxml4j.exceptions.OpenXML4JException;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import utils.ConfigReader;
 import utils.ExcelRead;
 import utils.LoggerLoad;
-
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
-public class RegisterPageObj {
+public class RegisterPageObj extends BaseClass{
     WebDriver driver ;
 	ExcelRead excelread = new ExcelRead();
 	String URL = ConfigReader.getUrl();
@@ -56,9 +58,15 @@ public class RegisterPageObj {
 	
 	}
     public void navigateToRegisterPage() {
-        registerLink.click();
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.elementToBeClickable(registerLink)).click();
         LoggerLoad.info("Clicked on RegisterTests link");
     }
+
+//    public void navigateToRegisterPage() {
+//        registerLink.click();
+//        LoggerLoad.info("Clicked on RegisterTests link");
+//    }
     public void signOut() {
         signOutButton.click();
         LoggerLoad.info("Clicked on Sign Out");
@@ -134,11 +142,11 @@ public class RegisterPageObj {
 	}  
 	
 	public void TakeErrorScreenshot() throws IOException {
-		String scr = "screenshot_" + new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
-		File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		Files.move(screenshot.toPath(), Path.of(
-				"/Users/dineshdeshmukh/eclipse-workspace/NinjaGalaxy-dsAlgo/src/test/resources/Screenshots", scr + ".png"));
-		LoggerLoad.info("Screenshot saved: " + scr + ".png");
-		LoggerLoad.info("Error Message is displayed on the screen");
+		 String scrShot = "screenshot_" + new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+	        File screenshots = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+	        Path screenshotDir = Path.of(System.getProperty("user.dir") + "/Screenshots");
+	      LoggerLoad.info("Screenshot saved: " + scrShot + ".png");
+		  LoggerLoad.info("Error Message is displayed on the screen");
 	}
 }
+

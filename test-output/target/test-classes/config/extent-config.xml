@@ -1,0 +1,10 @@
+<extentreports>
+  <configuration>
+    <theme>dark</theme>
+    <encoding>utf-8</encoding>
+    <protocol>https</protocol>
+    <documentTitle>DSALGO Report</documentTitle>
+    <reportName>DSALGO Extent Report</reportName>
+    <timestampFormat>MMM dd, yyyy HH:mm:ss</timestampFormat>
+  </configuration>
+</extentreports>

@@ -49,9 +49,12 @@ public class SignInPageObj {
 		loginButton.click();
 	}
 
-	public void homePagemsg() {
-		homePagemsg.getText();
-		LoggerLoad.info(homePagemsg.getText());
+	public boolean homePagemsg() {
+		try {
+			return homePagemsg.isDisplayed();
+		} catch (Exception e) {
+			return false;
+		}
 	}
 
 	public void EnterFromExcel(String sheetname, int row) throws IOException {
@@ -72,9 +75,12 @@ public class SignInPageObj {
 
 	}
 
-	public void ErrorMessage() {
-		String Msg = errorMessage.getText();
-		LoggerLoad.info("Error Message is: " + Msg);
+	public boolean ErrorMessage() {
+		try {
+			return errorMessage.isDisplayed();
+		} catch (Exception e) {
+			return false;
+		}
 	}
 
 	public void TakeScreenshot() throws IOException {
@@ -86,7 +92,10 @@ public class SignInPageObj {
 	    Path destination = Path.of(
 	        "/Users/dineshdeshmukh/eclipse-workspace/NinjaGalaxy-dsAlgo/src/test/resources/Screenshots", 
 	        scr + ".png"
-	    );
+	    );Path screenshotDir = Path.of(System.getProperty("user.dir") + "/Screenshots");
+		if (!Files.exists(screenshotDir)) {
+			Files.createDirectories(screenshotDir);
+		}
 
 	    // Move with replace option to avoid FileAlreadyExistsException
 	    Files.move(screenshot.toPath(), destination, StandardCopyOption.REPLACE_EXISTING);

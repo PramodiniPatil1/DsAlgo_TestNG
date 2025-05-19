@@ -1,14 +1,13 @@
 package testClasses;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.Assert;
 import java.io.IOException;
-
 import org.apache.poi.openxml4j.exceptions.OpenXML4JException;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
 import baseClass.BaseClass;
 import driverManager.DriverFactory;
 import dsAlgoPageObjects.ArrayPageObj;
@@ -32,13 +31,15 @@ public class ArrayTests extends BaseClass {
 
 	@BeforeMethod
 	public void setUpOnce() throws IOException {
-		driver = DriverFactory.initializeDriver(ConfigReader.getBrowserType());
+	driver = DriverFactory.initializeDriver(ConfigReader.getBrowserType());
 		dataStructurerpage = new DataStructurePageObj(driver);
 		tryEditorPage = new TryEditorPage(driver);
 		homepage = new HomePageObj(driver);
 		registerpage = new RegisterPageObj(driver);
 		signinpage = new SignInPageObj(driver);
 		arraypage = new ArrayPageObj(driver);
+		
+		
 		driver.get(ConfigReader.getUrl());
 		homepage.clickGetStartedHomePageButton();
 		homepage.clickSignInLink();
@@ -58,7 +59,7 @@ public class ArrayTests extends BaseClass {
 
 	@DataProvider(name = "Pythoncode2")
 	public Object[][] invalidCodePracticeQns() throws IOException, OpenXML4JException {
-		return new Object[][] { { "ArrayPracticeQnsQ1", 1, "Alert: bad input on line 1" }, };// invalid
+		return new Object[][] { { "ArrayPracticeQnsQ1", 1, "SyntaxError: bad input on line 1" }, };// invalid
 	}
 
 	@DataProvider(name = "MaxConsecutiveOnesData")
@@ -74,14 +75,14 @@ public class ArrayTests extends BaseClass {
 		};
 	}
 
-	@DataProvider(name = "EvenDigitsData")
+	@DataProvider(name = "EvenNumberOfDigits")
 	public Object[][] evenDigitsData() throws IOException {
 		return new Object[][] { { "pythonCode", 0, "('Count of numbers with even number of digits:', 2)" }, // Valid
 
 		};
 	}
 
-	@DataProvider(name = "EvenDigitsData1")
+	@DataProvider(name = "EvenNumberOfDigits1")
 	public Object[][] evenDigitsData1() throws IOException {
 		return new Object[][] { // Valid
 				{ "pythonCode", 1, "SyntaxError: bad input on line 1" } // Invalid
@@ -90,7 +91,7 @@ public class ArrayTests extends BaseClass {
 
 	@Test(priority = 1, dataProvider = "ValidPythonCode", dataProviderClass = DataProviders.class)
 
-	public void ArraysinPython(String sheetName, int rowNum, String expectedOutput) throws Exception {
+	public void ArraysinPython(String sheetName, int rowNum, String expectedOutput)  throws IOException, OpenXML4JException {
 		homepage.clickArrayGetStartedButton();
 		arraypage.clickarraysInPythonLink();
 		tryEditorPage.clickTryHereButton();
@@ -106,16 +107,18 @@ public class ArrayTests extends BaseClass {
 		arraypage.clickarraysInPythonLink();
 		tryEditorPage.clickTryHereButton();
 		tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
-		tryEditorPage.clickRunButton();
-		String alertMessage = tryEditorPage.getAlertText();
-		Assert.assertNotNull(alertMessage, "Expected alert was not present!");
-		Assert.assertTrue(alertMessage.contains(expectedAlertPart),
-				"Alert message did not contain expected text. Actual: " + alertMessage);
-	}
+	
+		 tryEditorPage.clickRunButton();
+ 		 String alertMessage = tryEditorPage.getAlertText();
+ 		
+ 		Assert.assertTrue(alertMessage.contains(expectedAlertPart),
+ 				"Alert message did not contain expected text. Actual: " + alertMessage);
+ 	}
+
 
 	@Test(priority = 3, dataProvider = "ValidPythonCode", dataProviderClass = DataProviders.class)
 
-	public void ArraysUsingList(String sheetName, int rowNum, String expectedOutput) throws Exception {
+	public void ArraysUsingList(String sheetName, int rowNum, String expectedOutput)  throws IOException, OpenXML4JException {
 		homepage.clickArrayGetStartedButton();
 		arraypage.clickarraysUsingListLink();
 		tryEditorPage.clickTryHereButton();
@@ -126,21 +129,22 @@ public class ArrayTests extends BaseClass {
 
 	@Test(priority = 4, dataProvider = "InvalidPythonCode", dataProviderClass = DataProviders.class)
 
-	public void ArraysUsingList1(String sheetName, int rowNum, String expectedAlertPart) throws Exception {
+	public void ArraysUsingList1(String sheetName, int rowNum, String expectedAlertPart) throws IOException, OpenXML4JException {
 		homepage.clickArrayGetStartedButton();
 		arraypage.clickarraysUsingListLink();
 		tryEditorPage.clickTryHereButton();
 		tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
 		tryEditorPage.clickRunButton();
-		String alertMessage = tryEditorPage.getAlertText();
-		Assert.assertNotNull(alertMessage, "Expected alert was not present!");
-		Assert.assertTrue(alertMessage.contains(expectedAlertPart),
-				"Alert message did not contain expected text. Actual: " + alertMessage);
-	}
+		 tryEditorPage.clickRunButton();
+ 		 String alertMessage = tryEditorPage.getAlertText();
+ 		Assert.assertTrue(alertMessage.contains(expectedAlertPart),
+ 				"Alert message did not contain expected text. Actual: " + alertMessage);
+ 	}
+
 
 	@Test(priority = 5, dataProvider = "ValidPythonCode", dataProviderClass = DataProviders.class)
 
-	public void BasicOperationsinLists(String sheetName, int rowNum, String expectedOutput) throws Exception {
+	public void BasicOperationsinLists(String sheetName, int rowNum, String expectedOutput)  throws IOException, OpenXML4JException {
 		homepage.clickArrayGetStartedButton();
 		arraypage.clickbasicOperationsInListsLink();
 		tryEditorPage.clickTryHereButton();
@@ -151,17 +155,18 @@ public class ArrayTests extends BaseClass {
 
 	@Test(priority = 6, dataProvider = "InvalidPythonCode", dataProviderClass = DataProviders.class)
 
-	public void BasicOperationsinLists1(String sheetName, int rowNum, String expectedAlertPart) throws Exception {
+	public void BasicOperationsinLists1(String sheetName, int rowNum, String expectedAlertPart) throws IOException, OpenXML4JException {
 		homepage.clickArrayGetStartedButton();
 		arraypage.clickbasicOperationsInListsLink();
 		tryEditorPage.clickTryHereButton();
 		tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
 		tryEditorPage.clickRunButton();
-		String alertMessage = tryEditorPage.getAlertText();
-		Assert.assertNotNull(alertMessage, "Expected alert was not present!");
-		Assert.assertTrue(alertMessage.contains(expectedAlertPart),
-				"Alert message did not contain expected text. Actual: " + alertMessage);
-	}
+ 		 String alertMessage = tryEditorPage.getAlertText();
+ 		
+ 		Assert.assertTrue(alertMessage.contains(expectedAlertPart),
+ 				"Alert message did not contain expected text. Actual: " + alertMessage);
+ 	}
+
 
 	@Test(priority = 7, dataProvider = "ValidPythonCode", dataProviderClass = DataProviders.class)
 
@@ -176,17 +181,18 @@ public class ArrayTests extends BaseClass {
 
 	@Test(priority = 8, dataProvider = "InvalidPythonCode", dataProviderClass = DataProviders.class)
 
-	public void ApplicationsofArray1(String sheetName, int rowNum, String expectedAlertPart) throws Exception {
+	public void ApplicationsofArray1(String sheetName, int rowNum, String expectedAlertPart)  throws IOException, OpenXML4JException {
 		homepage.clickArrayGetStartedButton();
 		arraypage.clickapplicationsOfArrayLink();
 		tryEditorPage.clickTryHereButton();
 		tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
-		tryEditorPage.clickRunButton();
-		String alertMessage = tryEditorPage.getAlertText();
-		Assert.assertNotNull(alertMessage, "Expected alert was not present!");
-		Assert.assertTrue(alertMessage.contains(expectedAlertPart),
-				"Alert message did not contain expected text. Actual: " + alertMessage);
-	}
+		 tryEditorPage.clickRunButton();
+ 		 String alertMessage = tryEditorPage.getAlertText();
+ 		
+ 		Assert.assertTrue(alertMessage.contains(expectedAlertPart),
+ 				"Alert message did not contain expected text. Actual: " + alertMessage);
+ 	}
+
 
 	public void navigateToPracticeQuestion(String questionLinkMethod) {
 		homepage.clickArrayGetStartedButton();
@@ -201,7 +207,7 @@ public class ArrayTests extends BaseClass {
 			arraypage.clickMaxConsecutiveOnes();
 			break;
 		case "EvenNumberOfDigits":
-			arraypage.clickFindNumWithEvenNumOfDigits();
+			arraypage.clickFindNumWithEvenNumOfDigits();;
 			break;
 		case "SquaresofaSorted":
 			arraypage.clickSquaresOfASortedArray();
@@ -212,7 +218,7 @@ public class ArrayTests extends BaseClass {
 	}
 
 	@Test(priority = 9, groups = "positive", dataProvider = "Pythoncode1")
-	public void SearchTheArray(String sheetName, int rowNum, String expectedOutput) throws Exception {
+	public void SearchTheArray(String sheetName, int rowNum, String expectedOutput) throws IOException, OpenXML4JException {
 		navigateToPracticeQuestion("SearchTheArray");
 		tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
 		tryEditorPage.clickRunButton();
@@ -220,18 +226,19 @@ public class ArrayTests extends BaseClass {
 	}
 
 	@Test(priority = 10, groups = "negative", dataProvider = "Pythoncode2")
-	public void SearchTheArray1(String sheetName, int rowNum, String expectedAlertPart) throws Exception {
+	public void SearchTheArray1(String sheetName, int rowNum, String expectedAlertPart)  throws IOException, OpenXML4JException {
 		navigateToPracticeQuestion("SearchTheArray");
 		tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
 		tryEditorPage.clickRunButton();
-		String alertMessage = tryEditorPage.getAlertText();
-		Assert.assertNotNull(alertMessage, "Expected alert was not present!");
-		Assert.assertTrue(alertMessage.contains(expectedAlertPart),
-				"Alert message did not contain expected text. Actual: " + alertMessage);
-	}
+ 		 String alertMessage = tryEditorPage.getAlertText();
+ 		
+ 		Assert.assertTrue(alertMessage.contains(expectedAlertPart),
+ 				"Alert message did not contain expected text. Actual: " + alertMessage);
+ 	}
+
 
 	@Test(priority = 11, groups = "positive", dataProvider = "MaxConsecutiveOnesData")
-	public void MaxConsecutiveOnes(String sheetName, int rowNum, String expectedOutput) throws Exception {
+	public void MaxConsecutiveOnes(String sheetName, int rowNum, String expectedOutput) throws IOException, OpenXML4JException {
 		navigateToPracticeQuestion("MaxConsecutiveOnes");
 		tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
 		tryEditorPage.clickRunButton();
@@ -239,53 +246,59 @@ public class ArrayTests extends BaseClass {
 	}
 
 	@Test(priority = 12, groups = "negative", dataProvider = "MaxConsecutiveOnesData1")
-	public void MaxConsecutiveOnes1(String sheetName, int rowNum, String expectedAlertPart) throws Exception {
+	public void MaxConsecutiveOnes1(String sheetName, int rowNum, String expectedAlertPart)  throws IOException, OpenXML4JException {
 		navigateToPracticeQuestion("MaxConsecutiveOnes");
 		tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
 		tryEditorPage.clickRunButton();
-		String alertMessage = tryEditorPage.getAlertText();
-		Assert.assertNotNull(alertMessage, "Expected alert was not present!");
-		Assert.assertTrue(alertMessage.contains(expectedAlertPart),
-				"Alert message did not contain expected text. Actual: " + alertMessage);
-	}
+		 tryEditorPage.clickRunButton();
+ 		 String alertMessage = tryEditorPage.getAlertText();
+ 		
+ 		Assert.assertTrue(alertMessage.contains(expectedAlertPart),
+ 				"Alert message did not contain expected text. Actual: " + alertMessage);
+ 	}
 
-	@Test(priority = 13, groups = "positive", dataProvider = "EvenDigitsData")
-	public void EvenNumberOfDigits(String sheetName, int rowNum, String expectedOutput) throws Exception {
+
+	@Test(priority = 13, groups = "positive", dataProvider = "EvenNumberOfDigits")
+	public void EvenNumberOfDigits(String sheetName, int rowNum, String expectedOutput)  throws IOException, OpenXML4JException {
 		navigateToPracticeQuestion("EvenNumberOfDigits");
 		tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
 		tryEditorPage.clickRunButton();
 		Assert.assertEquals(tryEditorPage.getOutputText(), expectedOutput);
 	}
 
-	@Test(priority = 14, groups = "negative", dataProvider = "EvenDigitsData1")
-	public void EvenNumberOfDigits1(String sheetName, int rowNum, String expectedAlertPart) throws Exception {
+	@Test(priority = 14, groups = "negative", dataProvider = "EvenNumberOfDigits1")
+	public void EvenNumberOfDigits1(String sheetName, int rowNum, String expectedAlertPart)  throws IOException, OpenXML4JException {
 		navigateToPracticeQuestion("EvenNumberOfDigits");
 		tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
 		tryEditorPage.clickRunButton();
-		String alertMessage = tryEditorPage.getAlertText();
-		Assert.assertNotNull(alertMessage, "Expected alert was not present!");
-		Assert.assertTrue(alertMessage.contains(expectedAlertPart),
-				"Alert message did not contain expected text. Actual: " + alertMessage);
-	}
+		 tryEditorPage.clickRunButton();
+ 		 String alertMessage = tryEditorPage.getAlertText();
+ 		
+ 		Assert.assertTrue(alertMessage.contains(expectedAlertPart),
+ 				"Alert message did not contain expected text. Actual: " + alertMessage);
+ 	}
 
-	@Test(priority = 15, groups = "positive", dataProvider = "ValidPythonCode")
-	public void SquaresofaSorted(String sheetName, int rowNum, String expectedOutput) throws Exception {
+
+	@Test(priority = 15, dataProvider = "ValidPythonCode", dataProviderClass = DataProviders.class)
+	public void SquaresofaSorted(String sheetName, int rowNum, String expectedOutput)  throws IOException, OpenXML4JException {
 		navigateToPracticeQuestion("SquaresofaSorted");
 		tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
 		tryEditorPage.clickRunButton();
 		Assert.assertEquals(tryEditorPage.getOutputText(), expectedOutput);
 	}
 
-	@Test(priority = 16, groups = "negative", dataProvider = "InValidPythonCode")
-	public void SquaresofaSorted1(String sheetName, int rowNum, String expectedAlertPart) throws Exception {
+	@Test(priority = 16, dataProvider = "InValidPythonCode", dataProviderClass = DataProviders.class)
+	public void SquaresofaSorted1(String sheetName, int rowNum, String expectedAlertPart) throws IOException, OpenXML4JException {
 		navigateToPracticeQuestion("SquaresofaSorted");
 		tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
 		tryEditorPage.clickRunButton();
-		String alertMessage = tryEditorPage.getAlertText();
-		Assert.assertNotNull(alertMessage, "Expected alert was not present!");
-		Assert.assertTrue(alertMessage.contains(expectedAlertPart),
-				"Alert message did not contain expected text. Actual: " + alertMessage);
-	}
+		 tryEditorPage.clickRunButton();
+ 		 String alertMessage = tryEditorPage.getAlertText();
+ 		 Assert.assertTrue(alertMessage.contains(expectedAlertPart),
+ 				"Alert message did not contain expected text. Actual: " + alertMessage);
+ 	}
+
+
 
 	@AfterMethod
 	public void tearDown() {

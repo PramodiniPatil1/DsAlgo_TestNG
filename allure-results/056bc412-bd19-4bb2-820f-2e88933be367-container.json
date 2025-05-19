@@ -1,0 +1,1 @@
+{"uuid":"056bc412-bd19-4bb2-820f-2e88933be367","name":"testClasses.GraphTests.setUp","children":["e84a9694-f761-4c10-afec-29d23beadde7"],"description":"","befores":[{"name":"setUp","status":"broken","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1747625128522,"stop":1747625128522}],"afters":[],"start":1747625128521,"stop":1747625128522}

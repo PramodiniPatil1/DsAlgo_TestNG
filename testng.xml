@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DSAlgo Suite" parallel="classes" thread-count="7">
+  <test name="DSAlgo Tests">
+    <classes>
+     <class name="baseClass.BaseClass"/>
+     <class name="testClasses.SignInTests"/>
+    <class name="testClasses.LinkListTests"/>
+    <class name="testClasses.QueueTests"/>
+      <class name="testClasses.TreeTests"/>
+      <class name="testClasses.StackTests"/>
+      <class name="testClasses.RegisterTests"/>
+      <class name="testClasses.DataStructureTests"/>
+      <class name="testClasses.GraphTests"/>
+      <class name="testClasses.HomeTests"/>
+      <class name="testClasses.ArrayTests"/>
+    </classes>
+  </test>
+</suite>
+
+

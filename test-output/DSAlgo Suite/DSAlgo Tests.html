@@ -1,0 +1,1741 @@
+<html>
+<head>
+<title>TestNG:  DSAlgo Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>DSAlgo Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>123/15/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 19 14:30:23 EDT 2025</td>
+</tr>
+<tr><td>Total time:</td><td>534 seconds (534096 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testClasses.ArrayTests.EvenNumberOfDigits1()'><b>EvenNumberOfDigits1</b><br>Test class: testClasses.ArrayTests</td>
+<td><div><pre>org.testng.TestNGException: 
+Found two providers called &apos;EvenDigitsData&apos; on class testClasses.ArrayTests
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2065242714", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2065242714'><pre>org.testng.TestNGException: 
+Found two providers called &apos;EvenDigitsData&apos; on class testClasses.ArrayTests
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:647)
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:516)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</pre></div></td>
+<td>0</td>
+<td>testClasses.ArrayTests@4ddbbdf8</td></tr>
+<tr>
+<td title='testClasses.QueueTests.testPracticeQuestionsLinkQueueOperationsPage()'><b>testPracticeQuestionsLinkQueueOperationsPage</b><br>Test class: testClasses.QueueTests</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&apos;content&apos;]/a&apos; (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at dsAlgoPageObjects.QueuePageObj.clickQueueOperationslink(QueuePageObj.java:71)
+	at testClasses.QueueTests.testPracticeQuestionsLinkQueueOperationsPage(QueueTests.java:300)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;content&apos;]/a&quot;}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.1.1&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e5c44cd68ff6bde87664f77469fe1582, findElement {using=xpath, value=//*[@id=&apos;content&apos;]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:65093/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5c44cd68ff6bde87664f77469fe1582
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 18 more
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2070926211", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2070926211'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&apos;content&apos;]/a&apos; (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at dsAlgoPageObjects.QueuePageObj.clickQueueOperationslink(QueuePageObj.java:71)
+	at testClasses.QueueTests.testPracticeQuestionsLinkQueueOperationsPage(QueueTests.java:300)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;content&apos;]/a&quot;}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.1.1&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e5c44cd68ff6bde87664f77469fe1582, findElement {using=xpath, value=//*[@id=&apos;content&apos;]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:65093/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5c44cd68ff6bde87664f77469fe1582
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 18 more
+</pre></div></td>
+<td>36</td>
+<td>testClasses.QueueTests@41294f8</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testUserSignIn()'><b>testUserSignIn</b><br>Test class: testClasses.LinkListTests</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //div[@class=&apos;navbar-nav&apos;]//a[@href=&apos;/login&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at dsAlgoPageObjects.HomePageObj.clickSignInLink(HomePageObj.java:186)
+	at testClasses.LinkListTests.testUserSignIn(LinkListTests.java:67)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;navbar-nav&apos;]//a[@href=&apos;/login&apos;]&quot;}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.1.1&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc3d3676a27e2d7304a02d80b38f81f5, findElement {using=xpath, value=//div[@class=&apos;navbar-nav&apos;]//a[@href=&apos;/login&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60937}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60937/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dc3d3676a27e2d7304a02d80b38f81f5
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 18 more
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1712590649", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1712590649'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //div[@class=&apos;navbar-nav&apos;]//a[@href=&apos;/login&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at dsAlgoPageObjects.HomePageObj.clickSignInLink(HomePageObj.java:186)
+	at testClasses.LinkListTests.testUserSignIn(LinkListTests.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;navbar-nav&apos;]//a[@href=&apos;/login&apos;]&quot;}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.1.1&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc3d3676a27e2d7304a02d80b38f81f5, findElement {using=xpath, value=//div[@class=&apos;navbar-nav&apos;]//a[@href=&apos;/login&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60937}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60937/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dc3d3676a27e2d7304a02d80b38f81f5
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 18 more
+</pre></div></td>
+<td>25</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.QueueTests.testUserSignIn()'><b>testUserSignIn</b><br>Test class: testClasses.QueueTests</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //div[@class=&apos;navbar-nav&apos;]//a[@href=&apos;/login&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at dsAlgoPageObjects.HomePageObj.clickSignInLink(HomePageObj.java:186)
+	at testClasses.QueueTests.testUserSignIn(QueueTests.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;navbar-nav&apos;]//a[@href=&apos;/login&apos;]&quot;}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.1.1&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [acb6ab661ce46c8ce826b7ad2852fd10, findElement {using=xpath, value=//div[@class=&apos;navbar-nav&apos;]//a[@href=&apos;/login&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60931}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60931/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: acb6ab661ce46c8ce826b7ad2852fd10
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 18 more
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1106058563", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1106058563'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //div[@class=&apos;navbar-nav&apos;]//a[@href=&apos;/login&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at dsAlgoPageObjects.HomePageObj.clickSignInLink(HomePageObj.java:186)
+	at testClasses.QueueTests.testUserSignIn(QueueTests.java:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;navbar-nav&apos;]//a[@href=&apos;/login&apos;]&quot;}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.1.1&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [acb6ab661ce46c8ce826b7ad2852fd10, findElement {using=xpath, value=//div[@class=&apos;navbar-nav&apos;]//a[@href=&apos;/login&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60931}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60931/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: acb6ab661ce46c8ce826b7ad2852fd10
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 18 more
+</pre></div></td>
+<td>21</td>
+<td>testClasses.QueueTests@41294f8</td></tr>
+<tr>
+<td title='testClasses.ArrayTests.EvenNumberOfDigits()'><b>EvenNumberOfDigits</b><br>Test class: testClasses.ArrayTests</td>
+<td><div><pre>org.testng.TestNGException: 
+Found two providers called &apos;EvenDigitsData&apos; on class testClasses.ArrayTests
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2108765983", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2108765983'><pre>org.testng.TestNGException: 
+Found two providers called &apos;EvenDigitsData&apos; on class testClasses.ArrayTests
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:647)
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:516)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</pre></div></td>
+<td>0</td>
+<td>testClasses.ArrayTests@4ddbbdf8</td></tr>
+<tr>
+<td title='testClasses.ArrayTests.MaxConsecutiveOnes()'><b>MaxConsecutiveOnes</b><br>Test class: testClasses.ArrayTests</td>
+<td><div><pre>org.testng.TestNGException: 
+Found two providers called &apos;MaxConsecutiveOnesData&apos; on class testClasses.ArrayTests
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace80719008", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace80719008'><pre>org.testng.TestNGException: 
+Found two providers called &apos;MaxConsecutiveOnesData&apos; on class testClasses.ArrayTests
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:647)
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:516)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</pre></div></td>
+<td>0</td>
+<td>testClasses.ArrayTests@4ddbbdf8</td></tr>
+<tr>
+<td title='testClasses.QueueTests.testInvalidCodeRunQueueOperationsPage()'><b>testInvalidCodeRunQueueOperationsPage</b><br>Test class: testClasses.QueueTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&apos;content&apos;]/a&apos; (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at dsAlgoPageObjects.QueuePageObj.clickQueueOperationslink(QueuePageObj.java:71)
+	at testClasses.QueueTests.testInvalidCodeRunQueueOperationsPage(QueueTests.java:274)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;content&apos;]/a&quot;}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.1.1&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7c0c486f8ce7c9b3c5e2ac0132aaf75d, findElement {using=xpath, value=//*[@id=&apos;content&apos;]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64720}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64720/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c0c486f8ce7c9b3c5e2ac0132aaf75d
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 18 more
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace656556178", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace656556178'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&apos;content&apos;]/a&apos; (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at dsAlgoPageObjects.QueuePageObj.clickQueueOperationslink(QueuePageObj.java:71)
+	at testClasses.QueueTests.testInvalidCodeRunQueueOperationsPage(QueueTests.java:274)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;content&apos;]/a&quot;}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.1.1&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7c0c486f8ce7c9b3c5e2ac0132aaf75d, findElement {using=xpath, value=//*[@id=&apos;content&apos;]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64720}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64720/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c0c486f8ce7c9b3c5e2ac0132aaf75d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 18 more
+</pre></div></td>
+<td>35</td>
+<td>testClasses.QueueTests@41294f8</td></tr>
+<tr>
+<td title='testClasses.ArrayTests.SearchTheArray1()'><b>SearchTheArray1</b><br>Test class: testClasses.ArrayTests<br>Parameters: ArrayPracticeQnsQ1, 1, SyntaxError: bad input on line 1</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : SyntaxError: bad input on line 2}
+  (Session info: chrome=136.0.7103.114): SyntaxError: bad input on line 2
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.1.1&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [43d1b00e9b393a2570940b8fff77ce49, findElement {using=xpath, value=//button[text()=&apos;Run&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63443/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 43d1b00e9b393a2570940b8fff77ce49
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at dsAlgoPageObjects.TryEditorPage.clickRunButton(TryEditorPage.java:52)
+	at testClasses.ArrayTests.SearchTheArray1(ArrayTests.java:233)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1783289115", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1783289115'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : SyntaxError: bad input on line 2}
+  (Session info: chrome=136.0.7103.114): SyntaxError: bad input on line 2
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.1.1&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [43d1b00e9b393a2570940b8fff77ce49, findElement {using=xpath, value=//button[text()=&apos;Run&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63443/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 43d1b00e9b393a2570940b8fff77ce49
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at dsAlgoPageObjects.TryEditorPage.clickRunButton(TryEditorPage.java:52)
+	at testClasses.ArrayTests.SearchTheArray1(ArrayTests.java:233)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</pre></div></td>
+<td>7</td>
+<td>testClasses.ArrayTests@4ddbbdf8</td></tr>
+<tr>
+<td title='testClasses.ArrayTests.MaxConsecutiveOnes1()'><b>MaxConsecutiveOnes1</b><br>Test class: testClasses.ArrayTests</td>
+<td><div><pre>org.testng.TestNGException: 
+Found two providers called &apos;MaxConsecutiveOnesData&apos; on class testClasses.ArrayTests
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace784299214", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace784299214'><pre>org.testng.TestNGException: 
+Found two providers called &apos;MaxConsecutiveOnesData&apos; on class testClasses.ArrayTests
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:647)
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:516)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</pre></div></td>
+<td>0</td>
+<td>testClasses.ArrayTests@4ddbbdf8</td></tr>
+<tr>
+<td title='testClasses.QueueTests.testTryHereButtonQueueOperations()'><b>testTryHereButtonQueueOperations</b><br>Test class: testClasses.QueueTests</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&apos;content&apos;]/a&apos; (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at dsAlgoPageObjects.QueuePageObj.clickQueueOperationslink(QueuePageObj.java:71)
+	at testClasses.QueueTests.testTryHereButtonQueueOperations(QueueTests.java:265)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;content&apos;]/a&quot;}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.1.1&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a761558d7844a5fb2ff0a6ca3de3d470, findElement {using=xpath, value=//*[@id=&apos;content&apos;]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64585}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64585/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a761558d7844a5fb2ff0a6ca3de3d470
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 18 more
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1924896366", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1924896366'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&apos;content&apos;]/a&apos; (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at dsAlgoPageObjects.QueuePageObj.clickQueueOperationslink(QueuePageObj.java:71)
+	at testClasses.QueueTests.testTryHereButtonQueueOperations(QueueTests.java:265)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;content&apos;]/a&quot;}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.1.1&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a761558d7844a5fb2ff0a6ca3de3d470, findElement {using=xpath, value=//*[@id=&apos;content&apos;]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64585}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64585/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a761558d7844a5fb2ff0a6ca3de3d470
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 18 more
+</pre></div></td>
+<td>30</td>
+<td>testClasses.QueueTests@41294f8</td></tr>
+<tr>
+<td title='testClasses.QueueTests.testQueueOperationsPageNavigation()'><b>testQueueOperationsPageNavigation</b><br>Test class: testClasses.QueueTests</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&apos;content&apos;]/a&apos; (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at dsAlgoPageObjects.QueuePageObj.clickQueueOperationslink(QueuePageObj.java:71)
+	at testClasses.QueueTests.testQueueOperationsPageNavigation(QueueTests.java:258)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;content&apos;]/a&quot;}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.1.1&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [058e26defcd839653261da750139013d, findElement {using=xpath, value=//*[@id=&apos;content&apos;]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64347}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64347/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 058e26defcd839653261da750139013d
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 18 more
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1882784002", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1882784002'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&apos;content&apos;]/a&apos; (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at dsAlgoPageObjects.QueuePageObj.clickQueueOperationslink(QueuePageObj.java:71)
+	at testClasses.QueueTests.testQueueOperationsPageNavigation(QueueTests.java:258)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;content&apos;]/a&quot;}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.1.1&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [058e26defcd839653261da750139013d, findElement {using=xpath, value=//*[@id=&apos;content&apos;]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64347}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64347/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 058e26defcd839653261da750139013d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 18 more
+</pre></div></td>
+<td>30</td>
+<td>testClasses.QueueTests@41294f8</td></tr>
+<tr>
+<td title='testClasses.RegisterTests.testValidRegistration()'><b>testValidRegistration</b><br>Test class: testClasses.RegisterTests<br>Parameters: Register, 3</td>
+<td><div><pre>java.lang.IllegalArgumentException: Invalid row index: 3
+	at dsAlgoPageObjects.RegisterPageObj.fillRegistrationForm(RegisterPageObj.java:85)
+	at testClasses.RegisterTests.testValidRegistration(RegisterTests.java:57)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2119609386", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2119609386'><pre>java.lang.IllegalArgumentException: Invalid row index: 3
+	at dsAlgoPageObjects.RegisterPageObj.fillRegistrationForm(RegisterPageObj.java:85)
+	at testClasses.RegisterTests.testValidRegistration(RegisterTests.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</pre></div></td>
+<td>0</td>
+<td>testClasses.RegisterTests@768fc0f2</td></tr>
+<tr>
+<td title='testClasses.ArrayTests.SquaresofaSorted1()'><b>SquaresofaSorted1</b><br>Test class: testClasses.ArrayTests</td>
+<td><div><pre>org.testng.TestNGException: 
+Method public void testClasses.ArrayTests.SquaresofaSorted1(java.lang.String,int,java.lang.String) throws java.io.IOException,org.apache.poi.openxml4j.exceptions.OpenXML4JException requires a @DataProvider named : InValidPythonCode in class utils.DataProviders
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace374513774", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace374513774'><pre>org.testng.TestNGException: 
+Method public void testClasses.ArrayTests.SquaresofaSorted1(java.lang.String,int,java.lang.String) throws java.io.IOException,org.apache.poi.openxml4j.exceptions.OpenXML4JException requires a @DataProvider named : InValidPythonCode in class utils.DataProviders
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:532)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</pre></div></td>
+<td>0</td>
+<td>testClasses.ArrayTests@4ddbbdf8</td></tr>
+<tr>
+<td title='testClasses.QueueTests.testValidCodeRunQueueOperationsPage()'><b>testValidCodeRunQueueOperationsPage</b><br>Test class: testClasses.QueueTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&apos;content&apos;]/a&apos; (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at dsAlgoPageObjects.QueuePageObj.clickQueueOperationslink(QueuePageObj.java:71)
+	at testClasses.QueueTests.testValidCodeRunQueueOperationsPage(QueueTests.java:288)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;content&apos;]/a&quot;}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.1.1&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f6e6c0c511af82a574b3ed80d0d42a5, findElement {using=xpath, value=//*[@id=&apos;content&apos;]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64893}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64893/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f6e6c0c511af82a574b3ed80d0d42a5
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 18 more
+... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1086894102", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1086894102'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&apos;content&apos;]/a&apos; (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at dsAlgoPageObjects.QueuePageObj.clickQueueOperationslink(QueuePageObj.java:71)
+	at testClasses.QueueTests.testValidCodeRunQueueOperationsPage(QueueTests.java:288)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;content&apos;]/a&quot;}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.1.1&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f6e6c0c511af82a574b3ed80d0d42a5, findElement {using=xpath, value=//*[@id=&apos;content&apos;]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64893}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64893/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f6e6c0c511af82a574b3ed80d0d42a5
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 18 more
+</pre></div></td>
+<td>36</td>
+<td>testClasses.QueueTests@41294f8</td></tr>
+<tr>
+<td title='testClasses.ArrayTests.ArraysUsingList1()'><b>ArraysUsingList1</b><br>Test class: testClasses.ArrayTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : SyntaxError: bad input on line 1}
+  (Session info: chrome=136.0.7103.114): SyntaxError: bad input on line 1
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.1.1&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bcca98f7a67039c37cdcb0b94aa9a5eb, findElement {using=xpath, value=//button[text()=&apos;Run&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62159}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62159/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bcca98f7a67039c37cdcb0b94aa9a5eb
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at dsAlgoPageObjects.TryEditorPage.clickRunButton(TryEditorPage.java:52)
+	at testClasses.ArrayTests.ArraysUsingList1(ArrayTests.java:138)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace376643148", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace376643148'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : SyntaxError: bad input on line 1}
+  (Session info: chrome=136.0.7103.114): SyntaxError: bad input on line 1
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.1.1&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bcca98f7a67039c37cdcb0b94aa9a5eb, findElement {using=xpath, value=//button[text()=&apos;Run&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/49/t7zfzxpj60s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62159}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62159/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bcca98f7a67039c37cdcb0b94aa9a5eb
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at dsAlgoPageObjects.TryEditorPage.clickRunButton(TryEditorPage.java:52)
+	at testClasses.ArrayTests.ArraysUsingList1(ArrayTests.java:138)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+</pre></div></td>
+<td>1</td>
+<td>testClasses.ArrayTests@4ddbbdf8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testClasses.QueueTests.testImplementationofQueueinPythonPageNavigation()'><b>testImplementationofQueueinPythonPageNavigation</b><br>Test class: testClasses.QueueTests</td>
+<td></td>
+<td>6</td>
+<td>testClasses.QueueTests@41294f8</td></tr>
+<tr>
+<td title='testClasses.ArrayTests.ArraysUsingList()'><b>ArraysUsingList</b><br>Test class: testClasses.ArrayTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>8</td>
+<td>testClasses.ArrayTests@4ddbbdf8</td></tr>
+<tr>
+<td title='testClasses.HomeTests.TreeGetStarted()'><b>TreeGetStarted</b><br>Test class: testClasses.HomeTests</td>
+<td></td>
+<td>0</td>
+<td>testClasses.HomeTests@455b6df1</td></tr>
+<tr>
+<td title='testClasses.HomeTests.LinkedListGetStarted()'><b>LinkedListGetStarted</b><br>Test class: testClasses.HomeTests</td>
+<td></td>
+<td>0</td>
+<td>testClasses.HomeTests@455b6df1</td></tr>
+<tr>
+<td title='testClasses.GraphTests.testValidCodeRunInsideGraph()'><b>testValidCodeRunInsideGraph</b><br>Test class: testClasses.GraphTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>2</td>
+<td>testClasses.GraphTests@20c0a64d</td></tr>
+<tr>
+<td title='testClasses.QueueTests.testValidCodeRunImplementationusingCollectionsPage()'><b>testValidCodeRunImplementationusingCollectionsPage</b><br>Test class: testClasses.QueueTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>2</td>
+<td>testClasses.QueueTests@41294f8</td></tr>
+<tr>
+<td title='testClasses.TreeTests.clickBinarySearchTreesLink()'><b>clickBinarySearchTreesLink</b><br>Test class: testClasses.TreeTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>7</td>
+<td>testClasses.TreeTests@119cbf96</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testInvalidCodeTraversal()'><b>testInvalidCodeTraversal</b><br>Test class: testClasses.LinkListTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>6</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testNavigateToIntroductionPage()'><b>testNavigateToIntroductionPage</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>5</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testTraversalPageNavigation()'><b>testTraversalPageNavigation</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>0</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.HomeTests.DataStructureIntroductionGetstarted()'><b>DataStructureIntroductionGetstarted</b><br>Test class: testClasses.HomeTests</td>
+<td></td>
+<td>5</td>
+<td>testClasses.HomeTests@455b6df1</td></tr>
+<tr>
+<td title='testClasses.QueueTests.testPracticeQuestionsLinkImplementaionusingCollectionsPage()'><b>testPracticeQuestionsLinkImplementaionusingCollectionsPage</b><br>Test class: testClasses.QueueTests</td>
+<td></td>
+<td>1</td>
+<td>testClasses.QueueTests@41294f8</td></tr>
+<tr>
+<td title='testClasses.QueueTests.testNavigateToImplementationusingCollectionsPage()'><b>testNavigateToImplementationusingCollectionsPage</b><br>Test class: testClasses.QueueTests</td>
+<td></td>
+<td>0</td>
+<td>testClasses.QueueTests@41294f8</td></tr>
+<tr>
+<td title='testClasses.QueueTests.testImplementationusingArrayPageNavigation()'><b>testImplementationusingArrayPageNavigation</b><br>Test class: testClasses.QueueTests</td>
+<td></td>
+<td>0</td>
+<td>testClasses.QueueTests@41294f8</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testValidCodeTypesofLL()'><b>testValidCodeTypesofLL</b><br>Test class: testClasses.LinkListTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>1</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.ArrayTests.SearchTheArray()'><b>SearchTheArray</b><br>Test class: testClasses.ArrayTests<br>Parameters: ArrayPracticeQnsQ1, 0, Element Found</td>
+<td></td>
+<td>8</td>
+<td>testClasses.ArrayTests@4ddbbdf8</td></tr>
+<tr>
+<td title='testClasses.TreeTests.clickImplementationofBTSLink1()'><b>clickImplementationofBTSLink1</b><br>Test class: testClasses.TreeTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>8</td>
+<td>testClasses.TreeTests@119cbf96</td></tr>
+<tr>
+<td title='testClasses.HomeTests.DSDropdown()'><b>DSDropdown</b><br>Test class: testClasses.HomeTests</td>
+<td></td>
+<td>5</td>
+<td>testClasses.HomeTests@455b6df1</td></tr>
+<tr>
+<td title='testClasses.TreeTests.clickApplicationOfBinaryTreesLink()'><b>clickApplicationOfBinaryTreesLink</b><br>Test class: testClasses.TreeTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>7</td>
+<td>testClasses.TreeTests@119cbf96</td></tr>
+<tr>
+<td title='testClasses.QueueTests.testValidCodeRunImplementationusingArrayPage()'><b>testValidCodeRunImplementationusingArrayPage</b><br>Test class: testClasses.QueueTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>6</td>
+<td>testClasses.QueueTests@41294f8</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testPracticeQuestionsLinkcreatingLL()'><b>testPracticeQuestionsLinkcreatingLL</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>1</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testValidCodeInsertion()'><b>testValidCodeInsertion</b><br>Test class: testClasses.LinkListTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>6</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.HomeTests.ArrayGetStarted()'><b>ArrayGetStarted</b><br>Test class: testClasses.HomeTests</td>
+<td></td>
+<td>0</td>
+<td>testClasses.HomeTests@455b6df1</td></tr>
+<tr>
+<td title='testClasses.QueueTests.testTryHereButtonImplementationusingCollections()'><b>testTryHereButtonImplementationusingCollections</b><br>Test class: testClasses.QueueTests</td>
+<td></td>
+<td>7</td>
+<td>testClasses.QueueTests@41294f8</td></tr>
+<tr>
+<td title='testClasses.QueueTests.testNavigateToImplementationofQueueinPythonPage()'><b>testNavigateToImplementationofQueueinPythonPage</b><br>Test class: testClasses.QueueTests</td>
+<td></td>
+<td>0</td>
+<td>testClasses.QueueTests@41294f8</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testPracticeQuestionsLinkIntroductionPage()'><b>testPracticeQuestionsLinkIntroductionPage</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>6</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testTryHereButtonIntroduction()'><b>testTryHereButtonIntroduction</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>7</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.TreeTests.clickImplementationOfBinaryTreesLink()'><b>clickImplementationOfBinaryTreesLink</b><br>Test class: testClasses.TreeTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>7</td>
+<td>testClasses.TreeTests@119cbf96</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testValidCodeTraversal()'><b>testValidCodeTraversal</b><br>Test class: testClasses.LinkListTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>6</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.GraphTests.testPracticeQuestionsGraphRepresentation()'><b>testPracticeQuestionsGraphRepresentation</b><br>Test class: testClasses.GraphTests</td>
+<td></td>
+<td>6</td>
+<td>testClasses.GraphTests@20c0a64d</td></tr>
+<tr>
+<td title='testClasses.GraphTests.testPracticeQuestionsLinkInsideGraph()'><b>testPracticeQuestionsLinkInsideGraph</b><br>Test class: testClasses.GraphTests</td>
+<td></td>
+<td>1</td>
+<td>testClasses.GraphTests@20c0a64d</td></tr>
+<tr>
+<td title='testClasses.ArrayTests.SquaresofaSorted()'><b>SquaresofaSorted</b><br>Test class: testClasses.ArrayTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>8</td>
+<td>testClasses.ArrayTests@4ddbbdf8</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testValidCodeImplementLL()'><b>testValidCodeImplementLL</b><br>Test class: testClasses.LinkListTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>6</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.QueueTests.testInvalidCodeRunImplementationusingArrayPage()'><b>testInvalidCodeRunImplementationusingArrayPage</b><br>Test class: testClasses.QueueTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>7</td>
+<td>testClasses.QueueTests@41294f8</td></tr>
+<tr>
+<td title='testClasses.RegisterTests.testPasswordMismatchRegistration()'><b>testPasswordMismatchRegistration</b><br>Test class: testClasses.RegisterTests<br>Parameters: Register, 1</td>
+<td></td>
+<td>5</td>
+<td>testClasses.RegisterTests@768fc0f2</td></tr>
+<tr>
+<td title='testClasses.StackTests.testPracticeQuestionsImplemntation()'><b>testPracticeQuestionsImplemntation</b><br>Test class: testClasses.StackTests</td>
+<td></td>
+<td>6</td>
+<td>testClasses.StackTests@71329995</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testTryHereButtonTypesofLL()'><b>testTryHereButtonTypesofLL</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>7</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testInvalidCodeInsertion()'><b>testInvalidCodeInsertion</b><br>Test class: testClasses.LinkListTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>6</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testValidCodeRunIntroductionPage()'><b>testValidCodeRunIntroductionPage</b><br>Test class: testClasses.LinkListTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>7</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.HomeTests.StackGetStarted()'><b>StackGetStarted</b><br>Test class: testClasses.HomeTests</td>
+<td></td>
+<td>0</td>
+<td>testClasses.HomeTests@455b6df1</td></tr>
+<tr>
+<td title='testClasses.StackTests.testInvalidCodeRunInsideApplications()'><b>testInvalidCodeRunInsideApplications</b><br>Test class: testClasses.StackTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>7</td>
+<td>testClasses.StackTests@71329995</td></tr>
+<tr>
+<td title='testClasses.QueueTests.testTryHereButtonImplementationusingArray()'><b>testTryHereButtonImplementationusingArray</b><br>Test class: testClasses.QueueTests</td>
+<td></td>
+<td>6</td>
+<td>testClasses.QueueTests@41294f8</td></tr>
+<tr>
+<td title='testClasses.QueueTests.testInvalidCodeRunImplementationusingCollectionsPage()'><b>testInvalidCodeRunImplementationusingCollectionsPage</b><br>Test class: testClasses.QueueTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>1</td>
+<td>testClasses.QueueTests@41294f8</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.deletionPage()'><b>deletionPage</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>5</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testDeletionPageNavigation()'><b>testDeletionPageNavigation</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>0</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.StackTests.testInvalidCodeRunInsideOpsStack()'><b>testInvalidCodeRunInsideOpsStack</b><br>Test class: testClasses.StackTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>9</td>
+<td>testClasses.StackTests@71329995</td></tr>
+<tr>
+<td title='testClasses.ArrayTests.BasicOperationsinLists1()'><b>BasicOperationsinLists1</b><br>Test class: testClasses.ArrayTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>8</td>
+<td>testClasses.ArrayTests@4ddbbdf8</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testTypesofLLPageNavigation()'><b>testTypesofLLPageNavigation</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>6</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testPracticeQuestionsLinkDeletion()'><b>testPracticeQuestionsLinkDeletion</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>5</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testTypesofLLPage()'><b>testTypesofLLPage</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>5</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.StackTests.testInvalidCodeStackRepresentation()'><b>testInvalidCodeStackRepresentation</b><br>Test class: testClasses.StackTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>10</td>
+<td>testClasses.StackTests@71329995</td></tr>
+<tr>
+<td title='testClasses.TreeTests.clickTreeTraversalsLink()'><b>clickTreeTraversalsLink</b><br>Test class: testClasses.TreeTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>3</td>
+<td>testClasses.TreeTests@119cbf96</td></tr>
+<tr>
+<td title='testClasses.TreeTests.clickTerminologiesLink1()'><b>clickTerminologiesLink1</b><br>Test class: testClasses.TreeTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>2</td>
+<td>testClasses.TreeTests@119cbf96</td></tr>
+<tr>
+<td title='testClasses.TreeTests.OverviewOfTreesLink1()'><b>OverviewOfTreesLink1</b><br>Test class: testClasses.TreeTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>10</td>
+<td>testClasses.TreeTests@119cbf96</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.insertionPage()'><b>insertionPage</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>5</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.ArrayTests.ApplicationsofArray1()'><b>ApplicationsofArray1</b><br>Test class: testClasses.ArrayTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>7</td>
+<td>testClasses.ArrayTests@4ddbbdf8</td></tr>
+<tr>
+<td title='testClasses.TreeTests.clickTypesOfTreesLink1()'><b>clickTypesOfTreesLink1</b><br>Test class: testClasses.TreeTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>2</td>
+<td>testClasses.TreeTests@119cbf96</td></tr>
+<tr>
+<td title='testClasses.DataStructureTests.testValidOutputforTimeComplexity1()'><b>testValidOutputforTimeComplexity1</b><br>Test class: testClasses.DataStructureTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>9</td>
+<td>testClasses.DataStructureTests@5454d35e</td></tr>
+<tr>
+<td title='testClasses.TreeTests.clickBinarySearchTreesLink1()'><b>clickBinarySearchTreesLink1</b><br>Test class: testClasses.TreeTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>3</td>
+<td>testClasses.TreeTests@119cbf96</td></tr>
+<tr>
+<td title='testClasses.DataStructureTests.testInValidOutputforTimeComplexity()'><b>testInValidOutputforTimeComplexity</b><br>Test class: testClasses.DataStructureTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>7</td>
+<td>testClasses.DataStructureTests@5454d35e</td></tr>
+<tr>
+<td title='testClasses.TreeTests.clickTreeTraversalsLink1()'><b>clickTreeTraversalsLink1</b><br>Test class: testClasses.TreeTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>3</td>
+<td>testClasses.TreeTests@119cbf96</td></tr>
+<tr>
+<td title='testClasses.TreeTests.clickTerminologiesLink()'><b>clickTerminologiesLink</b><br>Test class: testClasses.TreeTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>12</td>
+<td>testClasses.TreeTests@119cbf96</td></tr>
+<tr>
+<td title='testClasses.SignInTests.testInvalidLogin()'><b>testInvalidLogin</b><br>Test class: testClasses.SignInTests<br>Parameters: Login, 2</td>
+<td></td>
+<td>8</td>
+<td>testClasses.SignInTests@2141a12</td></tr>
+<tr>
+<td title='testClasses.QueueTests.testNavigateToImplementationusingArrayPage()'><b>testNavigateToImplementationusingArrayPage</b><br>Test class: testClasses.QueueTests</td>
+<td></td>
+<td>5</td>
+<td>testClasses.QueueTests@41294f8</td></tr>
+<tr>
+<td title='testClasses.TreeTests.clickApplicationOfBinaryTreesLink1()'><b>clickApplicationOfBinaryTreesLink1</b><br>Test class: testClasses.TreeTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>7</td>
+<td>testClasses.TreeTests@119cbf96</td></tr>
+<tr>
+<td title='testClasses.ArrayTests.ArraysinPython1()'><b>ArraysinPython1</b><br>Test class: testClasses.ArrayTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>2</td>
+<td>testClasses.ArrayTests@4ddbbdf8</td></tr>
+<tr>
+<td title='testClasses.StackTests.testPracticeQuestionsApplications()'><b>testPracticeQuestionsApplications</b><br>Test class: testClasses.StackTests</td>
+<td></td>
+<td>6</td>
+<td>testClasses.StackTests@71329995</td></tr>
+<tr>
+<td title='testClasses.TreeTests.clickTraversalsIllustrationsLink()'><b>clickTraversalsIllustrationsLink</b><br>Test class: testClasses.TreeTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>8</td>
+<td>testClasses.TreeTests@119cbf96</td></tr>
+<tr>
+<td title='testClasses.TreeTests.clickTypesofBinaryTreesLink()'><b>clickTypesofBinaryTreesLink</b><br>Test class: testClasses.TreeTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>2</td>
+<td>testClasses.TreeTests@119cbf96</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.implementLLPage()'><b>implementLLPage</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>5</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testTryHereButtonTraversal()'><b>testTryHereButtonTraversal</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>6</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testPracticeQuestionsLinkTraversal()'><b>testPracticeQuestionsLinkTraversal</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>0</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testInvalidCodeRunIntroductionPage()'><b>testInvalidCodeRunIntroductionPage</b><br>Test class: testClasses.LinkListTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>7</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.QueueTests.testPracticeQuestionsLinkImplementaionusingArrayPage()'><b>testPracticeQuestionsLinkImplementaionusingArrayPage</b><br>Test class: testClasses.QueueTests</td>
+<td></td>
+<td>0</td>
+<td>testClasses.QueueTests@41294f8</td></tr>
+<tr>
+<td title='testClasses.TreeTests.clickBinaryTreesLink1()'><b>clickBinaryTreesLink1</b><br>Test class: testClasses.TreeTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>6</td>
+<td>testClasses.TreeTests@119cbf96</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testImplementLLPageNavigation()'><b>testImplementLLPageNavigation</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>5</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.TreeTests.clickTypesofBinaryTreesLink1()'><b>clickTypesofBinaryTreesLink1</b><br>Test class: testClasses.TreeTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>2</td>
+<td>testClasses.TreeTests@119cbf96</td></tr>
+<tr>
+<td title='testClasses.StackTests.testValidCodeRunInsideApplications()'><b>testValidCodeRunInsideApplications</b><br>Test class: testClasses.StackTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>2</td>
+<td>testClasses.StackTests@71329995</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testInsertionPageNavigation()'><b>testInsertionPageNavigation</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>0</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.traversalPage()'><b>traversalPage</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>5</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testTryHereButtonImplementLL()'><b>testTryHereButtonImplementLL</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>6</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.TreeTests.clickTypesOfTreesLink()'><b>clickTypesOfTreesLink</b><br>Test class: testClasses.TreeTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>9</td>
+<td>testClasses.TreeTests@119cbf96</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testInvalidCodeDeletion()'><b>testInvalidCodeDeletion</b><br>Test class: testClasses.LinkListTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>6</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.StackTests.testPracticeQuestionsOpsStack()'><b>testPracticeQuestionsOpsStack</b><br>Test class: testClasses.StackTests</td>
+<td></td>
+<td>1</td>
+<td>testClasses.StackTests@71329995</td></tr>
+<tr>
+<td title='testClasses.TreeTests.OverviewOfTreesLink()'><b>OverviewOfTreesLink</b><br>Test class: testClasses.TreeTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>7</td>
+<td>testClasses.TreeTests@119cbf96</td></tr>
+<tr>
+<td title='testClasses.HomeTests.QueueGetStarted()'><b>QueueGetStarted</b><br>Test class: testClasses.HomeTests</td>
+<td></td>
+<td>0</td>
+<td>testClasses.HomeTests@455b6df1</td></tr>
+<tr>
+<td title='testClasses.SignInTests.testValidLogin()'><b>testValidLogin</b><br>Test class: testClasses.SignInTests<br>Parameters: Login, 0</td>
+<td></td>
+<td>2</td>
+<td>testClasses.SignInTests@2141a12</td></tr>
+<tr>
+<td title='testClasses.TreeTests.clickBinaryTreesLink()'><b>clickBinaryTreesLink</b><br>Test class: testClasses.TreeTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>8</td>
+<td>testClasses.TreeTests@119cbf96</td></tr>
+<tr>
+<td title='testClasses.StackTests.testValidCodeRunInsideOpsStack()'><b>testValidCodeRunInsideOpsStack</b><br>Test class: testClasses.StackTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>7</td>
+<td>testClasses.StackTests@71329995</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testCreatingLLPage()'><b>testCreatingLLPage</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>0</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.QueueTests.testInvalidCodeRunImplementationofQueuePythonPage()'><b>testInvalidCodeRunImplementationofQueuePythonPage</b><br>Test class: testClasses.QueueTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>3</td>
+<td>testClasses.QueueTests@41294f8</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testTryHereButtonCreatingLL()'><b>testTryHereButtonCreatingLL</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>1</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.GraphTests.testInvalidCodeRunInsideGraph()'><b>testInvalidCodeRunInsideGraph</b><br>Test class: testClasses.GraphTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>7</td>
+<td>testClasses.GraphTests@20c0a64d</td></tr>
+<tr>
+<td title='testClasses.StackTests.testValidCodeStackRepresentation()'><b>testValidCodeStackRepresentation</b><br>Test class: testClasses.StackTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>7</td>
+<td>testClasses.StackTests@71329995</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testInvalidCodeImplementLL()'><b>testInvalidCodeImplementLL</b><br>Test class: testClasses.LinkListTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>7</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testLLIntroductionPageNavigation()'><b>testLLIntroductionPageNavigation</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>6</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testInvalidCodeTypesofLL()'><b>testInvalidCodeTypesofLL</b><br>Test class: testClasses.LinkListTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>7</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.QueueTests.testValidCodeRunImplementationofQueuePythonPage()'><b>testValidCodeRunImplementationofQueuePythonPage</b><br>Test class: testClasses.QueueTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>2</td>
+<td>testClasses.QueueTests@41294f8</td></tr>
+<tr>
+<td title='testClasses.QueueTests.testNavigateToQueueOperationsPage()'><b>testNavigateToQueueOperationsPage</b><br>Test class: testClasses.QueueTests</td>
+<td></td>
+<td>0</td>
+<td>testClasses.QueueTests@41294f8</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testPracticeQuestionsLinkImplementLL()'><b>testPracticeQuestionsLinkImplementLL</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>5</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testPracticeQuestionsLinkInsertion()'><b>testPracticeQuestionsLinkInsertion</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>5</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.GraphTests.testInvalidCodeGraphRepresentation()'><b>testInvalidCodeGraphRepresentation</b><br>Test class: testClasses.GraphTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>9</td>
+<td>testClasses.GraphTests@20c0a64d</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testTryHereButtonDeletion()'><b>testTryHereButtonDeletion</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>6</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.HomeTests.GraphGetStarted()'><b>GraphGetStarted</b><br>Test class: testClasses.HomeTests</td>
+<td></td>
+<td>5</td>
+<td>testClasses.HomeTests@455b6df1</td></tr>
+<tr>
+<td title='testClasses.GraphTests.testValidCodeGraphRepresentation()'><b>testValidCodeGraphRepresentation</b><br>Test class: testClasses.GraphTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>9</td>
+<td>testClasses.GraphTests@20c0a64d</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testInvalidCodeCreatingLL()'><b>testInvalidCodeCreatingLL</b><br>Test class: testClasses.LinkListTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>2</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testValidCodeDeletion()'><b>testValidCodeDeletion</b><br>Test class: testClasses.LinkListTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>6</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.TreeTests.clickImplementationofBTSLink()'><b>clickImplementationofBTSLink</b><br>Test class: testClasses.TreeTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>6</td>
+<td>testClasses.TreeTests@119cbf96</td></tr>
+<tr>
+<td title='testClasses.TreeTests.clickTraversalsIllustrationsLink1()'><b>clickTraversalsIllustrationsLink1</b><br>Test class: testClasses.TreeTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>7</td>
+<td>testClasses.TreeTests@119cbf96</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testTryHereButtonInsertion()'><b>testTryHereButtonInsertion</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>6</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testValidCodeCreatingLL()'><b>testValidCodeCreatingLL</b><br>Test class: testClasses.LinkListTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>6</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.ArrayTests.ArraysinPython()'><b>ArraysinPython</b><br>Test class: testClasses.ArrayTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>10</td>
+<td>testClasses.ArrayTests@4ddbbdf8</td></tr>
+<tr>
+<td title='testClasses.SignInTests.testEmptyData()'><b>testEmptyData</b><br>Test class: testClasses.SignInTests<br>Parameters: Login, 1</td>
+<td></td>
+<td>6</td>
+<td>testClasses.SignInTests@2141a12</td></tr>
+<tr>
+<td title='testClasses.QueueTests.testPracticeQuestionsLinkImplementaionofQueuePythonPage()'><b>testPracticeQuestionsLinkImplementaionofQueuePythonPage</b><br>Test class: testClasses.QueueTests</td>
+<td></td>
+<td>6</td>
+<td>testClasses.QueueTests@41294f8</td></tr>
+<tr>
+<td title='testClasses.ArrayTests.BasicOperationsinLists()'><b>BasicOperationsinLists</b><br>Test class: testClasses.ArrayTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>7</td>
+<td>testClasses.ArrayTests@4ddbbdf8</td></tr>
+<tr>
+<td title='testClasses.QueueTests.testImplementationusingCollectionsPageNavigation()'><b>testImplementationusingCollectionsPageNavigation</b><br>Test class: testClasses.QueueTests</td>
+<td></td>
+<td>5</td>
+<td>testClasses.QueueTests@41294f8</td></tr>
+<tr>
+<td title='testClasses.RegisterTests.testEmptyUsernameValidation()'><b>testEmptyUsernameValidation</b><br>Test class: testClasses.RegisterTests<br>Parameters: Register, 0</td>
+<td></td>
+<td>5</td>
+<td>testClasses.RegisterTests@768fc0f2</td></tr>
+<tr>
+<td title='testClasses.QueueTests.testTryHereButtonImplementationOfQueueInPython()'><b>testTryHereButtonImplementationOfQueueInPython</b><br>Test class: testClasses.QueueTests</td>
+<td></td>
+<td>7</td>
+<td>testClasses.QueueTests@41294f8</td></tr>
+<tr>
+<td title='testClasses.RegisterTests.testNumericPasswordValidation()'><b>testNumericPasswordValidation</b><br>Test class: testClasses.RegisterTests<br>Parameters: Register, 2</td>
+<td></td>
+<td>0</td>
+<td>testClasses.RegisterTests@768fc0f2</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testCreatingLLPageNavigation()'><b>testCreatingLLPageNavigation</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>0</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+<tr>
+<td title='testClasses.TreeTests.clickImplementationOfBinaryTreesLink1()'><b>clickImplementationOfBinaryTreesLink1</b><br>Test class: testClasses.TreeTests<br>Parameters: tryEditorCode, 1, SyntaxError: bad input on line 1</td>
+<td></td>
+<td>1</td>
+<td>testClasses.TreeTests@119cbf96</td></tr>
+<tr>
+<td title='testClasses.ArrayTests.ApplicationsofArray()'><b>ApplicationsofArray</b><br>Test class: testClasses.ArrayTests<br>Parameters: tryEditorCode, 0, Python is fun!</td>
+<td></td>
+<td>7</td>
+<td>testClasses.ArrayTests@4ddbbdf8</td></tr>
+<tr>
+<td title='testClasses.LinkListTests.testPracticeQuestionsLinkTypesofLL()'><b>testPracticeQuestionsLinkTypesofLL</b><br>Test class: testClasses.LinkListTests</td>
+<td></td>
+<td>6</td>
+<td>testClasses.LinkListTests@4196c360</td></tr>
+</table><p>
+</body>
+</html>

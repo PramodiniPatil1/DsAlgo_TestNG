@@ -3,12 +3,124 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="baseClass.BaseClass">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- baseClass.BaseClass -->
+      <class name="testClasses.StackTests">
+        <methods>
+          <include name="testPracticeQuestionsApplications"/>
+          <include name="testPracticeQuestionsOpsStack"/>
+          <include name="testValidCodeStackRepresentation"/>
+          <include name="testInvalidCodeRunInsideApplications"/>
+          <include name="testPracticeQuestionsImplemntation"/>
+          <include name="testValidCodeRunInsideApplications"/>
+          <include name="setUp"/>
+          <include name="testInvalidCodeRunInsideOpsStack"/>
+          <include name="testValidCodeRunInsideOpsStack"/>
+          <include name="tearDown"/>
+          <include name="testInvalidCodeStackRepresentation"/>
+        </methods>
+      </class> <!-- testClasses.StackTests -->
+      <class name="testClasses.HomeTests">
+        <methods>
+          <include name="QueueGetStarted"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="StackGetStarted"/>
+          <include name="LinkedListGetStarted"/>
+          <include name="TreeGetStarted"/>
+          <include name="DataStructureIntroductionGetstarted"/>
+          <include name="GraphGetStarted"/>
+          <include name="ArrayGetStarted"/>
+          <include name="DSDropdown"/>
+        </methods>
+      </class> <!-- testClasses.HomeTests -->
+      <class name="testClasses.TreeTests">
+        <methods>
+          <include name="clickTypesofBinaryTreesLink"/>
+          <include name="clickApplicationOfBinaryTreesLink1"/>
+          <include name="clickApplicationOfBinaryTreesLink"/>
+          <include name="clickBinarySearchTreesLink1"/>
+          <include name="SetUp"/>
+          <include name="clickTreeTraversalsLink"/>
+          <include name="clickBinarySearchTreesLink"/>
+          <include name="clickTerminologiesLink"/>
+          <include name="tearDown"/>
+          <include name="clickImplementationofBTSLink"/>
+          <include name="clickTypesOfTreesLink"/>
+          <include name="OverviewOfTreesLink1"/>
+          <include name="clickBinaryTreesLink"/>
+          <include name="clickTerminologiesLink1"/>
+          <include name="clickImplementationofBTSLink1"/>
+          <include name="clickTraversalsIllustrationsLink"/>
+          <include name="clickImplementationOfBinaryTreesLink"/>
+          <include name="clickImplementationOfBinaryTreesLink1"/>
+          <include name="OverviewOfTreesLink"/>
+          <include name="clickTypesOfTreesLink1"/>
+          <include name="clickTreeTraversalsLink1"/>
+          <include name="clickBinaryTreesLink1"/>
+          <include name="clickTypesofBinaryTreesLink1"/>
+          <include name="clickTraversalsIllustrationsLink1"/>
+          <include name="setUpOnce"/>
+        </methods>
+      </class> <!-- testClasses.TreeTests -->
       <class name="testClasses.DataStructureTests">
         <methods>
-          <include name="testValidOutputforTimeComplexity"/>
-          <include name="setUp"/>
+          <include name="setUpDataStructure"/>
+          <include name="testInValidOutputforTimeComplexity"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+          <include name="testValidOutputforTimeComplexity1"/>
         </methods>
       </class> <!-- testClasses.DataStructureTests -->
+      <class name="testClasses.RegisterTests">
+        <methods>
+          <include name="testPasswordMismatchRegistration"/>
+          <include name="testNumericPasswordValidation"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+          <include name="testValidRegistration"/>
+          <include name="testEmptyUsernameValidation"/>
+          <include name="setUpRegister"/>
+        </methods>
+      </class> <!-- testClasses.RegisterTests -->
+      <class name="testClasses.GraphTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="testValidCodeGraphRepresentation"/>
+          <include name="testPracticeQuestionsLinkInsideGraph"/>
+          <include name="tearDown"/>
+          <include name="testValidCodeRunInsideGraph"/>
+          <include name="testPracticeQuestionsGraphRepresentation"/>
+          <include name="testInvalidCodeRunInsideGraph"/>
+          <include name="testInvalidCodeGraphRepresentation"/>
+        </methods>
+      </class> <!-- testClasses.GraphTests -->
+      <class name="testClasses.ArrayTests">
+        <methods>
+          <include name="MaxConsecutiveOnes"/>
+          <include name="tearDown"/>
+          <include name="BasicOperationsinLists"/>
+          <include name="SquaresofaSorted1"/>
+          <include name="SetUp"/>
+          <include name="ArraysUsingList1"/>
+          <include name="ArraysUsingList"/>
+          <include name="ApplicationsofArray1"/>
+          <include name="MaxConsecutiveOnes1"/>
+          <include name="BasicOperationsinLists1"/>
+          <include name="EvenNumberOfDigits1"/>
+          <include name="ApplicationsofArray"/>
+          <include name="EvenNumberOfDigits"/>
+          <include name="ArraysinPython1"/>
+          <include name="setUpOnce"/>
+          <include name="SquaresofaSorted"/>
+          <include name="SearchTheArray"/>
+          <include name="SearchTheArray1"/>
+          <include name="ArraysinPython"/>
+        </methods>
+      </class> <!-- testClasses.ArrayTests -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

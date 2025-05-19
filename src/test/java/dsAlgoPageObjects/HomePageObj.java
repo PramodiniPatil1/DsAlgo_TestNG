@@ -182,10 +182,12 @@ public class HomePageObj {
 		LoggerLoad.info("RegisterTests Link on Homepage clicked");
 			}
 	public void clickSignInLink() {
-		 PageFactory.initElements(driver, this);
-		SignInLink.click();
-		LoggerLoad.info("Sign In Link on Homepage clicked");
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	    wait.until(ExpectedConditions.elementToBeClickable(SignInLink));
+	    
+	    SignInLink.click();
+	    LoggerLoad.info("Sign In Link on Homepage clicked");
 	}
-	
+
 	
 }

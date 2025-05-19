@@ -53,8 +53,24 @@
         	<artifactId>DsAlgo_Galaxy</artifactId>
         	<version>0.0.1-SNAPSHOT</version>
         </dependency>
-    
-    </dependencies>
+   
+    <!-- Extent Reports -->
+    <dependency>
+        <groupId>com.aventstack</groupId>
+        <artifactId>extentreports</artifactId>
+        <version>5.1.1</version> <!-- or latest -->
+    </dependency>
+
+    <!-- TestNG -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.9.0</version>
+        <scope>test</scope>
+    </dependency>
+</dependencies>
+
+
 
     <build>
         <plugins>

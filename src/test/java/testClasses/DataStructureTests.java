@@ -1,7 +1,10 @@
 package testClasses;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
 import java.io.IOException;
 
+import org.apache.poi.openxml4j.exceptions.OpenXML4JException;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
@@ -37,18 +40,14 @@ public class DataStructureTests extends BaseClass {
         signinpage.EnterFromExcel("login", 0);
         signinpage.clickloginButton();
 
-        Assert.assertEquals(registerpage.successMsg(), "You are logged in", "Login failed or success message mismatch.");
+        Assert.assertEquals(registerpage.successMsg(), "You are logged in");
    
         driver.get(ConfigReader.getUrl());
 		homepage.clickGetStartedHomePageButton();
         
     }
-
-
-    @Test(priority = 1, dataProvider = "ValidPythonCode", dataProviderClass = DataProviders.class)
-    
-  
-    public void testValidOutputforTimeComplexity1(String sheetName, int rowNum, String expectedOutput) throws Exception {
+    @Test(priority = 1, dataProvider = "ValidPythonCode",dataProviderClass = DataProviders.class)
+        public void testValidOutputforTimeComplexity1(String sheetName, int rowNum, String expectedOutput) throws Exception {
         homepage.clickDsGetStartedButton();
         dataStructurerpage.ClickTimeComplexityLink();
         tryEditorPage.clickTryHereButton();
@@ -58,21 +57,18 @@ public class DataStructureTests extends BaseClass {
         Assert.assertEquals(tryEditorPage.getOutputText(), expectedOutput, "Valid output did not match expected result.");
     }
 
-    @Test(priority = 1, dataProvider = "InvalidPythonCode", dataProviderClass = DataProviders.class)
-    public void testInValidOutputforTimeComplexity(String sheetName, int rowNum, String expectedAlertPart) throws Exception {
+    @Test(priority = 1, dataProvider = "InvalidPythonCode",dataProviderClass = DataProviders.class)
+    public void testInValidOutputforTimeComplexity(String sheetName, int rowNum, String expectedAlertPart) throws IOException, OpenXML4JException {
         homepage.clickDsGetStartedButton();
         dataStructurerpage.ClickTimeComplexityLink();
         tryEditorPage.clickTryHereButton();
         tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
         tryEditorPage.clickRunButton();
-
-        String alertMessage = tryEditorPage.getAlertText(); // Make sure this returns the actual alert text
-        Assert.assertNotNull(alertMessage, "Expected alert was not present!");
-        Assert.assertTrue(alertMessage.contains(expectedAlertPart),
-            "Alert message did not contain expected text. Actual: " + alertMessage);
-
-    }
-    @AfterMethod
+        String alertMessage = tryEditorPage.getAlertText();
+ 		Assert.assertTrue(alertMessage.contains(expectedAlertPart),
+ 				"Alert message did not contain expected text. Actual: " + alertMessage);
+ 	}
+	@AfterMethod
     public void tearDown() {
         DriverFactory.closeDriver();  // This calls quit() and also removes the ThreadLocal
     

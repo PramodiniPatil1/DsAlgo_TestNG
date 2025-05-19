@@ -48,7 +48,7 @@ public class TryEditorPage {
     }
  
     public void clickRunButton() {
-        WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(), Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(DriverFactory.getDriver(), Duration.ofSeconds(5));
         wait.until(ExpectedConditions.elementToBeClickable(runButton));
         
         runButton.click();
@@ -57,7 +57,7 @@ public class TryEditorPage {
     public void clickTryHereButton() {
     
 
-    	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
     	    WebElement tryHere = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[text()='Try here>>>']")));
     	    wait.until(ExpectedConditions.elementToBeClickable(tryHere)).click();
     	}

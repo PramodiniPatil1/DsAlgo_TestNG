@@ -8,6 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import driverManager.DriverFactory;
@@ -18,13 +19,16 @@ import dsAlgoPageObjects.SignInPageObj;
 import dsAlgoPageObjects.TryEditorPage;
 import utils.ConfigReader;
 
+@Listeners(utils.Listner.class)
 public class SignInTests {
 	WebDriver driver;
 	SignInPageObj signinpage;
 	HomePageObj homepage;
 	TryEditorPage tryEditorPage;
 	RegisterPageObj registerpage;
+	
 	@BeforeMethod
+	
 	public void setUp() throws IOException, OpenXML4JException {
 		driver = DriverFactory.initializeDriver(ConfigReader.getBrowserType());
 		signinpage = new SignInPageObj(driver);
@@ -38,6 +42,7 @@ public class SignInTests {
 		homepage.clickSignInLink();
 
 	}
+	
 	 @DataProvider(name = "validLogin")
 	    public Object[][] validData() {
 	        return new Object[][] {
@@ -71,7 +76,7 @@ public class SignInTests {
 		public void testInvalidLogin(String sheetName, int row) throws Exception {
 			signinpage.EnterFromExcel(sheetName, row);
 			signinpage.clickloginButton();
-			signinpage.TakeScreenshot();
+//			signinpage.TakeScreenshot();
 		}
 
 		@Test(priority = 3, dataProvider = "emptydata")

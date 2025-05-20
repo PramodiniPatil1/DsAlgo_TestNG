@@ -10975,3 +10975,212 @@ search([12, 23, 45, 67, 6, 90] , 12)
 [INFO ] 2025-05-19 14:39:17.537 [TestNG-test-DSAlgo Tests-2] LoggerLoad - Practice Questions Link clicked
 [INFO ] 2025-05-19 14:39:17.687 [TestNG-test-DSAlgo Tests-2] LoggerLoad - Browser closed successfully.
 [INFO ] 2025-05-19 14:39:18.314 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 17:49:27.208 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 17:49:27.772 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 17:49:28.615 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 17:49:31.722 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 17:49:31.935 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 17:49:32.481 [main] LoggerLoad - Screenshot saved: screenshot_20250519_174932135.png
+[INFO ] 2025-05-19 17:49:32.481 [main] LoggerLoad - Error Message is displayed
+[INFO ] 2025-05-19 17:49:32.601 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 17:49:35.669 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 17:49:40.793 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 17:49:41.401 [main] LoggerLoad - Screenshot saved: screenshot_20250519_174940875.png
+[INFO ] 2025-05-19 17:49:41.402 [main] LoggerLoad - Error Message is displayed
+[INFO ] 2025-05-19 17:49:41.588 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 18:00:17.610 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 18:00:18.286 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 18:00:19.303 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 18:00:23.573 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 18:00:28.782 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 18:00:29.424 [main] LoggerLoad - Screenshot saved: screenshot_20250519_180029025.png
+[INFO ] 2025-05-19 18:00:29.424 [main] LoggerLoad - Error Message is displayed
+[INFO ] 2025-05-19 18:00:29.671 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 18:00:33.901 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 18:00:39.047 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 18:00:39.843 [main] LoggerLoad - Screenshot saved: screenshot_20250519_180039125.png
+[INFO ] 2025-05-19 18:00:39.844 [main] LoggerLoad - Error Message is displayed
+[INFO ] 2025-05-19 18:00:40.116 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 18:05:14.658 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 18:05:15.245 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 18:05:16.313 [main] LoggerLoad - Screenshot saved: 
+[INFO ] 2025-05-19 18:05:16.638 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 18:21:09.794 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 18:21:10.392 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 18:21:11.478 [main] LoggerLoad - Screenshot saved: /Users/dineshdeshmukh/eclipse-workspace/TestNG/Screenshots/screenshot_20250519_182110.png
+[INFO ] 2025-05-19 18:21:11.817 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 18:23:30.603 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 18:23:31.235 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 18:23:32.115 [main] LoggerLoad - Screenshot saved: /Users/dineshdeshmukh/eclipse-workspace/TestNG/Screenshots/screenshot_20250519_182331.png
+[INFO ] 2025-05-19 18:23:32.444 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 18:25:29.806 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 18:25:30.402 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 18:25:31.163 [main] LoggerLoad - Screenshot saved: /Users/dineshdeshmukh/eclipse-workspace/TestNGScreenshots/screenshot_20250519_182530.png
+[INFO ] 2025-05-19 18:25:31.586 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 18:27:04.722 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 18:27:05.301 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 18:27:06.217 [main] LoggerLoad - Screenshot saved: /Users/dineshdeshmukh/eclipse-workspace/TestNG/Screenshots/screenshot_20250519_182705.png
+[INFO ] 2025-05-19 18:27:06.463 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 19:45:26.696 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 19:45:27.223 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 19:45:27.814 [main] LoggerLoad - Screenshot saved: /Users/dineshdeshmukh/eclipse-workspace/TestNG/Screenshots/screenshot_20250519_194527.png
+[INFO ] 2025-05-19 19:45:28.070 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 19:47:38.606 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 19:47:39.204 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 19:47:39.612 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 19:55:04.443 [main] LoggerLoad - RegisterTests Link clicked
+[INFO ] 2025-05-19 19:55:04.854 [main] LoggerLoad - RegisterTests test data: [{password=testingdemo, password confirmation=Querty1, username=Ninja_Galaxy}, {password=1.23456789E9, password confirmation=2.13456789E9, username=Ninja_Galaxy123}, {password=We_team3, password confirmation=We_team3, username=Ninja_Galaxy31}]
+[INFO ] 2025-05-19 19:55:05.071 [main] LoggerLoad - Filled registration form with -> Username: Ninja_Galaxy31, Password: We_team3, Confirm Password: We_team3
+[INFO ] 2025-05-19 19:55:05.236 [main] LoggerLoad - Clicked on RegisterTests button
+[INFO ] 2025-05-19 19:55:05.553 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 20:01:51.129 [main] LoggerLoad - RegisterTests Link clicked
+[INFO ] 2025-05-19 20:01:51.533 [main] LoggerLoad - RegisterTests test data: [{password=testingdemo, password confirmation=Querty1, username=Ninja_Galaxy}, {password=1.23456789E9, password confirmation=2.13456789E9, username=Ninja_Galaxy123}, {password=We_team3, password confirmation=We_team3, username=Ninja_Galaxy31}]
+[INFO ] 2025-05-19 20:01:51.749 [main] LoggerLoad - Filled registration form with -> Username: Ninja_Galaxy123, Password: 1.23456789E9, Confirm Password: 2.13456789E9
+[INFO ] 2025-05-19 20:01:51.836 [main] LoggerLoad - Clicked on RegisterTests button
+[INFO ] 2025-05-19 20:01:52.197 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 20:02:15.541 [main] LoggerLoad - RegisterTests Link clicked
+[INFO ] 2025-05-19 20:02:15.938 [main] LoggerLoad - RegisterTests test data: [{password=testingdemo, password confirmation=Querty1, username=Ninja_Galaxy}, {password=1.23456789E9, password confirmation=2.13456789E9, username=Ninja_Galaxy123}, {password=We_team3, password confirmation=We_team3, username=Ninja_Galaxy31}]
+[INFO ] 2025-05-19 20:02:16.148 [main] LoggerLoad - Filled registration form with -> Username: Ninja_Galaxy, Password: testingdemo, Confirm Password: Querty1
+[INFO ] 2025-05-19 20:02:16.351 [main] LoggerLoad - Clicked on RegisterTests button
+[INFO ] 2025-05-19 20:02:16.382 [main] LoggerLoad - ValidationMessage: Please fill out this field.
+[INFO ] 2025-05-19 20:02:16.558 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 20:02:46.988 [main] LoggerLoad - RegisterTests Link clicked
+[INFO ] 2025-05-19 20:02:47.402 [main] LoggerLoad - RegisterTests test data: [{password=testingdemo, password confirmation=Querty1, username=Ninja_Galaxy}, {password=1.23456789E9, password confirmation=2.13456789E9, username=Ninja_Galaxy123}, {password=We_team3, password confirmation=We_team3, username=Ninja_Galaxy31}]
+[ERROR] 2025-05-19 20:02:47.402 [main] LoggerLoad - Row index 3 is out of bounds for the sheet: Register
+[INFO ] 2025-05-19 20:02:47.608 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 20:03:19.847 [main] LoggerLoad - RegisterTests Link clicked
+[INFO ] 2025-05-19 20:03:20.255 [main] LoggerLoad - RegisterTests test data: [{password=testingdemo, password confirmation=Querty1, username=Ninja_Galaxy}, {password=1.23456789E9, password confirmation=2.13456789E9, username=Ninja_Galaxy123}, {password=We_team3, password confirmation=We_team3, username=Ninja_Galaxy31}]
+[INFO ] 2025-05-19 20:03:20.467 [main] LoggerLoad - Filled registration form with -> Username: Ninja_Galaxy, Password: testingdemo, Confirm Password: Querty1
+[INFO ] 2025-05-19 20:03:20.540 [main] LoggerLoad - Clicked on RegisterTests button
+[INFO ] 2025-05-19 20:03:20.658 [main] LoggerLoad - ValidationMessage: Please fill out this field.
+[INFO ] 2025-05-19 20:03:20.865 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 20:04:49.569 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 20:04:50.030 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 20:04:51.259 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-19 20:04:51.969 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-19 20:04:52.209 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-19 20:04:53.481 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-19 20:04:53.482 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 2
+[INFO ] 2025-05-19 20:04:53.799 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 20:06:07.992 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 20:06:08.143 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 20:06:08.630 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 20:06:08.801 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 20:06:10.421 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-19 20:06:10.584 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-19 20:06:11.140 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-19 20:06:11.338 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-19 20:06:12.728 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-19 20:06:12.786 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-19 20:06:12.954 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-19 20:06:12.991 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-19 20:06:13.094 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-19 20:06:13.174 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-19 20:06:13.253 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 20:06:13.375 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-19 20:06:13.420 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-19 20:06:13.649 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 20:07:22.511 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 20:07:22.994 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 20:07:24.241 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-19 20:07:24.587 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-19 20:07:24.785 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-19 20:07:25.821 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-19 20:07:25.822 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 3
+[INFO ] 2025-05-19 20:07:26.107 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 20:11:26.308 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 20:11:26.776 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 20:11:28.013 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-19 20:11:28.544 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-19 20:11:28.761 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-19 20:11:30.611 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-19 20:11:30.612 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 3
+[INFO ] 2025-05-19 20:11:30.905 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 20:12:32.450 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 20:12:32.907 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 20:12:34.145 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-19 20:12:34.477 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-19 20:12:34.689 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-19 20:12:36.319 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-19 20:12:36.320 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 2
+[INFO ] 2025-05-19 20:12:36.630 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 20:13:13.313 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 20:13:13.786 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 20:13:15.131 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-19 20:13:15.484 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-19 20:13:15.702 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-19 20:13:17.114 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-19 20:13:17.114 [main] LoggerLoad - Reading code from Excel sheet: pythonCode, Row: 0
+[INFO ] 2025-05-19 20:13:17.413 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 20:14:32.823 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 20:14:33.305 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 20:14:34.690 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-19 20:14:35.014 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-19 20:14:35.255 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-19 20:14:36.877 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-19 20:14:36.878 [main] LoggerLoad - Reading code from Excel sheet: pythonCode1, Row: 1
+[INFO ] 2025-05-19 20:14:36.952 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-19 20:14:37.152 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-19 20:14:37.460 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 20:18:20.063 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 20:18:20.067 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 20:18:20.810 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 20:18:20.819 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 20:18:23.121 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-19 20:18:23.153 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-19 20:18:23.975 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-19 20:18:23.990 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-19 20:18:24.361 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-19 20:18:24.366 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-19 20:18:25.277 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-19 20:18:25.278 [main] LoggerLoad - Reading code from Excel sheet: pythonCode1, Row: 1
+[INFO ] 2025-05-19 20:18:25.332 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-19 20:18:25.391 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-19 20:18:25.392 [main] LoggerLoad - Reading code from Excel sheet: pythonCode1, Row: 1
+[INFO ] 2025-05-19 20:18:25.475 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-19 20:18:25.575 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-19 20:18:25.851 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 20:18:25.885 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-19 20:18:26.174 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 20:22:06.467 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 20:22:06.918 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 20:22:08.197 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-19 20:22:08.530 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-19 20:22:08.783 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-19 20:22:09.801 [main] LoggerLoad - Clicking Find Numbers with Even Number of Digits link
+[INFO ] 2025-05-19 20:22:09.802 [main] LoggerLoad - Reading code from Excel sheet: pythonCode1, Row: 1
+[INFO ] 2025-05-19 20:22:09.871 [main] LoggerLoad - Editor Code is -->print("error
+[INFO ] 2025-05-19 20:22:10.055 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-19 20:22:10.334 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 20:23:48.501 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 20:23:48.969 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 20:23:50.183 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-19 20:23:50.473 [main] LoggerLoad - Clicking Applications Of ArrayTests link
+[INFO ] 2025-05-19 20:23:51.470 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-19 20:23:51.542 [main] LoggerLoad - Editor Code is -->This is a test message !
+[INFO ] 2025-05-19 20:23:51.715 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-19 20:23:51.952 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 20:24:13.887 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 20:24:14.348 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 20:24:15.590 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-19 20:24:16.274 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-19 20:24:16.487 [main] LoggerLoad - Practice Questions link clicked
+[INFO ] 2025-05-19 20:24:17.874 [main] LoggerLoad - Clicking Max Consecutive Ones link
+[INFO ] 2025-05-19 20:24:17.875 [main] LoggerLoad - Reading code from Excel sheet: pythonCode1, Row: 3
+[INFO ] 2025-05-19 20:24:17.947 [main] LoggerLoad - Editor Code is -->def findMaxConsecutiveOnes(nums) :
+count = 0
+result = 0
+for i in range(0, len(nums)):
+if (nums[i] == 0):
+count = 0
+\xc
+\xc
+else:
+count+= 1
+\xc
+\xc
+result = max(result, count)
+\xc
+findMaxConsecutiveOnes([1,0,1,1,0,1])
+[INFO ] 2025-05-19 20:24:18.144 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-19 20:24:18.409 [main] LoggerLoad - Browser closed successfully.

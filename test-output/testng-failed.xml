@@ -1,56 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="7" parallel="classes" name="Failed suite [DSAlgo Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="7" parallel="classes" name="DSAlgo Tests(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testClasses.QueueTests">
-        <methods>
-          <include name="screenShot"/>
-          <include name="testTryHereButtonQueueOperations"/>
-          <include name="testInvalidCodeRunQueueOperationsPage" invocation-numbers="0"/>
-          <include name="testPracticeQuestionsLinkQueueOperationsPage"/>
-          <include name="testUserSignIn"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="startTest"/>
-          <include name="setUpSuite"/>
-          <include name="testQueueOperationsPageNavigation"/>
-          <include name="testValidCodeRunQueueOperationsPage" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- testClasses.QueueTests -->
       <class name="testClasses.ArrayTests">
         <methods>
-          <include name="screenShot"/>
           <include name="setUpOnce"/>
-          <include name="MaxConsecutiveOnes"/>
+          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="SquaresofaSorted1"/>
-          <include name="ArraysUsingList1" invocation-numbers="0"/>
-          <include name="MaxConsecutiveOnes1"/>
-          <include name="startTest"/>
-          <include name="EvenNumberOfDigits1"/>
-          <include name="SearchTheArray1" invocation-numbers="0"/>
-          <include name="setUpSuite"/>
-          <include name="EvenNumberOfDigits"/>
+          <include name="MaxConsecutiveOnes1" invocation-numbers="0"/>
         </methods>
       </class> <!-- testClasses.ArrayTests -->
-      <class name="testClasses.RegisterTests">
-        <methods>
-          <include name="screenShot"/>
-          <include name="tearDown"/>
-          <include name="startTest"/>
-          <include name="testValidRegistration" invocation-numbers="0"/>
-          <include name="setUpRegister"/>
-          <include name="setUpSuite"/>
-        </methods>
-      </class> <!-- testClasses.RegisterTests -->
-      <class name="testClasses.LinkListTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="testUserSignIn"/>
-        </methods>
-      </class> <!-- testClasses.LinkListTests -->
     </classes>
-  </test> <!-- DSAlgo Tests(failed) -->
-</suite> <!-- Failed suite [DSAlgo Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

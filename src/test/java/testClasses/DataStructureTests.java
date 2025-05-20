@@ -39,7 +39,6 @@ public class DataStructureTests extends BaseClass {
         homepage.clickSignInLink();
         signinpage.EnterFromExcel("login", 0);
         signinpage.clickloginButton();
-
         Assert.assertEquals(registerpage.successMsg(), "You are logged in");
    
         driver.get(ConfigReader.getUrl());

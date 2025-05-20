@@ -2,7 +2,6 @@ package testClasses;
 
 import java.io.IOException;
 
-import org.apache.poi.openxml4j.exceptions.OpenXML4JException;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -27,7 +26,7 @@ public class StackTests extends BaseClass {
 	
 
 	@BeforeMethod
-	public void setUp() throws IOException, OpenXML4JException {
+	public void setUp() throws IOException {
 		driver = DriverFactory.initializeDriver(ConfigReader.getBrowserType());
 		signinpage = new SignInPageObj(driver);
 		homepage = new HomePageObj(driver);

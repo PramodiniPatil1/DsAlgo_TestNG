@@ -59,25 +59,25 @@ public class ArrayTests extends BaseClass {
 
 	@DataProvider(name = "Pythoncode2")
 	public Object[][] invalidCodePracticeQns() throws IOException, OpenXML4JException {
-		return new Object[][] { { "ArrayPracticeQnsQ1", 1, "SyntaxError: bad input on line 1" }, };// invalid
+		return new Object[][] { { "ArrayPracticeQnsQ1", 1, "SyntaxError: bad input on line 2" }, };// invalid
 	}
 
 	@DataProvider(name = "MaxConsecutiveOnesData")
 	public Object[][] maxConsecutiveOnesData() throws IOException {
-		return new Object[][] { { "pythonCode", 2, "2" }, // Valid
+		return new Object[][] { { "pythonCode1", 2, "2" }, // Valid
 
 		};
 	}
 
 	@DataProvider(name = "MaxConsecutiveOnesData1")
 	public Object[][] maxConsecutiveOnesData1() throws IOException {
-		return new Object[][] { { "pythonCode", 3, "SyntaxError: bad input on line 1" } // Invalid
+		return new Object[][] { { "pythonCode1", 3, "SyntaxError: bad input on line 1" } // Invalid
 		};
 	}
 
 	@DataProvider(name = "EvenNumberOfDigits")
 	public Object[][] evenDigitsData() throws IOException {
-		return new Object[][] { { "pythonCode", 0, "('Count of numbers with even number of digits:', 2)" }, // Valid
+		return new Object[][] { { "pythonCode1", 0, "('Count of numbers with even number of digits:', 2)" }, // Valid
 
 		};
 	}
@@ -85,7 +85,7 @@ public class ArrayTests extends BaseClass {
 	@DataProvider(name = "EvenNumberOfDigits1")
 	public Object[][] evenDigitsData1() throws IOException {
 		return new Object[][] { // Valid
-				{ "pythonCode", 1, "SyntaxError: bad input on line 1" } // Invalid
+				{ "pythonCode1", 1, "SyntaxError: bad input on line 1" } // Invalid
 		};
 	}
 

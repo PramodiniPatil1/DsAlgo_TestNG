@@ -7,9 +7,8 @@ import baseClass.BaseClass;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.Assert;
-import org.testng.AssertJUnit;
 import java.io.IOException;
-import org.apache.poi.openxml4j.exceptions.OpenXML4JException;
+
 import org.openqa.selenium.WebDriver;
 import driverManager.DriverFactory;
 import dsAlgoPageObjects.*;
@@ -27,21 +26,21 @@ public class GraphTests extends BaseClass {
 
 
 	@BeforeMethod
-	public void setUp() throws IOException, OpenXML4JException {
+	public void setUp() throws IOException  {
 		driver = DriverFactory.initializeDriver(ConfigReader.getBrowserType());
 		signinpage = new SignInPageObj(driver);
 		homepage = new HomePageObj(driver);
 		tryEditorPage = new TryEditorPage(driver);
 		graphpage = new GraphPageObj(driver);
 		registerpage = new RegisterPageObj(driver);
-
+		
 		driver.get(ConfigReader.getUrl());
 		homepage.clickGetStartedHomePageButton();
 		homepage.clickSignInLink();
 		signinpage.EnterFromExcel("login", 0);
 		signinpage.clickloginButton();
 
-		AssertJUnit.assertEquals(registerpage.successMsg(), "You are logged in");
+		Assert.assertEquals(registerpage.successMsg(), "You are logged in");
 
 		driver.get(ConfigReader.getUrl());
 		homepage.clickGetStartedHomePageButton();
@@ -68,7 +67,7 @@ public class GraphTests extends BaseClass {
 		Assert.assertTrue(actualOutput.contains(expectedOutput));
 	}
 
-	@Test(priority = 1, dataProvider = "InvalidPythonCode", dataProviderClass = DataProviders.class)
+	@Test(priority = 2, dataProvider = "InvalidPythonCode", dataProviderClass = DataProviders.class)
 	public void testInvalidCodeRunInsideGraph(String sheetName, int rowNum, String expectedAlertPart) throws Exception {
 		openTryEditorInsideGraph();
 
@@ -78,16 +77,7 @@ public class GraphTests extends BaseClass {
 		Assert.assertNotNull(alertMessage, "Expected alert was not present!");
 		Assert.assertTrue(alertMessage.contains(expectedAlertPart));
 	}
-
-	@Test(priority = 3, groups = "smoke")
-	public void testPracticeQuestionsLinkInsideGraph() {
-		homepage.clickGraphGetStartedButton();
-		graphpage.ClickInsideGraphkLink();
-		graphpage.clickPracticeQuestionsLink();
-		Assert.assertTrue(graphpage.getcurrentpageUrl().endsWith("practice"));
-	}
-
-	@Test(priority = 1, dataProvider = "ValidPythonCode", dataProviderClass = DataProviders.class)
+	@Test(priority = 3, dataProvider = "ValidPythonCode", dataProviderClass = DataProviders.class)
 	public void testValidCodeGraphRepresentation(String sheetName, int rowNum, String expectedOutput) throws Exception {
 		openTryEditorGraphRepresentation();
 		tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
@@ -96,7 +86,7 @@ public class GraphTests extends BaseClass {
 		Assert.assertTrue(actualOutput.contains(expectedOutput));
 	}
 
-	@Test(priority = 1, dataProvider = "InvalidPythonCode", dataProviderClass = DataProviders.class)
+	@Test(priority = 4, dataProvider = "InvalidPythonCode", dataProviderClass = DataProviders.class)
 	public void testInvalidCodeGraphRepresentation(String sheetName, int rowNum, String expectedAlertPart)
 			throws Exception {
 		openTryEditorGraphRepresentation();
@@ -114,7 +104,13 @@ public class GraphTests extends BaseClass {
 		graphpage.clickPracticeQuestionsLink();
 		Assert.assertTrue(graphpage.getcurrentpageUrl().endsWith("practice"));
 	}
-
+	@Test(priority = 7)
+	public void testPracticeQuestionsLinkInsideGraph() {
+		homepage.clickGraphGetStartedButton();
+		graphpage.ClickInsideGraphkLink();
+		graphpage.clickPracticeQuestionsLink();
+		Assert.assertTrue(graphpage.getcurrentpageUrl().endsWith("practice"));
+	}
 
 	@AfterMethod
 	public void tearDown() {

@@ -60,31 +60,23 @@ public class LinkListTests {
 	}
 	
 
-    @Test(priority=1)
-    public void testUserSignIn() throws Exception {
-        homepage.openHomeUrl();
-        homepage.clickgetStartedButton(driver);
-        homepage.clickSignInLink();
-        signinpage.enterUsernameText("username");
-        signinpage.enterPasswordText("password");
-        signinpage.clickloginButton();
-    }
+   
  
  //Introduction link
-    @Test(priority=2)
+    @Test(priority=1)
     public void testNavigateToIntroductionPage() {
         homepage.clickLinkedListGetStartedButton();
         Assert.assertEquals(homepage.getHomePageTitle(), "Linked List");
     }
 
-    @Test(priority=3)
+    @Test(priority=2)
     public void testLLIntroductionPageNavigation() {
     	 homepage.clickLinkedListGetStartedButton();
     	linklistpage.clickIntroductionLink();
         Assert.assertTrue(linklistpage.getCurrentPageUrl().endsWith("introduction/"));
     }
     
-    @Test(priority=4)
+    @Test(priority=3)
     public void testTryHereButtonIntroduction() {
     	 homepage.clickLinkedListGetStartedButton();
     	linklistpage.clickIntroductionLink();
@@ -92,7 +84,7 @@ public class LinkListTests {
         Assert.assertTrue(linklistpage.getCurrentPageUrl().endsWith("tryEditor"));
     }
     
-    @Test(priority = 5, dataProvider = "InvalidPythonCode", dataProviderClass = DataProviders.class)
+    @Test(priority = 4, dataProvider = "InvalidPythonCode", dataProviderClass = DataProviders.class)
 	public void testInvalidCodeRunIntroductionPage(String sheetName, int rowNum, String expectedAlertPart) throws Exception{
     	 homepage.clickLinkedListGetStartedButton();
     	 linklistpage.clickIntroductionLink();
@@ -107,7 +99,7 @@ public class LinkListTests {
 
 	
     
-    @Test(priority= 6, dataProvider = "ValidPythonCode", dataProviderClass = DataProviders.class)
+    @Test(priority= 5, dataProvider = "ValidPythonCode", dataProviderClass = DataProviders.class)
     public void testValidCodeRunIntroductionPage(String sheetName, int rowNum, String expectedOutput) throws Exception {
     	homepage.clickLinkedListGetStartedButton();
     	linklistpage.clickIntroductionLink();
@@ -120,7 +112,7 @@ public class LinkListTests {
         
     }
     
-    @Test(priority = 7)
+    @Test(priority = 6)
 	public void testPracticeQuestionsLinkIntroductionPage() {
     	homepage.clickLinkedListGetStartedButton();
     	linklistpage.clickIntroductionLink();
@@ -130,20 +122,20 @@ public class LinkListTests {
     
  //Creating Linked List
     
-    @Test(priority=8)
+    @Test(priority=7)
     public void testCreatingLLPage() {
         homepage.clickLinkedListGetStartedButton();
         Assert.assertEquals(homepage.getHomePageTitle(), "Linked List");
     }
 
-    @Test(priority=9)
+    @Test(priority=8)
     public void testCreatingLLPageNavigation() {
     	 homepage.clickLinkedListGetStartedButton();
     	linklistpage.clickcreatingLinkedListLink();
         Assert.assertTrue(linklistpage.getCurrentPageUrl().endsWith("creating-linked-list/"));
     }
     
-    @Test(priority=10)
+    @Test(priority=9)
     public void testTryHereButtonCreatingLL() {
     	 homepage.clickLinkedListGetStartedButton();
     	linklistpage.clickcreatingLinkedListLink();
@@ -151,7 +143,7 @@ public class LinkListTests {
         Assert.assertTrue(linklistpage.getCurrentPageUrl().endsWith("tryEditor"));
     }
     
-    @Test(priority = 11, dataProvider = "InvalidPythonCode", dataProviderClass = DataProviders.class)
+    @Test(priority = 10, dataProvider = "InvalidPythonCode", dataProviderClass = DataProviders.class)
 	public void testInvalidCodeCreatingLL(String sheetName, int rowNum, String expectedAlertPart)
 			throws Exception {
     	 homepage.clickLinkedListGetStartedButton();
@@ -166,7 +158,7 @@ public class LinkListTests {
 	
 	}
     
-    @Test(priority= 12, dataProvider = "ValidPythonCode", dataProviderClass = DataProviders.class)
+    @Test(priority= 11, dataProvider = "ValidPythonCode", dataProviderClass = DataProviders.class)
     public void testValidCodeCreatingLL(String sheetName, int rowNum, String expectedOutput) throws Exception {
     	homepage.clickLinkedListGetStartedButton();
     	linklistpage.clickcreatingLinkedListLink();
@@ -178,7 +170,7 @@ public class LinkListTests {
         
     }
     
-    @Test(priority = 13)
+    @Test(priority = 12)
 	public void testPracticeQuestionsLinkcreatingLL() {
     	homepage.clickLinkedListGetStartedButton();
     	linklistpage.clickcreatingLinkedListLink();
@@ -188,20 +180,20 @@ public class LinkListTests {
     
  //Types of Linked List
     
-    @Test(priority=14)
+    @Test(priority=13)
     public void testTypesofLLPage() {
         homepage.clickLinkedListGetStartedButton();
         Assert.assertEquals(homepage.getHomePageTitle(), "Linked List");
     }
 
-    @Test(priority=15)
+    @Test(priority=14)
     public void testTypesofLLPageNavigation() {
     	 homepage.clickLinkedListGetStartedButton();
     	 linklistpage.clickTypesOfLinkedListLink();
         Assert.assertTrue(linklistpage.getCurrentPageUrl().endsWith("types-of-linked-list/"));
     }
     
-    @Test(priority=16)
+    @Test(priority=15)
     public void testTryHereButtonTypesofLL() {
     	 homepage.clickLinkedListGetStartedButton();
     	linklistpage.clickTypesOfLinkedListLink();
@@ -209,7 +201,7 @@ public class LinkListTests {
         Assert.assertTrue(linklistpage.getCurrentPageUrl().endsWith("tryEditor"));
     }
     
-    @Test(priority = 17, dataProvider = "InvalidPythonCode", dataProviderClass = DataProviders.class)
+    @Test(priority = 16, dataProvider = "InvalidPythonCode", dataProviderClass = DataProviders.class)
 	public void testInvalidCodeTypesofLL(String sheetName, int rowNum, String expectedAlertPart)
 			throws Exception {
     	 homepage.clickLinkedListGetStartedButton();
@@ -223,7 +215,7 @@ public class LinkListTests {
 				"Alert message did not contain expected text. Actual: " + alertMessage);
 	}
     
-    @Test(priority= 18, dataProvider = "ValidPythonCode", dataProviderClass = DataProviders.class)
+    @Test(priority= 17, dataProvider = "ValidPythonCode", dataProviderClass = DataProviders.class)
     public void testValidCodeTypesofLL(String sheetName, int rowNum, String expectedOutput) throws Exception {
     	homepage.clickLinkedListGetStartedButton();
     	linklistpage.clickTypesOfLinkedListLink();
@@ -235,7 +227,7 @@ public class LinkListTests {
         
     }
     
-    @Test(priority = 19)
+    @Test(priority = 18)
 	public void testPracticeQuestionsLinkTypesofLL() {
     	homepage.clickLinkedListGetStartedButton();
     	linklistpage.clickTypesOfLinkedListLink();
@@ -246,20 +238,20 @@ public class LinkListTests {
     
  //Implement link List In Python  
     
-    @Test(priority=20)
+    @Test(priority=19)
     public void implementLLPage() {
         homepage.clickLinkedListGetStartedButton();
         Assert.assertEquals(homepage.getHomePageTitle(), "Linked List");
     }
 
-    @Test(priority=21)
+    @Test(priority=20)
     public void testImplementLLPageNavigation() {
     	 homepage.clickLinkedListGetStartedButton();
     	linklistpage.clickImplementLLinPythonLink();
         Assert.assertTrue(linklistpage.getCurrentPageUrl().endsWith("implement-linked-list-in-python/"));
     }
     
-    @Test(priority=22)
+    @Test(priority=21)
     public void testTryHereButtonImplementLL() {
     	 homepage.clickLinkedListGetStartedButton();
     	 linklistpage.clickImplementLLinPythonLink();
@@ -281,7 +273,7 @@ public class LinkListTests {
 				"Alert message did not contain expected text. Actual: " + alertMessage);
 	}
     
-    @Test(priority= 24, dataProvider = "ValidPythonCode", dataProviderClass = DataProviders.class)
+    @Test(priority= 25, dataProvider = "ValidPythonCode", dataProviderClass = DataProviders.class)
     public void testValidCodeImplementLL(String sheetName, int rowNum, String expectedOutput) throws Exception {
     	homepage.clickLinkedListGetStartedButton();
     	linklistpage.clickImplementLLinPythonLink();
@@ -293,7 +285,7 @@ public class LinkListTests {
         
     }
     
-    @Test(priority = 25)
+    @Test(priority = 26)
 	public void testPracticeQuestionsLinkImplementLL() {
     	homepage.clickLinkedListGetStartedButton();
     	linklistpage.clickImplementLLinPythonLink();
@@ -304,7 +296,7 @@ public class LinkListTests {
  //Traversal   
     
     
-    @Test(priority=26)
+    @Test(priority=27)
     public void traversalPage() {
         homepage.clickLinkedListGetStartedButton();
         Assert.assertEquals(homepage.getHomePageTitle(), "Linked List");

@@ -1,13 +1,11 @@
 package dsAlgoPageObjects;
-
+import java.nio.file.Files;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
-import java.nio.file.StandardCopyOption;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
-import java.nio.file.Files;
 import java.text.SimpleDateFormat;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -35,15 +33,6 @@ public class SignInPageObj {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void enterUsernameText(String Username) {
-		String name = configReader.getUserName();
-		UsernameTextBox.sendKeys(name);
-	}
-
-	public void enterPasswordText(String password) {
-		String pwd = configReader.getPassword();
-		PasswordTextBox.sendKeys(pwd);
-	}
 
 	public void clickloginButton() {
 		loginButton.click();
@@ -84,23 +73,27 @@ public class SignInPageObj {
 	}
 
 	public void TakeScreenshot() throws IOException {
-	    // Add milliseconds to the timestamp to make filename more unique
-	    String scr = "screenshot_" + new SimpleDateFormat("yyyyMMdd_HHmmssSSS").format(new Date());
-	    
+	    // Create a timestamped filename for uniqueness
+	    String scrShot = "screenshot_" + new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date()) + ".png";
+
+	    // Take screenshot
 	    File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
-	    Path destination = Path.of(
-	        "/Users/dineshdeshmukh/eclipse-workspace/NinjaGalaxy-dsAlgo/src/test/resources/Screenshots", 
-	        scr + ".png"
-	    );Path screenshotDir = Path.of(System.getProperty("user.dir") + "/Screenshots");
-		if (!Files.exists(screenshotDir)) {
-			Files.createDirectories(screenshotDir);
-		}
+	    // Define screenshot directory path
+	    Path screenshotDir = Path.of(System.getProperty("user.dir")+ "/Screenshots");
 
-	    // Move with replace option to avoid FileAlreadyExistsException
-	    Files.move(screenshot.toPath(), destination, StandardCopyOption.REPLACE_EXISTING);
+	    // Create the directory if it doesn't exist
+	    if (!Files.exists(screenshotDir)) {
+	        Files.createDirectories(screenshotDir);
+	    }
 
-	    LoggerLoad.info("Screenshot saved: " + scr + ".png");
-	    LoggerLoad.info("Error Message is displayed");
+	    // Move the file to the destination
+	    Path destination = screenshotDir.resolve(scrShot);
+	    Files.move(screenshot.toPath(), destination);
+
+	    LoggerLoad.info("Screenshot saved: " + destination.toString());
 	}
-}
+
+	   
+	}
+

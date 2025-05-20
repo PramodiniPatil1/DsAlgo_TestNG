@@ -55,11 +55,12 @@
         </dependency>
    
     <!-- Extent Reports -->
-    <dependency>
-        <groupId>com.aventstack</groupId>
-        <artifactId>extentreports</artifactId>
-        <version>5.1.1</version> <!-- or latest -->
-    </dependency>
+    <!-- In your pom.xml -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports-testng-adapter</artifactId>
+    <version>1.2.2</version> <!-- Or the latest -->
+</dependency>
 
     <!-- TestNG -->
     <dependency>

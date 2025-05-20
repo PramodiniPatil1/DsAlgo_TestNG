@@ -18,6 +18,7 @@ import dsAlgoPageObjects.SignInPageObj;
 import dsAlgoPageObjects.TryEditorPage;
 import utils.ConfigReader;
 import utils.DataProviders;
+import utils.LoggerLoad;
 
 public class ArrayTests extends BaseClass {
 
@@ -45,8 +46,10 @@ public class ArrayTests extends BaseClass {
 		homepage.clickSignInLink();
 		signinpage.EnterFromExcel("login", 0);
 		signinpage.clickloginButton();
-		Assert.assertEquals(registerpage.successMsg(), "You are logged in",
-				"Login failed or success message mismatch.");
+		String actualMsg = registerpage.successMsg();
+		LoggerLoad.info("Success Message: " + actualMsg);
+		Assert.assertEquals(actualMsg, "You are logged in", "Login success message mismatch!");
+
 		driver.get(ConfigReader.getUrl());
 		homepage.clickGetStartedHomePageButton();
 	}

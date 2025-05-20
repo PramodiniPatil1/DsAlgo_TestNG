@@ -11184,3 +11184,18 @@ result = max(result, count)
 findMaxConsecutiveOnes([1,0,1,1,0,1])
 [INFO ] 2025-05-19 20:24:18.144 [main] LoggerLoad - Clicked the Run button.
 [INFO ] 2025-05-19 20:24:18.409 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 22:19:27.869 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 22:19:28.319 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 22:23:38.230 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 22:23:38.704 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 22:23:39.333 [main] LoggerLoad - Success Message: You are logged in
+[INFO ] 2025-05-19 22:23:40.005 [main] LoggerLoad - TreeTests Get Started Button clicked
+[INFO ] 2025-05-19 22:23:40.319 [main] LoggerLoad - Terminologies Link clicked
+[INFO ] 2025-05-19 22:23:41.409 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-19 22:23:41.475 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-19 22:23:41.635 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-19 22:23:41.676 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-19 22:23:41.845 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 22:31:18.927 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 22:31:19.405 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 22:31:19.689 [main] LoggerLoad - Browser closed successfully.

@@ -1,25 +1,20 @@
 package dsAlgoPageObjects;
 
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Path;
-import java.text.SimpleDateFormat;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.ITestResult;
 import baseClass.BaseClass;
 import org.openqa.selenium.WebDriver;
+
+import java.io.IOException;
 import java.time.Duration;
 import org.apache.poi.openxml4j.exceptions.OpenXML4JException;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import utils.ConfigReader;
 import utils.ExcelRead;
 import utils.LoggerLoad;
-import java.util.Date;
 import java.util.List;
 import java.util.Map;
 public class RegisterPageObj extends BaseClass{
@@ -58,15 +53,11 @@ public class RegisterPageObj extends BaseClass{
 	
 	}
     public void navigateToRegisterPage() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
         wait.until(ExpectedConditions.elementToBeClickable(registerLink)).click();
         LoggerLoad.info("Clicked on RegisterTests link");
     }
 
-//    public void navigateToRegisterPage() {
-//        registerLink.click();
-//        LoggerLoad.info("Clicked on RegisterTests link");
-//    }
     public void signOut() {
         signOutButton.click();
         LoggerLoad.info("Clicked on Sign Out");
@@ -141,12 +132,6 @@ public class RegisterPageObj extends BaseClass{
 	    return actualAlertMsg;
 	}  
 	
-	public void TakeErrorScreenshot() throws IOException {
-		 String scrShot = "screenshot_" + new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
-	        File screenshots = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-	        Path screenshotDir = Path.of(System.getProperty("user.dir") + "/Screenshots");
-	      LoggerLoad.info("Screenshot saved: " + scrShot + ".png");
-		  LoggerLoad.info("Error Message is displayed on the screen");
-	}
+	
 }
 

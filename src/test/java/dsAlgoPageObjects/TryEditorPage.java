@@ -10,7 +10,6 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -63,7 +62,7 @@ public class TryEditorPage {
     	}
 
    public void enterTryHereCode(String editorCode) {
-        WebElement editor = driver.switchTo().activeElement();
+        driver.switchTo().activeElement();
 
         // Use JavaScript to set the editor value directly
         JavascriptExecutor js = (JavascriptExecutor) driver;

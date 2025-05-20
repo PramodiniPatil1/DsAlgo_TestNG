@@ -17,6 +17,7 @@ import dsAlgoPageObjects.TreePageObj;
 import dsAlgoPageObjects.TryEditorPage;
 import utils.ConfigReader;
 import utils.DataProviders;
+import utils.LoggerLoad;
 
 public class TreeTests extends BaseClass {
 
@@ -44,7 +45,10 @@ public class TreeTests extends BaseClass {
 		homepage.clickSignInLink();
 		signinpage.EnterFromExcel("login", 0);
 		signinpage.clickloginButton();
-		Assert.assertEquals(registerpage.successMsg(), "You are logged in");
+		String actualMsg = registerpage.successMsg();
+		LoggerLoad.info("Success Message: " + actualMsg);
+		Assert.assertEquals(actualMsg, "You are logged in", "Login success message mismatch!");
+
 		driver.get(ConfigReader.getUrl());
 		homepage.clickGetStartedHomePageButton();
 	}

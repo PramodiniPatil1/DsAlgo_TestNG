@@ -18,6 +18,7 @@ import dsAlgoPageObjects.TryEditorPage;
 import io.cucumber.core.internal.com.fasterxml.jackson.databind.exc.InvalidFormatException;
 import utils.ConfigReader;
 import utils.DataProviders;
+import utils.LoggerLoad;
 
 public class QueueTests extends BaseClass {
 
@@ -53,24 +54,15 @@ public class QueueTests extends BaseClass {
 		homepage.clickSignInLink();
 		signinpage.EnterFromExcel("login", 0);
 		signinpage.clickloginButton();
-		Assert.assertEquals(registerpage.successMsg(), "You are logged in");
+		String actualMsg = registerpage.successMsg();
+		LoggerLoad.info("Success Message: " + actualMsg);
+		Assert.assertEquals(actualMsg, "You are logged in", "Login success message mismatch!");
 
 		driver.get(ConfigReader.getUrl());
 		homepage.clickGetStartedHomePageButton();
 
 	}
 
-//	@Test(priority = 1)
-//	public void testUserSignIn() throws Exception {
-//		homepage.openHomeUrl();
-//		homepage.clickgetStartedButton(driver);
-//		homepage.clickSignInLink();
-//		signinpage.enterUsernameText("username");
-//		signinpage.enterPasswordText("password");
-//		signinpage.clickloginButton();
-//	}
-
-	// Implementation of Queue in Python
 	@Test(priority = 2)
 	public void testNavigateToImplementationofQueueinPythonPage() {
 		homepage.clickQueueGetStartedButton();

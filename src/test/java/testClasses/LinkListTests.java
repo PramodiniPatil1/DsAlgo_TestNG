@@ -17,6 +17,7 @@ import dsAlgoPageObjects.TryEditorPage;
 import io.cucumber.core.internal.com.fasterxml.jackson.databind.exc.InvalidFormatException;
 import utils.ConfigReader;
 import utils.DataProviders;
+import utils.LoggerLoad;
 
 public class LinkListTests {
 	WebDriver driver;
@@ -52,8 +53,10 @@ public class LinkListTests {
 			homepage.clickSignInLink();
 			signinpage.EnterFromExcel("login", 0);
 			signinpage.clickloginButton();
-			Assert.assertEquals(registerpage.successMsg(), "You are logged in");
-	
+			String actualMsg = registerpage.successMsg();
+			LoggerLoad.info("Success Message: " + actualMsg);
+			Assert.assertEquals(actualMsg, "You are logged in", "Login success message mismatch!");
+
 			driver.get(ConfigReader.getUrl());
 			homepage.clickGetStartedHomePageButton();
 	

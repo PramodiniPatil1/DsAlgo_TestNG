@@ -76,14 +76,14 @@ public class SignInTests {
 		public void testInvalidLogin(String sheetName, int row) throws Exception {
 			signinpage.EnterFromExcel(sheetName, row);
 			signinpage.clickloginButton();
-//			signinpage.TakeScreenshot();
+
 		}
 
 		@Test(priority = 3, dataProvider = "emptydata")
 		public void testEmptyData(String sheetName, int row) throws Exception {
 			signinpage.EnterFromExcel(sheetName, row);
 			signinpage.clickloginButton();
-			signinpage.TakeScreenshot();
+		
 		}
 	
 @AfterMethod

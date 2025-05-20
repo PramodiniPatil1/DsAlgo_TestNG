@@ -7,6 +7,7 @@ import baseClass.BaseClass;
 import driverManager.DriverFactory;
 import dsAlgoPageObjects.RegisterPageObj;
 import utils.ConfigReader;
+import utils.LoggerLoad;
 @Listeners(utils.Listner.class)
 public class RegisterTests extends BaseClass {
 	WebDriver driver;
@@ -55,8 +56,10 @@ public class RegisterTests extends BaseClass {
         registerpage.fillRegistrationForm(sheetName, row);
         registerpage.clickRegisterButton();
 
-        Assert.assertTrue(registerpage.checkIfRegisterSuccessMsgIsDisplayed());
-        System.out.println("Success message: " + registerpage.successMsg());
+        String actualMsg = registerpage.successMsg();
+        LoggerLoad.info("Success Message: " + actualMsg);
+        Assert.assertEquals(actualMsg, "You are logged in", "Login success message mismatch!");
+
     }
 
     @Test(priority = 2,dataProvider = "passwordMismatchData")

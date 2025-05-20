@@ -41,7 +41,7 @@ public class TreePageObj {
 	}
 
 	public void TreePageTitle() {
-		String actualUrl = driver.getCurrentUrl();
+		driver.getCurrentUrl();
 	
 		LoggerLoad.info("TreeTests Page title:" + driver.getCurrentUrl());
 	}

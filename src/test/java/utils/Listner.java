@@ -4,10 +4,7 @@ import java.io.File;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.text.SimpleDateFormat;
-
 import org.apache.poi.hpsf.Date;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -28,7 +25,7 @@ public class Listner extends ExtentITestListenerClassAdapter implements ITestLis
     @Override
     public void onStart(ITestContext context) {
 
-    	WebDriver driver = DriverFactory.getDriver(); 
+    	 DriverFactory.getDriver(); 
 
         System.out.println("Test Suite Started: " + context.getName());
         try {

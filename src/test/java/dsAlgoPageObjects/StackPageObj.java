@@ -79,7 +79,7 @@ public class StackPageObj {
 	public void clickPracticeQuestionsLink() {
 
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-		WebElement editorOutputElement = wait.until(ExpectedConditions.visibilityOf(PracticeQuestions));
+		 wait.until(ExpectedConditions.visibilityOf(PracticeQuestions));
 		PracticeQuestions.click();
 		LoggerLoad.info("Practice Questions Link clicked");
 	}
@@ -108,7 +108,7 @@ public class StackPageObj {
 	public void validateCodeEditorOutput() {
 		PageFactory.initElements(driver, this);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-		WebElement editorOutputElement = wait.until(ExpectedConditions.visibilityOf(CodeEditorOutput));
+		wait.until(ExpectedConditions.visibilityOf(CodeEditorOutput));
 		String message = CodeEditorOutput.getText();
 		System.out.println("Code Printed Successfully " + message);
 	}

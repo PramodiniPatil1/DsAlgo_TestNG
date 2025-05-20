@@ -1,14 +1,7 @@
 package dsAlgoPageObjects;
-import java.nio.file.Files;
-import java.io.File;
 import java.io.IOException;
-import java.nio.file.Path;
-import java.util.Date;
 import java.util.List;
 import java.util.Map;
-import java.text.SimpleDateFormat;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -72,27 +65,6 @@ public class SignInPageObj {
 		}
 	}
 
-	public void TakeScreenshot() throws IOException {
-	    // Create a timestamped filename for uniqueness
-	    String scrShot = "screenshot_" + new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date()) + ".png";
-
-	    // Take screenshot
-	    File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-
-	    // Define screenshot directory path
-	    Path screenshotDir = Path.of(System.getProperty("user.dir")+ "/Screenshots");
-
-	    // Create the directory if it doesn't exist
-	    if (!Files.exists(screenshotDir)) {
-	        Files.createDirectories(screenshotDir);
-	    }
-
-	    // Move the file to the destination
-	    Path destination = screenshotDir.resolve(scrShot);
-	    Files.move(screenshot.toPath(), destination);
-
-	    LoggerLoad.info("Screenshot saved: " + destination.toString());
-	}
 
 	   
 	}

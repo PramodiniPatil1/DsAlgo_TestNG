@@ -11,11 +11,13 @@ import org.testng.annotations.Test;
 import baseClass.BaseClass;
 import driverManager.DriverFactory;
 import dsAlgoPageObjects.HomePageObj;
+import dsAlgoPageObjects.RegisterPageObj;
 import dsAlgoPageObjects.SignInPageObj;
 import dsAlgoPageObjects.StackPageObj;
 import dsAlgoPageObjects.TryEditorPage;
 import utils.ConfigReader;
 import utils.DataProviders;
+import utils.LoggerLoad;
 
 public class StackTests extends BaseClass {
 	WebDriver driver;
@@ -23,7 +25,7 @@ public class StackTests extends BaseClass {
 	HomePageObj homepage;
 	TryEditorPage tryEditorPage;
 	StackPageObj stackPage;
-	
+	RegisterPageObj registerpage;
 
 	@BeforeMethod
 	public void setUp() throws IOException {
@@ -32,14 +34,17 @@ public class StackTests extends BaseClass {
 		homepage = new HomePageObj(driver);
 		tryEditorPage = new TryEditorPage(driver);
 		stackPage = new StackPageObj(driver);
-		
+		 registerpage =new RegisterPageObj(driver);
 		
 		driver.get(ConfigReader.getUrl());
 		homepage.clickGetStartedHomePageButton();
 		homepage.clickSignInLink();
 		signinpage.EnterFromExcel("login", 0);
 		signinpage.clickloginButton();
-		
+		String actualMsg = registerpage.successMsg();
+		LoggerLoad.info("Success Message: " + actualMsg);
+		Assert.assertEquals(actualMsg, "You are logged in", "Login success message mismatch!");
+
 		driver.get(ConfigReader.getUrl());
 		homepage.clickGetStartedHomePageButton();
 	}

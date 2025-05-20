@@ -11199,3 +11199,39 @@ findMaxConsecutiveOnes([1,0,1,1,0,1])
 [INFO ] 2025-05-19 22:31:18.927 [main] LoggerLoad - Sign In Link on Homepage clicked
 [INFO ] 2025-05-19 22:31:19.405 [main] LoggerLoad - Entered data from Excel
 [INFO ] 2025-05-19 22:31:19.689 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 23:38:05.130 [main] LoggerLoad - RegisterTests Link clicked
+[INFO ] 2025-05-19 23:38:05.551 [main] LoggerLoad - RegisterTests test data: [{password=testingdemo, password confirmation=Querty1, username=Ninja_Galaxy}, {password=1.23456789E9, password confirmation=2.13456789E9, username=Ninja_Galaxy123}, {password=We_team3, password confirmation=We_team3, username=Ninja_Galaxy32}]
+[INFO ] 2025-05-19 23:38:05.770 [main] LoggerLoad - Filled registration form with -> Username: Ninja_Galaxy123, Password: 1.23456789E9, Confirm Password: 2.13456789E9
+[INFO ] 2025-05-19 23:38:05.857 [main] LoggerLoad - Clicked on RegisterTests button
+[INFO ] 2025-05-19 23:38:06.198 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 23:39:17.890 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 23:39:18.368 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 23:39:19.015 [main] LoggerLoad - Clicked on loginButton link
+[INFO ] 2025-05-19 23:39:19.051 [main] LoggerLoad - Success Message: You are logged in
+[INFO ] 2025-05-19 23:39:19.689 [main] LoggerLoad - TreeTests Get Started Button clicked
+[INFO ] 2025-05-19 23:39:19.975 [main] LoggerLoad - Overview of trees Link clicked
+[INFO ] 2025-05-19 23:39:20.921 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 0
+[INFO ] 2025-05-19 23:39:20.990 [main] LoggerLoad - Editor Code is -->print('Python is fun!');
+[INFO ] 2025-05-19 23:39:21.163 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-19 23:39:21.210 [main] LoggerLoad - Console output: Python is fun!
+[INFO ] 2025-05-19 23:39:21.414 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 23:39:40.491 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 23:39:40.974 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 23:39:41.543 [main] LoggerLoad - Clicked on loginButton link
+[INFO ] 2025-05-19 23:39:41.580 [main] LoggerLoad - Success Message: You are logged in
+[INFO ] 2025-05-19 23:39:42.321 [main] LoggerLoad - TreeTests Get Started Button clicked
+[INFO ] 2025-05-19 23:39:42.626 [main] LoggerLoad - Traversals Illustrations Link clicked
+[INFO ] 2025-05-19 23:39:43.288 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-19 23:39:43.352 [main] LoggerLoad - Editor Code is -->This is a test message !
+[INFO ] 2025-05-19 23:39:43.552 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-19 23:39:43.760 [main] LoggerLoad - Browser closed successfully.
+[INFO ] 2025-05-19 23:40:48.279 [main] LoggerLoad - Sign In Link on Homepage clicked
+[INFO ] 2025-05-19 23:40:48.781 [main] LoggerLoad - Entered data from Excel
+[INFO ] 2025-05-19 23:40:49.314 [main] LoggerLoad - Clicked on loginButton link
+[INFO ] 2025-05-19 23:40:49.370 [main] LoggerLoad - Success Message: You are logged in
+[INFO ] 2025-05-19 23:40:50.037 [main] LoggerLoad - ArrayTests Get Started Button clicked
+[INFO ] 2025-05-19 23:40:50.551 [main] LoggerLoad - Clicking Arrays in Python link
+[INFO ] 2025-05-19 23:40:51.830 [main] LoggerLoad - Reading code from Excel sheet: tryEditorCode, Row: 1
+[INFO ] 2025-05-19 23:40:51.889 [main] LoggerLoad - Editor Code is -->This is a test message !
+[INFO ] 2025-05-19 23:40:52.063 [main] LoggerLoad - Clicked the Run button.
+[INFO ] 2025-05-19 23:40:52.292 [main] LoggerLoad - Browser closed successfully.

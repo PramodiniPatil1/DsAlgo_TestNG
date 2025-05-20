@@ -1,6 +1,7 @@
 package testClasses;
 
 import org.testng.Assert;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 import baseClass.BaseClass;
@@ -8,7 +9,11 @@ import driverManager.DriverFactory;
 import dsAlgoPageObjects.RegisterPageObj;
 import utils.ConfigReader;
 import utils.LoggerLoad;
+
+
+
 @Listeners(utils.Listner.class)
+@Test(expectedExceptions = NumberFormatException.class)
 public class RegisterTests extends BaseClass {
 	WebDriver driver;
     RegisterPageObj registerpage;

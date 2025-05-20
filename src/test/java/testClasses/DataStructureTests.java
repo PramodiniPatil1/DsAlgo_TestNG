@@ -1,7 +1,5 @@
 package testClasses;
 
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.Test;
 import java.io.IOException;
 
 import org.apache.poi.openxml4j.exceptions.OpenXML4JException;
@@ -13,7 +11,6 @@ import driverManager.DriverFactory;
 import dsAlgoPageObjects.*;
 import utils.ConfigReader;
 import utils.DataProviders;
-
 
 public class DataStructureTests extends BaseClass {
 

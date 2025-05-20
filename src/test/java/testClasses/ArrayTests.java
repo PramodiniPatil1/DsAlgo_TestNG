@@ -8,8 +8,6 @@ import org.apache.poi.openxml4j.exceptions.OpenXML4JException;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
-
 import baseClass.BaseClass;
 import driverManager.DriverFactory;
 import dsAlgoPageObjects.ArrayPageObj;
@@ -21,8 +19,8 @@ import dsAlgoPageObjects.TryEditorPage;
 import utils.ConfigReader;
 import utils.DataProviders;
 import utils.LoggerLoad;
+
 @Test(expectedExceptions = NumberFormatException.class)
-@Listeners(utils.Listner.class)
 public class ArrayTests extends BaseClass {
 
 	WebDriver driver;
@@ -256,7 +254,6 @@ public class ArrayTests extends BaseClass {
 		navigateToPracticeQuestion("MaxConsecutiveOnes");
 		tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
 		tryEditorPage.clickRunButton();
-		 tryEditorPage.clickRunButton();
  		 String alertMessage = tryEditorPage.getAlertText();
  		
  		Assert.assertTrue(alertMessage.contains(expectedAlertPart),
@@ -277,7 +274,7 @@ public class ArrayTests extends BaseClass {
 		navigateToPracticeQuestion("EvenNumberOfDigits");
 		tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
 		tryEditorPage.clickRunButton();
-		 tryEditorPage.clickRunButton();
+		
  		 String alertMessage = tryEditorPage.getAlertText();
  		
  		Assert.assertTrue(alertMessage.contains(expectedAlertPart),
@@ -293,17 +290,17 @@ public class ArrayTests extends BaseClass {
 		Assert.assertEquals(tryEditorPage.getOutputText(), expectedOutput);
 	}
 
-	@Test(priority = 16, dataProvider = "InValidPythonCode", dataProviderClass = DataProviders.class)
-	public void SquaresofaSorted1(String sheetName, int rowNum, String expectedAlertPart) throws IOException, OpenXML4JException {
-		navigateToPracticeQuestion("SquaresofaSorted");
-		tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
-		tryEditorPage.clickRunButton();
-		 tryEditorPage.clickRunButton();
- 		 String alertMessage = tryEditorPage.getAlertText();
- 		 Assert.assertTrue(alertMessage.contains(expectedAlertPart),
- 				"Alert message did not contain expected text. Actual: " + alertMessage);
- 	}
-
+	@Test(priority = 14, groups = "negative", dataProvider = "EvenNumberOfDigits1")
+	
+		public void SquaresofaSorted1(String sheetName, int rowNum, String expectedAlertPart) throws IOException, OpenXML4JException {
+			navigateToPracticeQuestion("SquaresofaSorted");
+			tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
+			tryEditorPage.clickRunButton();
+	 		 String alertMessage = tryEditorPage.getAlertText();
+	 		 Assert.assertTrue(alertMessage.contains(expectedAlertPart),
+	 				"Alert message did not contain expected text. Actual: " + alertMessage);
+	 	}
+	
 
 
 	@AfterMethod

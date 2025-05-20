@@ -18,7 +18,7 @@ import dsAlgoPageObjects.TryEditorPage;
 import utils.ConfigReader;
 import utils.DataProviders;
 import utils.LoggerLoad;
-@Test(expectedExceptions = NumberFormatException.class)
+
 public class TreeTests extends BaseClass {
 
 	WebDriver driver;

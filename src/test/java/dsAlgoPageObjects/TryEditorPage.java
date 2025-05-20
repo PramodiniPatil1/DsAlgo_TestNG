@@ -8,8 +8,10 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -62,7 +64,7 @@ public class TryEditorPage {
     	}
 
    public void enterTryHereCode(String editorCode) {
-        driver.switchTo().activeElement();
+        WebElement editor = driver.switchTo().activeElement();
 
         // Use JavaScript to set the editor value directly
         JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -104,15 +106,14 @@ public class TryEditorPage {
 	}
  
    
-   public String getAlertText() {
-       try {
-           Alert alert = driver.switchTo().alert();
-           return alert.getText();
-       } catch (NoAlertPresentException e) {
-           LoggerLoad.warn("No alert was present to get text from.");
-           return null;
-       }
-   }
+	public String getAlertText() {
+	   
+	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+	        Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+	       driver.switchTo().alert();
+	        return alert.getText();
+	    } 
+	    
    
    public String getOutputText() {
        try {

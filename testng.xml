@@ -5,15 +5,15 @@
     <classes>
      <class name="baseClass.BaseClass"/>
      <class name="testClasses.SignInTests"/>
-    <class name="testClasses.LinkListTests"/>
-    <class name="testClasses.QueueTests"/>
-      <class name="testClasses.TreeTests"/>
-      <class name="testClasses.StackTests"/>
-      <class name="testClasses.RegisterTests"/>
-      <class name="testClasses.DataStructureTests"/>
-      <class name="testClasses.GraphTests"/>
-      <class name="testClasses.HomeTests"/>
-      <class name="testClasses.ArrayTests"/>
+     <class name="testClasses.LinkListTests"/>
+     <class name="testClasses.QueueTests"/>
+     <class name="testClasses.TreeTests"/>
+     <class name="testClasses.StackTests"/>
+     <class name="testClasses.RegisterTests"/>
+     <class name="testClasses.DataStructureTests"/>
+     <class name="testClasses.GraphTests"/>
+     <class name="testClasses.HomeTests"/>
+     <class name="testClasses.ArrayTests"/>
     </classes>
   </test>
 </suite>

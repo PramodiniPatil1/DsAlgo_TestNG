@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testClasses.TreeTests">
+      <class name="testClasses.QueueTests">
         <methods>
+          <include name="testTryHereButtonQueueOperations"/>
           <include name="setUp"/>
-          <include name="clickImplementationofBTSLink1"/>
           <include name="tearDown"/>
-          <include name="setUpOnce"/>
         </methods>
-      </class> <!-- testClasses.TreeTests -->
+      </class> <!-- testClasses.QueueTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

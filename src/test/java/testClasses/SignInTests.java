@@ -18,7 +18,7 @@ import dsAlgoPageObjects.SignInPageObj;
 
 import dsAlgoPageObjects.TryEditorPage;
 import utils.ConfigReader;
-@Test(expectedExceptions = NumberFormatException.class)
+
 @Listeners(utils.Listner.class)
 
 public class SignInTests {

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="16" total="17" passed="1" failed="0" skipped="0">
+<testng-results ignored="21" total="22" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-19T23:40:41 EDT" name="Default suite" finished-at="2025-05-19T23:40:52 EDT" duration-ms="10333">
+  <suite started-at="2025-05-20T08:40:18 EDT" name="Default suite" finished-at="2025-05-20T08:40:27 EDT" duration-ms="9590">
     <groups>
     </groups>
-    <test started-at="2025-05-19T23:40:41 EDT" name="Default test" finished-at="2025-05-19T23:40:52 EDT" duration-ms="10333">
-      <class name="testClasses.ArrayTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testClasses.ArrayTests@4fbe37eb]" started-at="2025-05-19T23:40:38 EDT" name="setUp" finished-at="2025-05-19T23:40:41 EDT" duration-ms="3175" status="PASS">
+    <test started-at="2025-05-20T08:40:18 EDT" name="Default test" finished-at="2025-05-20T08:40:27 EDT" duration-ms="9590">
+      <class name="testClasses.TreeTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testClasses.TreeTests@6986852]" started-at="2025-05-20T08:40:15 EDT" name="setUp" finished-at="2025-05-20T08:40:18 EDT" duration-ms="3034" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUpOnce()[pri:0, instance:testClasses.ArrayTests@4fbe37eb]" started-at="2025-05-19T23:40:42 EDT" name="setUpOnce" finished-at="2025-05-19T23:40:49 EDT" duration-ms="7409" status="PASS">
+        <test-method is-config="true" signature="setUpOnce()[pri:0, instance:testClasses.TreeTests@6986852]" started-at="2025-05-20T08:40:18 EDT" name="setUpOnce" finished-at="2025-05-20T08:40:25 EDT" duration-ms="7470" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpOnce -->
-        <test-method signature="ArraysinPython1(java.lang.String,int,java.lang.String)[pri:2, instance:testClasses.ArrayTests@4fbe37eb]" started-at="2025-05-19T23:40:49 EDT" name="ArraysinPython1" data-provider="InvalidPythonCode" finished-at="2025-05-19T23:40:52 EDT" duration-ms="2323" status="PASS">
+        <test-method signature="clickTraversalsIllustrationsLink(java.lang.String,int,java.lang.String)[pri:9, instance:testClasses.TreeTests@6986852]" started-at="2025-05-20T08:40:25 EDT" name="clickTraversalsIllustrationsLink" data-provider="ValidPythonCode" finished-at="2025-05-20T08:40:27 EDT" duration-ms="1828" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -24,23 +24,23 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[1]]>
+                <![CDATA[0]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[SyntaxError: bad input on line 1]]>
+                <![CDATA[Python is fun!]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ArraysinPython1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.ArrayTests@4fbe37eb]" started-at="2025-05-19T23:40:52 EDT" name="tearDown" finished-at="2025-05-19T23:40:52 EDT" duration-ms="201" status="PASS">
+        </test-method> <!-- clickTraversalsIllustrationsLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.TreeTests@6986852]" started-at="2025-05-20T08:40:27 EDT" name="tearDown" finished-at="2025-05-20T08:40:27 EDT" duration-ms="149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testClasses.ArrayTests -->
+      </class> <!-- testClasses.TreeTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

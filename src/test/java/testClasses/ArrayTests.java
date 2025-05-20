@@ -20,7 +20,6 @@ import utils.ConfigReader;
 import utils.DataProviders;
 import utils.LoggerLoad;
 
-@Test(expectedExceptions = NumberFormatException.class)
 public class ArrayTests extends BaseClass {
 
 	WebDriver driver;
@@ -79,15 +78,10 @@ public class ArrayTests extends BaseClass {
 		};
 	}
 
-	@DataProvider(name = "EvenNumberOfDigits")
-	public Object[][] evenDigitsData() throws IOException {
-		return new Object[][] { { "pythonCode1", 0, "('Count of numbers with even number of digits:', 2)" }, // Valid
-
-		};
-	}
+	
 
 	@DataProvider(name = "EvenNumberOfDigits1")
-	public Object[][] evenDigitsData1() throws IOException {
+	public Object[][] venDigitsData1() throws IOException {
 		return new Object[][] { // Valid
 				{ "pythonCode1", 1, "SyntaxError: bad input on line 1" } // Invalid
 		};
@@ -254,6 +248,7 @@ public class ArrayTests extends BaseClass {
 		navigateToPracticeQuestion("MaxConsecutiveOnes");
 		tryEditorPage.enterCodeFromExcel(sheetName, rowNum);
 		tryEditorPage.clickRunButton();
+		
  		 String alertMessage = tryEditorPage.getAlertText();
  		
  		Assert.assertTrue(alertMessage.contains(expectedAlertPart),
@@ -290,7 +285,7 @@ public class ArrayTests extends BaseClass {
 		Assert.assertEquals(tryEditorPage.getOutputText(), expectedOutput);
 	}
 
-	@Test(priority = 14, groups = "negative", dataProvider = "EvenNumberOfDigits1")
+	@Test(priority = 16, groups = "negative", dataProvider = "EvenNumberOfDigits1")
 	
 		public void SquaresofaSorted1(String sheetName, int rowNum, String expectedAlertPart) throws IOException, OpenXML4JException {
 			navigateToPracticeQuestion("SquaresofaSorted");

@@ -6,7 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import baseClass.BaseClass;
 import driverManager.DriverFactory;
@@ -149,6 +148,7 @@ public class QueueTests extends BaseClass {
 	public void testInvalidCodeRunQueueOperationsPage(String sheetName, int rowNum, String expectedAlertPart)
 			throws Exception {
 		homepage.clickQueueGetStartedButton();
+		tryEditorPage.PageScrolldown();
 		queuepage.clickQueueOperationslink();
 		tryEditorPage.clickTryHereButton();
 		tryEditorPage.enterCodeFromExcel(sheetName, rowNum);

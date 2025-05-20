@@ -21,7 +21,7 @@ public class QueuePageObj {
 	@FindBy(linkText = "Implementation of Queue in Python") WebElement ImplementaionOfQueueLink;
 	@FindBy(linkText = "Implementation using collections.deque") WebElement UsingCollectionsLink;
 	@FindBy(linkText = "Implementation using array") WebElement ImplementationUsingArrayLink;
-	@FindBy(linkText = "QueueTests Operations") WebElement QueueOperationsLink;
+	@FindBy(linkText = "Queue Operations") WebElement QueueOperationsLink;
 
 	@FindBy(xpath = "//a[@href='/tryEditor']") WebElement QueuetryHere;
 	@FindBy(xpath = "//*[@id='answer_form']/button") WebElement QueueRunButton;
@@ -66,8 +66,6 @@ public class QueuePageObj {
 	}
 
 	public void clickQueueOperationslink() {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-		wait.until(ExpectedConditions.visibilityOf(QueuePracticeQuestions));
 		QueueOperationsLink.click();
 		LoggerLoad.info("QueueTests Operations Link is clicked");
 	}
